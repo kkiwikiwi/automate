@@ -1,12 +1,12 @@
 {
   "ok": true,
-  "updatedAt": "2026-07-29T04:13:45.955689+00:00",
-  "pinCount": 81626,
-  "sourceCount": 2,
+  "updatedAt": "2026-07-29T11:58:43.063254+00:00",
+  "pinCount": 57539,
+  "sourceCount": 1,
   "directorySourceCount": 0,
   "directorySourceTotal": 0,
-  "failedSourceCount": 0,
-  "message": "Loaded 81,626 unique sirens from 2 datasets (0/0 master-directory maps).",
+  "failedSourceCount": 1,
+  "message": "Loaded 57,539 unique sirens from 1 datasets (0/0 master-directory maps).",
   "discoveryErrors": [
     "https://www.airraidsirens.net/forums/viewtopic.php?t=27945: HTTP Error 403: Forbidden",
     "https://r.jina.ai/https://www.airraidsirens.net/forums/viewtopic.php?t=27945: only 0 maps",
@@ -19,13 +19,14 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
       "directory": false,
       "pins": 57593
-    },
+    }
+  ],
+  "failedSources": [
     {
       "name": "OpenStreetMap worldwide sirens",
       "url": "https://www.openstreetmap.org",
       "directory": false,
-      "pins": 24961
+      "error": "<urlopen error [Errno -2] Name or service not known>"
     }
-  ],
-  "failedSources": []
+  ]
 }
