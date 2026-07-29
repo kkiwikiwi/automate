@@ -1,0 +1,44 @@
+name: Refresh SirenFinder worldwide data
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [sirenfinder]
+    paths:
+      - 'scripts/build_data.py'
+      - 'data/source-registry.json'
+      - '.github/workflows/refresh-sirenfinder.yml'
+  schedule:
+    - cron: '23 8 * * 1'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sirenfinder-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: sirenfinder
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build merged worldwide GeoJSON
+        run: python scripts/build_data.py
+      - name: Commit refreshed data
+        run: |
+          git config user.name "SirenFinder Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/pins.geojson data/status.json data/source-registry.json
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "Refresh worldwide siren data"
+            git push origin HEAD:sirenfinder
+          fi
