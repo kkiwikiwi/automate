@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#071018">
+  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
+  <title>SirenFinder — Worldwide Outdoor Warning Siren Map</title>
+  <meta name="description" content="A unified worldwide map of community-maintained outdoor warning siren locations.">
+  <link rel="stylesheet" href="./vendor/maplibre-gl.css">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">SF</span>
+        <div><h1>SirenFinder</h1><p>Worldwide community siren atlas</p></div>
+      </div>
+      <div class="status-line" role="status" aria-live="polite"><span id="statusDot" class="status-dot"></span><span id="statusText">Locked</span></div>
+    </header>
+
+    <main class="workspace">
+      <aside class="sidebar" id="sidebar">
+        <label for="search">Find a siren</label>
+        <div class="search-row">
+          <input id="search" type="search" placeholder="Name, model, description, or source…" autocomplete="off" disabled>
+          <button id="clearSearch" type="button" aria-label="Clear search" disabled>×</button>
+        </div>
+
+        <label for="sourceFilter">Source map</label>
+        <select id="sourceFilter" disabled><option value="">All loaded source maps</option></select>
+
+        <div class="metrics" aria-label="Map statistics">
+          <div><strong id="pinCount">—</strong><span>unique pins</span></div>
+          <div><strong id="sourceCount">—</strong><span>maps loaded</span></div>
+          <div><strong id="updatedAt">—</strong><span>updated</span></div>
+        </div>
+        <div class="coverage" id="coverage">Waiting for private access…</div>
+
+        <div class="buttons"><button id="fitResults" class="primary" type="button" disabled>Fit matching pins</button><button id="resetMap" type="button" disabled>World view</button></div>
+
+        <details class="failed-details" id="failedDetails">
+          <summary><span>Unavailable source maps</span><strong id="failedCount">—</strong></summary>
+          <div id="failedMaps" class="failed-maps"></div>
+        </details>
+
+        <section class="results-section">
+          <div class="section-title"><h2>Results</h2><span id="resultCount">0</span></div>
+          <div id="results" class="results" aria-live="polite"></div>
+        </section>
+
+        <footer>
+          <p>Each pin retains attribution to its original community map creator.</p>
+          <a href="https://www.airraidsirens.net/forums/viewtopic.php?t=27945" target="_blank" rel="noreferrer">Master map directory</a>
+        </footer>
+      </aside>
+
+      <section class="map-panel" aria-label="Unified Earth siren map">
+        <button id="mobilePanel" class="mobile-panel" type="button" aria-controls="sidebar" aria-expanded="false">Search & status</button>
+        <div id="map" role="application" aria-label="Interactive map of outdoor warning sirens"></div>
+        <div class="map-help">Scroll or pinch to zoom · Click a cluster to expand</div>
+
+        <div id="accessCard" class="center-card access-card">
+          <div class="lock-icon" aria-hidden="true">◉</div>
+          <h2>Private SirenFinder</h2>
+          <p>This map’s worldwide pin database is encrypted. Open the private access link, or enter its 64-character access key.</p>
+          <label for="accessKey">Access key</label>
+          <input id="accessKey" type="password" autocomplete="off" spellcheck="false" placeholder="64-character key">
+          <button id="unlock" type="button">Unlock map</button>
+          <p class="small" id="accessError" aria-live="polite"></p>
+        </div>
+
+        <div id="loadingCard" class="center-card hidden">
+          <div class="spinner" aria-hidden="true"></div>
+          <h2>Loading the Earth siren map</h2>
+          <p id="loadingMessage">Decrypting the prepared pin database…</p>
+        </div>
+
+        <div id="errorCard" class="center-card hidden">
+          <h2>SirenFinder could not load</h2>
+          <p id="errorMessage"></p>
+          <button id="retry" type="button">Retry</button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="./vendor/maplibre-gl.js"></script>
+  <script src="./vendor/topojson-client.min.js"></script>
+  <script src="./vendor/pako.min.js"></script>
+  <script src="./app.js" defer></script>
+</body>
+</html>
