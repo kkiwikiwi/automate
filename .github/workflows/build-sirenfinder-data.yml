@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: sirenfinder-worldwide-data
+  group: sirenfinder-data
   cancel-in-progress: true
 
 jobs:
