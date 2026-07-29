@@ -1,12 +1,13 @@
 {
   "ok": true,
-  "updatedAt": "2026-07-29T12:29:51.470871+00:00",
-  "pinCount": 65095,
+  "updatedAt": "2026-07-29T17:18:11.340648+00:00",
+  "pinCount": 65101,
   "sourceCount": 15,
   "directorySourceCount": 14,
   "directorySourceTotal": 18,
   "failedSourceCount": 4,
-  "message": "Loaded 65,095 unique sirens; 14/18 explicit international maps imported.",
+  "videoPinCount": 3825,
+  "message": "Loaded 65,101 unique sirens; 3,825 pins include embedded-video metadata.",
   "discoveryErrors": [
     "https://www.airraidsirens.net/forums/viewtopic.php?t=27945: HTTP Error 403: Forbidden",
     "https://r.jina.ai/https://www.airraidsirens.net/forums/viewtopic.php?t=27945: only 0 maps",
@@ -14,109 +15,124 @@
   ],
   "successfulSources": [
     {
-      "name": "Official U.S.A. Siren Map",
-      "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
-      "url": "https://www.google.com/maps/d/viewer?mid=1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
-      "directory": false,
-      "pins": 57593
-    },
-    {
       "name": "Australia Siren Map",
       "mapId": "1oVGG-aGlmAmWUtwDqUi5lZF8205YPNCA",
       "url": "https://www.google.com/maps/d/viewer?mid=1oVGG-aGlmAmWUtwDqUi5lZF8205YPNCA",
       "directory": true,
-      "pins": 463
+      "pins": 463,
+      "videoPins": 8
     },
     {
       "name": "Finland Siren Map",
       "mapId": "1WvvHCFJLF6F58MokxJEgJOuL8hQeGu8R",
       "url": "https://www.google.com/maps/d/viewer?mid=1WvvHCFJLF6F58MokxJEgJOuL8hQeGu8R",
       "directory": true,
-      "pins": 1300
+      "pins": 1300,
+      "videoPins": 4
     },
     {
       "name": "France Siren Map",
       "mapId": "1KrNR-zv4n2MMWAVlCpTqVGFwWIZbpwdb",
       "url": "https://www.google.com/maps/d/viewer?mid=1KrNR-zv4n2MMWAVlCpTqVGFwWIZbpwdb",
       "directory": true,
-      "pins": 3898
+      "pins": 3904,
+      "videoPins": 161
     },
     {
       "name": "Hungary Siren Map",
       "mapId": "1I77MTBcGop8IdXW0roHDkh3JFD_ncYC4",
       "url": "https://www.google.com/maps/d/viewer?mid=1I77MTBcGop8IdXW0roHDkh3JFD_ncYC4",
       "directory": true,
-      "pins": 12
+      "pins": 12,
+      "videoPins": 0
     },
     {
       "name": "Israel Siren Map",
       "mapId": "14tiquiT5ZkhYqsEahohZMGJv4RcTHYpx",
       "url": "https://www.google.com/maps/d/viewer?mid=14tiquiT5ZkhYqsEahohZMGJv4RcTHYpx",
       "directory": true,
-      "pins": 347
+      "pins": 347,
+      "videoPins": 1
     },
     {
       "name": "Malta Siren Map",
       "mapId": "1wliEHAjOQX9FHpitFvbPl_fGmIT5_d8",
       "url": "https://www.google.com/maps/d/viewer?mid=1wliEHAjOQX9FHpitFvbPl_fGmIT5_d8",
       "directory": true,
-      "pins": 10
+      "pins": 10,
+      "videoPins": 2
     },
     {
       "name": "Montenegro Siren Map",
       "mapId": "1NT9nXRpgo6FNazP0dfWb-yBMSeFvb5U",
       "url": "https://www.google.com/maps/d/viewer?mid=1NT9nXRpgo6FNazP0dfWb-yBMSeFvb5U",
       "directory": true,
-      "pins": 29
+      "pins": 29,
+      "videoPins": 0
     },
     {
       "name": "New Zealand Siren Map",
       "mapId": "18UqghKoAmEvVbp8f2R2sfCztKbj6siyP",
       "url": "https://www.google.com/maps/d/viewer?mid=18UqghKoAmEvVbp8f2R2sfCztKbj6siyP",
       "directory": true,
-      "pins": 57
+      "pins": 57,
+      "videoPins": 0
     },
     {
       "name": "Portugal and Spain Siren Map",
       "mapId": "1dmvw64LfzdWaVFIgHTXvV1uauNItfQE",
       "url": "https://www.google.com/maps/d/viewer?mid=1dmvw64LfzdWaVFIgHTXvV1uauNItfQE",
       "directory": true,
-      "pins": 79
+      "pins": 79,
+      "videoPins": 0
     },
     {
       "name": "Russia Siren and Loudspeaker Map",
       "mapId": "1QjostJVm3Op9VtZzlppH_FU1AFuR7CE",
       "url": "https://www.google.com/maps/d/viewer?mid=1QjostJVm3Op9VtZzlppH_FU1AFuR7CE",
       "directory": true,
-      "pins": 255
+      "pins": 255,
+      "videoPins": 1
     },
     {
       "name": "Turkiye Nationwide Siren Map",
       "mapId": "1IZRd2eqhAInPIOxwQtomZTwf-hBhOcY",
       "url": "https://www.google.com/maps/d/viewer?mid=1IZRd2eqhAInPIOxwQtomZTwf-hBhOcY",
       "directory": true,
-      "pins": 867
+      "pins": 867,
+      "videoPins": 14
     },
     {
       "name": "Chile Siren Map",
       "mapId": "14PTeSuirwNJB8Lj8Qg8_-IDQRpROqDPk",
       "url": "https://www.google.com/maps/d/viewer?mid=14PTeSuirwNJB8Lj8Qg8_-IDQRpROqDPk",
       "directory": true,
-      "pins": 213
+      "pins": 213,
+      "videoPins": 0
     },
     {
       "name": "Albania Siren Map",
       "mapId": "1YUWk6jWsqnLSCZ9vcWC8FrXf1oai7fw",
       "url": "https://www.google.com/maps/d/viewer?mid=1YUWk6jWsqnLSCZ9vcWC8FrXf1oai7fw",
       "directory": true,
-      "pins": 4
+      "pins": 4,
+      "videoPins": 0
     },
     {
       "name": "Newfoundland Siren Map",
       "mapId": "1ip51AfwylLzK-k0S73TR2Fgc7kG3YQSI",
       "url": "https://www.google.com/maps/d/viewer?mid=1ip51AfwylLzK-k0S73TR2Fgc7kG3YQSI",
       "directory": true,
-      "pins": 34
+      "pins": 34,
+      "videoPins": 0
+    },
+    {
+      "name": "Official U.S.A. Siren Map",
+      "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
+      "url": "https://www.google.com/maps/d/viewer?mid=1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
+      "directory": false,
+      "pins": 57593,
+      "videoPins": 3634
     }
   ],
   "failedSources": [
