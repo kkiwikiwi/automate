@@ -1,8 +1,110 @@
 [
   {
-    "name": "Official U.S.A. Siren Map",
-    "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
-    "url": "https://www.google.com/maps/d/viewer?mid=1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
-    "directory": false
+    "name": "Australia Siren Map",
+    "mapId": "1oVGG-aGlmAmWUtwDqUi5lZF8205YPNCA",
+    "url": "https://www.google.com/maps/d/viewer?mid=1oVGG-aGlmAmWUtwDqUi5lZF8205YPNCA",
+    "directory": true
+  },
+  {
+    "name": "British Columbia Siren Map",
+    "mapId": "1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
+    "url": "https://www.google.com/maps/d/viewer?mid=1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
+    "directory": true
+  },
+  {
+    "name": "Finland Siren Map",
+    "mapId": "1WvvHCFJLF6F58MokxJEgJOuL8hQeGu8R",
+    "url": "https://www.google.com/maps/d/viewer?mid=1WvvHCFJLF6F58MokxJEgJOuL8hQeGu8R",
+    "directory": true
+  },
+  {
+    "name": "France Siren Map",
+    "mapId": "1KrNR-zv4n2MMWAVlCpTqVGFwWIZbpwdb",
+    "url": "https://www.google.com/maps/d/viewer?mid=1KrNR-zv4n2MMWAVlCpTqVGFwWIZbpwdb",
+    "directory": true
+  },
+  {
+    "name": "Hungary Siren Map",
+    "mapId": "1I77MTBcGop8IdXW0roHDkh3JFD_ncYC4",
+    "url": "https://www.google.com/maps/d/viewer?mid=1I77MTBcGop8IdXW0roHDkh3JFD_ncYC4",
+    "directory": true
+  },
+  {
+    "name": "Israel Siren Map",
+    "mapId": "14tiquiT5ZkhYqsEahohZMGJv4RcTHYpx",
+    "url": "https://www.google.com/maps/d/viewer?mid=14tiquiT5ZkhYqsEahohZMGJv4RcTHYpx",
+    "directory": true
+  },
+  {
+    "name": "Latvia Siren Map",
+    "mapId": "1Ui8kAklbvbaQBFKjqpWjqBPy3Ha1dEw",
+    "url": "https://www.google.com/maps/d/viewer?mid=1Ui8kAklbvbaQBFKjqpWjqBPy3Ha1dEw",
+    "directory": true
+  },
+  {
+    "name": "Malta Siren Map",
+    "mapId": "1wliEHAjOQX9FHpitFvbPl_fGmIT5_d8",
+    "url": "https://www.google.com/maps/d/viewer?mid=1wliEHAjOQX9FHpitFvbPl_fGmIT5_d8",
+    "directory": true
+  },
+  {
+    "name": "Montenegro Siren Map",
+    "mapId": "1NT9nXRpgo6FNazP0dfWb-yBMSeFvb5U",
+    "url": "https://www.google.com/maps/d/viewer?mid=1NT9nXRpgo6FNazP0dfWb-yBMSeFvb5U",
+    "directory": true
+  },
+  {
+    "name": "New Zealand Siren Map",
+    "mapId": "18UqghKoAmEvVbp8f2R2sfCztKbj6siyP",
+    "url": "https://www.google.com/maps/d/viewer?mid=18UqghKoAmEvVbp8f2R2sfCztKbj6siyP",
+    "directory": true
+  },
+  {
+    "name": "Portugal and Spain Siren Map",
+    "mapId": "1dmvw64LfzdWaVFIgHTXvV1uauNItfQE",
+    "url": "https://www.google.com/maps/d/viewer?mid=1dmvw64LfzdWaVFIgHTXvV1uauNItfQE",
+    "directory": true
+  },
+  {
+    "name": "Russia Siren and Loudspeaker Map",
+    "mapId": "1QjostJVm3Op9VtZzlppH_FU1AFuR7CE",
+    "url": "https://www.google.com/maps/d/viewer?mid=1QjostJVm3Op9VtZzlppH_FU1AFuR7CE",
+    "directory": true
+  },
+  {
+    "name": "Saskatchewan Siren Map",
+    "mapId": "12rcC1ecjBwhTqMalLJFTHfoweA3xFvoL",
+    "url": "https://www.google.com/maps/d/viewer?mid=12rcC1ecjBwhTqMalLJFTHfoweA3xFvoL",
+    "directory": true
+  },
+  {
+    "name": "Turkiye Nationwide Siren Map",
+    "mapId": "1IZRd2eqhAInPIOxwQtomZTwf-hBhOcY",
+    "url": "https://www.google.com/maps/d/viewer?mid=1IZRd2eqhAInPIOxwQtomZTwf-hBhOcY",
+    "directory": true
+  },
+  {
+    "name": "Chile Siren Map",
+    "mapId": "14PTeSuirwNJB8Lj8Qg8_-IDQRpROqDPk",
+    "url": "https://www.google.com/maps/d/viewer?mid=14PTeSuirwNJB8Lj8Qg8_-IDQRpROqDPk",
+    "directory": true
+  },
+  {
+    "name": "Albania Siren Map",
+    "mapId": "1YUWk6jWsqnLSCZ9vcWC8FrXf1oai7fw",
+    "url": "https://www.google.com/maps/d/viewer?mid=1YUWk6jWsqnLSCZ9vcWC8FrXf1oai7fw",
+    "directory": true
+  },
+  {
+    "name": "Denmark Siren Map",
+    "mapId": "1HIboKNWC_Y5S4IY8B7dHh3r_CFNd0und",
+    "url": "https://www.google.com/maps/d/viewer?mid=1HIboKNWC_Y5S4IY8B7dHh3r_CFNd0und",
+    "directory": true
+  },
+  {
+    "name": "Newfoundland Siren Map",
+    "mapId": "1ip51AfwylLzK-k0S73TR2Fgc7kG3YQSI",
+    "url": "https://www.google.com/maps/d/viewer?mid=1ip51AfwylLzK-k0S73TR2Fgc7kG3YQSI",
+    "directory": true
   }
 ]
