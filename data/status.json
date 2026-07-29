@@ -1,1 +1,25 @@
-{"ok":false,"updatedAt":null,"pinCount":0,"sourceCount":0,"directorySourceCount":0,"directorySourceTotal":0,"failedSourceCount":0,"message":"The initial worldwide siren-map import is running. Reload in a few minutes."}
+{
+  "ok": true,
+  "updatedAt": "2026-07-29T03:48:20.590518+00:00",
+  "pinCount": 57539,
+  "sourceCount": 1,
+  "directorySourceCount": 0,
+  "directorySourceTotal": 0,
+  "failedSourceCount": 0,
+  "message": "Loaded 57,539 unique sirens from 1 maps (0/0 master-directory maps).",
+  "discoveryErrors": [
+    "https://www.airraidsirens.net/forums/viewtopic.php?t=27945: HTTP Error 403: Forbidden",
+    "https://r.jina.ai/https://www.airraidsirens.net/forums/viewtopic.php?t=27945: only 0 maps",
+    "https://r.jina.ai/http://www.airraidsirens.net/forums/viewtopic.php?t=27945: only 0 maps"
+  ],
+  "successfulSources": [
+    {
+      "name": "Official U.S.A. Siren Map",
+      "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
+      "url": "https://www.google.com/maps/d/viewer?mid=1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
+      "directory": false,
+      "pins": 57593
+    }
+  ],
+  "failedSources": []
+}
