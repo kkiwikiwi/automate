@@ -15,7 +15,8 @@
     "name": "British Columbia Siren Map",
     "mapId": "1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
     "url": "https://www.google.com/maps/d/viewer?mid=1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
-    "directory": true
+    "directory": true,
+    "section": "Canada"
   },
   {
     "name": "Chile Siren Map",
@@ -81,7 +82,8 @@
     "name": "Newfoundland Siren Map",
     "mapId": "1ip51AfwylLzK-k0S73TR2Fgc7kG3YQSI",
     "url": "https://www.google.com/maps/d/viewer?mid=1ip51AfwylLzK-k0S73TR2Fgc7kG3YQSI",
-    "directory": true
+    "directory": true,
+    "section": "Canada"
   },
   {
     "name": "Portugal and Spain Siren Map",
@@ -99,7 +101,8 @@
     "name": "Saskatchewan Siren Map",
     "mapId": "12rcC1ecjBwhTqMalLJFTHfoweA3xFvoL",
     "url": "https://www.google.com/maps/d/viewer?mid=12rcC1ecjBwhTqMalLJFTHfoweA3xFvoL",
-    "directory": true
+    "directory": true,
+    "section": "Canada"
   },
   {
     "name": "Turkiye Nationwide Siren Map",
@@ -109,8 +112,8 @@
   },
   {
     "name": "Great Canadian Siren Map",
-    "mapId": "1Ye0Sxlrdwnyb2tom7TXz4aJiXdE7c4k",
-    "url": "https://www.google.com/maps/d/viewer?mid=1Ye0Sxlrdwnyb2tom7TXz4aJiXdE7c4k",
+    "mapId": "1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1",
+    "url": "https://www.google.com/maps/d/viewer?mid=1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1",
     "directory": true,
     "section": "Canada"
   },
@@ -126,20 +129,20 @@
     "mapId": "1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
     "url": "https://www.google.com/maps/d/viewer?mid=1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
     "directory": true,
-    "section": "canada"
+    "section": "Canada"
   },
   {
     "name": "Quebec Siren Map",
-    "mapId": "1MlL9rNncoWJD2kETkwNZQZ3EgCM",
-    "url": "https://www.google.com/maps/d/viewer?mid=1MlL9rNncoWJD2kETkwNZQZ3EgCM",
+    "mapId": "1RXAYExKtCnD8xAKY9ngGxhDg9bqF82EY",
+    "url": "https://www.google.com/maps/d/viewer?mid=1RXAYExKtCnD8xAKY9ngGxhDg9bqF82EY",
     "directory": true,
-    "section": "canada"
+    "section": "Canada"
   },
   {
     "name": "Croatia Siren Map",
     "mapId": "14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
     "url": "https://www.google.com/maps/d/viewer?mid=14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
     "directory": true,
-    "section": "world"
+    "section": "World"
   }
 ]
