@@ -1,0 +1,47 @@
+name: Resolve Missing U.S. SirenFinder Maps
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/sirenfinder-us-resolver-trigger-*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sirenfinder-us-map-resolver
+  cancel-in-progress: true
+
+jobs:
+  resolve-and-import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: sirenfinder
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Search for missing U.S. state and D.C. maps
+        env:
+          RESOLVE_CATEGORIES: us
+        run: python scripts/resolve_named_maps.py
+      - name: Import all resolved maps concurrently
+        run: python scripts/import_all_maps.py
+      - name: Split regional data for fast startup
+        run: python scripts/split_data.py
+      - name: Commit resolver audit and imported data
+        run: |
+          git config user.name "SirenFinder Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/source-registry.json data/search-resolution.json data/pins.geojson data/pins-world.geojson data/pins-us.geojson data/manifest.json data/status.json data/master-regions.json
+          if git diff --cached --quiet; then
+            echo "No U.S. resolver changes"
+          else
+            git commit -m "Resolve and import U.S. SirenFinder source maps [skip ci]"
+            git push origin HEAD:sirenfinder
+          fi
