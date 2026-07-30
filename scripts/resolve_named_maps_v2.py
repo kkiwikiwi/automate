@@ -18,6 +18,7 @@ from import_registry_maps import get, local_name
 
 
 BASE_VALIDATE = base.validate_candidate
+BASE_QUERIES = base.search_queries
 
 # Search direct My Maps results before forum/discussion pages.
 base.ENGINES = [
@@ -47,7 +48,7 @@ def improved_queries(region):
                 f'site:google.com/maps/d "{value} Statewide Siren Map"',
                 f'site:google.com/maps/d "{value} Statewide Warning Siren Map"',
             ])
-    queries.extend(base.search_queries(region))
+    queries.extend(BASE_QUERIES(region))
     return list(dict.fromkeys(queries))
 
 
