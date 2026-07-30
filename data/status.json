@@ -1,14 +1,14 @@
 {
   "ok": true,
-  "updatedAt": "2026-07-30T01:28:45.754285+00:00",
-  "pinCount": 71902,
-  "sourceCount": 21,
-  "directorySourceCount": 20,
-  "directorySourceTotal": 24,
+  "updatedAt": "2026-07-30T01:36:25.792198+00:00",
+  "pinCount": 73060,
+  "sourceCount": 22,
+  "directorySourceCount": 21,
+  "directorySourceTotal": 25,
   "failedSourceCount": 4,
   "videoPinCount": 4186,
-  "message": "Loaded 71,902 unique sirens from 21/25 maps; 4,186 pins include embedded-video metadata.",
-  "masterDiscovery": {},
+  "message": "Loaded 73,060 unique sirens; 4,186 pins include embedded-video metadata.",
+  "discoveryErrors": [],
   "successfulSources": [
     {
       "name": "Albania Siren Map",
@@ -32,6 +32,15 @@
       "url": "https://www.google.com/maps/d/viewer?mid=14PTeSuirwNJB8Lj8Qg8_-IDQRpROqDPk",
       "directory": true,
       "pins": 213,
+      "videoPins": 0
+    },
+    {
+      "name": "Colorado Statewide Siren Map",
+      "mapId": "1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
+      "url": "https://www.google.com/maps/d/viewer?mid=1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
+      "directory": true,
+      "section": "United States",
+      "pins": 1270,
       "videoPins": 0
     },
     {
@@ -89,14 +98,6 @@
       "directory": true,
       "pins": 57,
       "videoPins": 0
-    },
-    {
-      "name": "Official U.S.A. Siren Map",
-      "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
-      "url": "https://www.google.com/maps/d/viewer?mid=1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
-      "directory": false,
-      "pins": 57593,
-      "videoPins": 3634
     },
     {
       "name": "Portugal and Spain Siren Map",
@@ -172,7 +173,7 @@
       "mapId": "1rFQZpUf2lTPXglGePze9WEAmn8I",
       "url": "https://www.google.com/maps/d/viewer?mid=1rFQZpUf2lTPXglGePze9WEAmn8I",
       "directory": true,
-      "section": "canada",
+      "section": "Canada",
       "pins": 11,
       "videoPins": 0
     },
@@ -181,9 +182,17 @@
       "mapId": "108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
       "url": "https://www.google.com/maps/d/viewer?mid=108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
       "directory": true,
-      "section": "world",
+      "section": "World",
       "pins": 259,
       "videoPins": 1
+    },
+    {
+      "name": "Official U.S.A. Siren Map",
+      "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
+      "url": "https://www.google.com/maps/d/viewer?mid=1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
+      "directory": false,
+      "pins": 57593,
+      "videoPins": 3634
     }
   ],
   "failedSources": [
