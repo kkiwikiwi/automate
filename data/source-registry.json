@@ -18,13 +18,6 @@
     "directory": true
   },
   {
-    "name": "Colorado Statewide Siren Map",
-    "mapId": "1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
-    "url": "https://www.google.com/maps/d/viewer?mid=1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
-    "directory": true,
-    "section": "United States"
-  },
-  {
     "name": "Denmark Siren Map",
     "mapId": "1HIboKNWC_Y5S4IY8B7dHh3r_CFNd0und",
     "url": "https://www.google.com/maps/d/viewer?mid=1HIboKNWC_Y5S4IY8B7dHh3r_CFNd0und",
@@ -132,6 +125,13 @@
     "section": "Canada"
   },
   {
+    "name": "Quebec Siren Map",
+    "mapId": "1rFQZpUf2lTPXglGePze9WEAmn8I",
+    "url": "https://www.google.com/maps/d/viewer?mid=1rFQZpUf2lTPXglGePze9WEAmn8I",
+    "directory": true,
+    "section": "Canada"
+  },
+  {
     "name": "Saskatchewan Siren Map",
     "mapId": "12rcC1ecjBwhTqMalLJFTHfoweA3xFvoL",
     "url": "https://www.google.com/maps/d/viewer?mid=12rcC1ecjBwhTqMalLJFTHfoweA3xFvoL",
@@ -139,18 +139,18 @@
     "section": "Canada"
   },
   {
+    "name": "Colorado Statewide Siren Map",
+    "mapId": "1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
+    "url": "https://www.google.com/maps/d/viewer?mid=1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
+    "directory": true,
+    "section": "United States"
+  },
+  {
     "name": "Croatia Siren Map",
     "mapId": "14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
     "url": "https://www.google.com/maps/d/viewer?mid=14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
     "directory": true,
     "section": "World"
-  },
-  {
-    "name": "Quebec Siren Map",
-    "mapId": "1rFQZpUf2lTPXglGePze9WEAmn8I",
-    "url": "https://www.google.com/maps/d/viewer?mid=1rFQZpUf2lTPXglGePze9WEAmn8I",
-    "directory": true,
-    "section": "Canada"
   },
   {
     "name": "Greenland Siren Map",

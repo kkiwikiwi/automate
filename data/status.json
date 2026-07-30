@@ -1,14 +1,14 @@
 {
   "ok": true,
-  "updatedAt": "2026-07-30T01:38:43.067630+00:00",
+  "updatedAt": "2026-07-30T01:43:11.533136+00:00",
   "pinCount": 73060,
   "sourceCount": 22,
   "directorySourceCount": 21,
   "directorySourceTotal": 25,
   "failedSourceCount": 4,
   "videoPinCount": 4186,
-  "message": "Loaded 73,060 unique sirens; 4,186 pins include embedded-video metadata.",
-  "discoveryErrors": [],
+  "message": "Loaded 73,060 unique sirens from 22/26 maps; 4,186 pins include embedded-video metadata.",
+  "masterDiscovery": {},
   "successfulSources": [
     {
       "name": "Albania Siren Map",
@@ -32,15 +32,6 @@
       "url": "https://www.google.com/maps/d/viewer?mid=14PTeSuirwNJB8Lj8Qg8_-IDQRpROqDPk",
       "directory": true,
       "pins": 213,
-      "videoPins": 0
-    },
-    {
-      "name": "Colorado Statewide Siren Map",
-      "mapId": "1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
-      "url": "https://www.google.com/maps/d/viewer?mid=1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
-      "directory": true,
-      "section": "United States",
-      "pins": 1270,
       "videoPins": 0
     },
     {
@@ -98,6 +89,14 @@
       "directory": true,
       "pins": 57,
       "videoPins": 0
+    },
+    {
+      "name": "Official U.S.A. Siren Map",
+      "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
+      "url": "https://www.google.com/maps/d/viewer?mid=1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
+      "directory": false,
+      "pins": 57593,
+      "videoPins": 3634
     },
     {
       "name": "Portugal and Spain Siren Map",
@@ -160,15 +159,6 @@
       "videoPins": 25
     },
     {
-      "name": "Croatia Siren Map",
-      "mapId": "14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
-      "url": "https://www.google.com/maps/d/viewer?mid=14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
-      "directory": true,
-      "section": "World",
-      "pins": 978,
-      "videoPins": 253
-    },
-    {
       "name": "Quebec Siren Map",
       "mapId": "1rFQZpUf2lTPXglGePze9WEAmn8I",
       "url": "https://www.google.com/maps/d/viewer?mid=1rFQZpUf2lTPXglGePze9WEAmn8I",
@@ -178,6 +168,24 @@
       "videoPins": 0
     },
     {
+      "name": "Colorado Statewide Siren Map",
+      "mapId": "1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
+      "url": "https://www.google.com/maps/d/viewer?mid=1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
+      "directory": true,
+      "section": "United States",
+      "pins": 1270,
+      "videoPins": 0
+    },
+    {
+      "name": "Croatia Siren Map",
+      "mapId": "14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
+      "url": "https://www.google.com/maps/d/viewer?mid=14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
+      "directory": true,
+      "section": "World",
+      "pins": 978,
+      "videoPins": 253
+    },
+    {
       "name": "Greenland Siren Map",
       "mapId": "108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
       "url": "https://www.google.com/maps/d/viewer?mid=108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
@@ -185,14 +193,6 @@
       "section": "World",
       "pins": 259,
       "videoPins": 1
-    },
-    {
-      "name": "Official U.S.A. Siren Map",
-      "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
-      "url": "https://www.google.com/maps/d/viewer?mid=1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
-      "directory": false,
-      "pins": 57593,
-      "videoPins": 3634
     }
   ],
   "failedSources": [
