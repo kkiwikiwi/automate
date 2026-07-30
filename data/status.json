@@ -1,13 +1,13 @@
 {
   "ok": true,
-  "updatedAt": "2026-07-30T02:07:27.509965+00:00",
-  "pinCount": 73725,
-  "sourceCount": 26,
-  "directorySourceCount": 24,
-  "directorySourceTotal": 29,
-  "failedSourceCount": 4,
-  "videoPinCount": 4187,
-  "message": "Loaded 73,725 unique sirens; 4,187 pins include embedded-video metadata.",
+  "updatedAt": "2026-07-30T02:18:07.690848+00:00",
+  "pinCount": 79732,
+  "sourceCount": 32,
+  "directorySourceCount": 30,
+  "directorySourceTotal": 36,
+  "failedSourceCount": 5,
+  "videoPinCount": 4212,
+  "message": "Loaded 79,732 unique sirens; 4,212 pins include embedded-video metadata.",
   "discoveryErrors": [],
   "successfulSources": [
     {
@@ -83,15 +83,6 @@
       "videoPins": 0
     },
     {
-      "name": "Netherlands Siren Map",
-      "mapId": "171KbUT6Se0xQHsv-7ot-AB-cy6-qy4aA",
-      "url": "https://www.google.com/maps/d/viewer?mid=171KbUT6Se0xQHsv-7ot-AB-cy6-qy4aA",
-      "directory": true,
-      "section": "World",
-      "pins": 349,
-      "videoPins": 0
-    },
-    {
       "name": "New Zealand Siren Map",
       "mapId": "18UqghKoAmEvVbp8f2R2sfCztKbj6siyP",
       "url": "https://www.google.com/maps/d/viewer?mid=18UqghKoAmEvVbp8f2R2sfCztKbj6siyP",
@@ -132,15 +123,6 @@
       "videoPins": 14
     },
     {
-      "name": "United Kingdom Siren Map",
-      "mapId": "1wkcgQlymDtJ8GGuZMqG5dvA4pwwtCzhH",
-      "url": "https://www.google.com/maps/d/viewer?mid=1wkcgQlymDtJ8GGuZMqG5dvA4pwwtCzhH",
-      "directory": true,
-      "section": "World",
-      "pins": 744,
-      "videoPins": 11
-    },
-    {
       "name": "Great Canadian Siren Map",
       "mapId": "1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1",
       "url": "https://www.google.com/maps/d/viewer?mid=1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1",
@@ -148,15 +130,6 @@
       "section": "Canada",
       "pins": 2263,
       "videoPins": 59
-    },
-    {
-      "name": "Manitoba Siren Map",
-      "mapId": "1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
-      "url": "https://www.google.com/maps/d/viewer?mid=1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
-      "directory": true,
-      "section": "Canada",
-      "pins": 2283,
-      "videoPins": 0
     },
     {
       "name": "Newfoundland Siren Map",
@@ -186,12 +159,66 @@
       "videoPins": 0
     },
     {
+      "name": "Alabama Statewide Siren Map",
+      "mapId": "16bsIQTnNGGdF9V_PmCW1edkHOokz9A6N",
+      "url": "https://www.google.com/maps/d/viewer?mid=16bsIQTnNGGdF9V_PmCW1edkHOokz9A6N",
+      "directory": true,
+      "section": "United States",
+      "pins": 2526,
+      "videoPins": 5
+    },
+    {
       "name": "Colorado Statewide Siren Map",
       "mapId": "1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
       "url": "https://www.google.com/maps/d/viewer?mid=1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
       "directory": true,
       "section": "United States",
       "pins": 1270,
+      "videoPins": 0
+    },
+    {
+      "name": "Louisiana Statewide Siren Map",
+      "mapId": "1tl_1Gq6tHBDwa_XK-wDvccXlTujj-X-7",
+      "url": "https://www.google.com/maps/d/viewer?mid=1tl_1Gq6tHBDwa_XK-wDvccXlTujj-X-7",
+      "directory": true,
+      "section": "United States",
+      "pins": 1005,
+      "videoPins": 0
+    },
+    {
+      "name": "Mississippi Statewide Siren Map",
+      "mapId": "1aXNw8Owxi3tnXPbZJZD7jDrBNTXUWhBv",
+      "url": "https://www.google.com/maps/d/viewer?mid=1aXNw8Owxi3tnXPbZJZD7jDrBNTXUWhBv",
+      "directory": true,
+      "section": "United States",
+      "pins": 1382,
+      "videoPins": 3
+    },
+    {
+      "name": "Montana Statewide Siren Map",
+      "mapId": "16PwvwMcIrLVErlRHtqEWapkr2pl2Dh9T",
+      "url": "https://www.google.com/maps/d/viewer?mid=16PwvwMcIrLVErlRHtqEWapkr2pl2Dh9T",
+      "directory": true,
+      "section": "United States",
+      "pins": 381,
+      "videoPins": 16
+    },
+    {
+      "name": "New Mexico Statewide Siren Map",
+      "mapId": "1Ndah1mM7sdcc5D0zjWT8eupH_qU4i8g",
+      "url": "https://www.google.com/maps/d/viewer?mid=1Ndah1mM7sdcc5D0zjWT8eupH_qU4i8g",
+      "directory": true,
+      "section": "United States",
+      "pins": 424,
+      "videoPins": 1
+    },
+    {
+      "name": "South Dakota Statewide Siren Map",
+      "mapId": "1TLP3ulH7A2NuLFAKxPOmXRAZxZDnXiqB",
+      "url": "https://www.google.com/maps/d/viewer?mid=1TLP3ulH7A2NuLFAKxPOmXRAZxZDnXiqB",
+      "directory": true,
+      "section": "United States",
+      "pins": 955,
       "videoPins": 0
     },
     {
@@ -202,6 +229,15 @@
       "section": "United States",
       "pins": 518,
       "videoPins": 14
+    },
+    {
+      "name": "Wisconsin Statewide Siren Map",
+      "mapId": "1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
+      "url": "https://www.google.com/maps/d/viewer?mid=1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
+      "directory": true,
+      "section": "United States",
+      "pins": 2283,
+      "videoPins": 0
     },
     {
       "name": "Croatia Siren Map",
@@ -220,6 +256,24 @@
       "section": "World",
       "pins": 259,
       "videoPins": 1
+    },
+    {
+      "name": "Netherlands Siren Map",
+      "mapId": "171KbUT6Se0xQHsv-7ot-AB-cy6-qy4aA",
+      "url": "https://www.google.com/maps/d/viewer?mid=171KbUT6Se0xQHsv-7ot-AB-cy6-qy4aA",
+      "directory": true,
+      "section": "World",
+      "pins": 349,
+      "videoPins": 0
+    },
+    {
+      "name": "United Kingdom Siren Map",
+      "mapId": "1wkcgQlymDtJ8GGuZMqG5dvA4pwwtCzhH",
+      "url": "https://www.google.com/maps/d/viewer?mid=1wkcgQlymDtJ8GGuZMqG5dvA4pwwtCzhH",
+      "directory": true,
+      "section": "World",
+      "pins": 744,
+      "videoPins": 11
     },
     {
       "name": "Official U.S.A. Siren Map",
@@ -260,6 +314,14 @@
       "directory": true,
       "section": "Canada",
       "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "Oklahoma Statewide Siren Map",
+      "mapId": "1blVKllJ5VqBqDEgmY0Gqw3wuthLBWZUq",
+      "url": "https://www.google.com/maps/d/viewer?mid=1blVKllJ5VqBqDEgmY0Gqw3wuthLBWZUq",
+      "directory": true,
+      "section": "United States",
+      "error": "not well-formed (invalid token): line 33585, column 36"
     }
   ]
 }

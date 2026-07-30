@@ -1,19 +1,37 @@
 {
-  "updatedAt": "2026-07-30T02:07:30.074147+00:00",
+  "updatedAt": "2026-07-30T02:18:10.446508+00:00",
   "totalListedRegions": 82,
-  "imported": 20,
-  "blockedOrDeleted": 3,
-  "unresolved": 59,
-  "aggregateCoveredButSourceMissing": 50,
+  "imported": 26,
+  "blockedOrDeleted": 4,
+  "unresolved": 52,
+  "aggregateCoveredButSourceMissing": 44,
   "entries": [
     {
       "id": "alabama",
       "name": "Alabama",
       "category": "us",
-      "status": "unresolved",
-      "importedSources": [],
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Alabama Statewide Siren Map",
+          "mapId": "16bsIQTnNGGdF9V_PmCW1edkHOokz9A6N",
+          "url": "https://www.google.com/maps/d/viewer?mid=16bsIQTnNGGdF9V_PmCW1edkHOokz9A6N",
+          "directory": true,
+          "section": "United States",
+          "pins": 2526,
+          "videoPins": 5
+        }
+      ],
       "failedSources": [],
-      "listedSources": [],
+      "listedSources": [
+        {
+          "name": "Alabama Statewide Siren Map",
+          "mapId": "16bsIQTnNGGdF9V_PmCW1edkHOokz9A6N",
+          "url": "https://www.google.com/maps/d/viewer?mid=16bsIQTnNGGdF9V_PmCW1edkHOokz9A6N",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
@@ -249,10 +267,28 @@
       "id": "louisiana",
       "name": "Louisiana",
       "category": "us",
-      "status": "unresolved",
-      "importedSources": [],
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Louisiana Statewide Siren Map",
+          "mapId": "1tl_1Gq6tHBDwa_XK-wDvccXlTujj-X-7",
+          "url": "https://www.google.com/maps/d/viewer?mid=1tl_1Gq6tHBDwa_XK-wDvccXlTujj-X-7",
+          "directory": true,
+          "section": "United States",
+          "pins": 1005,
+          "videoPins": 0
+        }
+      ],
       "failedSources": [],
-      "listedSources": [],
+      "listedSources": [
+        {
+          "name": "Louisiana Statewide Siren Map",
+          "mapId": "1tl_1Gq6tHBDwa_XK-wDvccXlTujj-X-7",
+          "url": "https://www.google.com/maps/d/viewer?mid=1tl_1Gq6tHBDwa_XK-wDvccXlTujj-X-7",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
@@ -345,10 +381,28 @@
       "id": "mississippi",
       "name": "Mississippi",
       "category": "us",
-      "status": "unresolved",
-      "importedSources": [],
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Mississippi Statewide Siren Map",
+          "mapId": "1aXNw8Owxi3tnXPbZJZD7jDrBNTXUWhBv",
+          "url": "https://www.google.com/maps/d/viewer?mid=1aXNw8Owxi3tnXPbZJZD7jDrBNTXUWhBv",
+          "directory": true,
+          "section": "United States",
+          "pins": 1382,
+          "videoPins": 3
+        }
+      ],
       "failedSources": [],
-      "listedSources": [],
+      "listedSources": [
+        {
+          "name": "Mississippi Statewide Siren Map",
+          "mapId": "1aXNw8Owxi3tnXPbZJZD7jDrBNTXUWhBv",
+          "url": "https://www.google.com/maps/d/viewer?mid=1aXNw8Owxi3tnXPbZJZD7jDrBNTXUWhBv",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
@@ -371,10 +425,28 @@
       "id": "montana",
       "name": "Montana",
       "category": "us",
-      "status": "unresolved",
-      "importedSources": [],
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Montana Statewide Siren Map",
+          "mapId": "16PwvwMcIrLVErlRHtqEWapkr2pl2Dh9T",
+          "url": "https://www.google.com/maps/d/viewer?mid=16PwvwMcIrLVErlRHtqEWapkr2pl2Dh9T",
+          "directory": true,
+          "section": "United States",
+          "pins": 381,
+          "videoPins": 16
+        }
+      ],
       "failedSources": [],
-      "listedSources": [],
+      "listedSources": [
+        {
+          "name": "Montana Statewide Siren Map",
+          "mapId": "16PwvwMcIrLVErlRHtqEWapkr2pl2Dh9T",
+          "url": "https://www.google.com/maps/d/viewer?mid=16PwvwMcIrLVErlRHtqEWapkr2pl2Dh9T",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
@@ -436,10 +508,28 @@
       "id": "new-mexico",
       "name": "New Mexico",
       "category": "us",
-      "status": "unresolved",
-      "importedSources": [],
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "New Mexico Statewide Siren Map",
+          "mapId": "1Ndah1mM7sdcc5D0zjWT8eupH_qU4i8g",
+          "url": "https://www.google.com/maps/d/viewer?mid=1Ndah1mM7sdcc5D0zjWT8eupH_qU4i8g",
+          "directory": true,
+          "section": "United States",
+          "pins": 424,
+          "videoPins": 1
+        }
+      ],
       "failedSources": [],
-      "listedSources": [],
+      "listedSources": [
+        {
+          "name": "New Mexico Statewide Siren Map",
+          "mapId": "1Ndah1mM7sdcc5D0zjWT8eupH_qU4i8g",
+          "url": "https://www.google.com/maps/d/viewer?mid=1Ndah1mM7sdcc5D0zjWT8eupH_qU4i8g",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
@@ -501,10 +591,27 @@
       "id": "oklahoma",
       "name": "Oklahoma",
       "category": "us",
-      "status": "unresolved",
+      "status": "blocked_or_deleted",
       "importedSources": [],
-      "failedSources": [],
-      "listedSources": [],
+      "failedSources": [
+        {
+          "name": "Oklahoma Statewide Siren Map",
+          "mapId": "1blVKllJ5VqBqDEgmY0Gqw3wuthLBWZUq",
+          "url": "https://www.google.com/maps/d/viewer?mid=1blVKllJ5VqBqDEgmY0Gqw3wuthLBWZUq",
+          "directory": true,
+          "section": "United States",
+          "error": "not well-formed (invalid token): line 33585, column 36"
+        }
+      ],
+      "listedSources": [
+        {
+          "name": "Oklahoma Statewide Siren Map",
+          "mapId": "1blVKllJ5VqBqDEgmY0Gqw3wuthLBWZUq",
+          "url": "https://www.google.com/maps/d/viewer?mid=1blVKllJ5VqBqDEgmY0Gqw3wuthLBWZUq",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
@@ -566,10 +673,28 @@
       "id": "south-dakota",
       "name": "South Dakota",
       "category": "us",
-      "status": "unresolved",
-      "importedSources": [],
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "South Dakota Statewide Siren Map",
+          "mapId": "1TLP3ulH7A2NuLFAKxPOmXRAZxZDnXiqB",
+          "url": "https://www.google.com/maps/d/viewer?mid=1TLP3ulH7A2NuLFAKxPOmXRAZxZDnXiqB",
+          "directory": true,
+          "section": "United States",
+          "pins": 955,
+          "videoPins": 0
+        }
+      ],
       "failedSources": [],
-      "listedSources": [],
+      "listedSources": [
+        {
+          "name": "South Dakota Statewide Siren Map",
+          "mapId": "1TLP3ulH7A2NuLFAKxPOmXRAZxZDnXiqB",
+          "url": "https://www.google.com/maps/d/viewer?mid=1TLP3ulH7A2NuLFAKxPOmXRAZxZDnXiqB",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
@@ -719,10 +844,28 @@
       "id": "wisconsin",
       "name": "Wisconsin",
       "category": "us",
-      "status": "unresolved",
-      "importedSources": [],
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Wisconsin Statewide Siren Map",
+          "mapId": "1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
+          "url": "https://www.google.com/maps/d/viewer?mid=1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
+          "directory": true,
+          "section": "United States",
+          "pins": 2283,
+          "videoPins": 0
+        }
+      ],
       "failedSources": [],
-      "listedSources": [],
+      "listedSources": [
+        {
+          "name": "Wisconsin Statewide Siren Map",
+          "mapId": "1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
+          "url": "https://www.google.com/maps/d/viewer?mid=1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
@@ -816,28 +959,10 @@
       "id": "manitoba",
       "name": "Manitoba",
       "category": "canada",
-      "status": "imported",
-      "importedSources": [
-        {
-          "name": "Manitoba Siren Map",
-          "mapId": "1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
-          "url": "https://www.google.com/maps/d/viewer?mid=1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
-          "directory": true,
-          "section": "Canada",
-          "pins": 2283,
-          "videoPins": 0
-        }
-      ],
+      "status": "unresolved",
+      "importedSources": [],
       "failedSources": [],
-      "listedSources": [
-        {
-          "name": "Manitoba Siren Map",
-          "mapId": "1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
-          "url": "https://www.google.com/maps/d/viewer?mid=1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
-          "directory": true,
-          "section": "Canada"
-        }
-      ],
+      "listedSources": [],
       "aggregateCoverage": {
         "name": "Great Canadian Siren Map",
         "mapId": "1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1"

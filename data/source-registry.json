@@ -66,13 +66,6 @@
     "directory": true
   },
   {
-    "name": "Netherlands Siren Map",
-    "mapId": "171KbUT6Se0xQHsv-7ot-AB-cy6-qy4aA",
-    "url": "https://www.google.com/maps/d/viewer?mid=171KbUT6Se0xQHsv-7ot-AB-cy6-qy4aA",
-    "directory": true,
-    "section": "World"
-  },
-  {
     "name": "New Zealand Siren Map",
     "mapId": "18UqghKoAmEvVbp8f2R2sfCztKbj6siyP",
     "url": "https://www.google.com/maps/d/viewer?mid=18UqghKoAmEvVbp8f2R2sfCztKbj6siyP",
@@ -103,13 +96,6 @@
     "directory": true
   },
   {
-    "name": "United Kingdom Siren Map",
-    "mapId": "1wkcgQlymDtJ8GGuZMqG5dvA4pwwtCzhH",
-    "url": "https://www.google.com/maps/d/viewer?mid=1wkcgQlymDtJ8GGuZMqG5dvA4pwwtCzhH",
-    "directory": true,
-    "section": "World"
-  },
-  {
     "name": "British Columbia Siren Map",
     "mapId": "1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
     "url": "https://www.google.com/maps/d/viewer?mid=1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
@@ -120,13 +106,6 @@
     "name": "Great Canadian Siren Map",
     "mapId": "1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1",
     "url": "https://www.google.com/maps/d/viewer?mid=1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1",
-    "directory": true,
-    "section": "Canada"
-  },
-  {
-    "name": "Manitoba Siren Map",
-    "mapId": "1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
-    "url": "https://www.google.com/maps/d/viewer?mid=1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
     "directory": true,
     "section": "Canada"
   },
@@ -159,6 +138,13 @@
     "section": "Canada"
   },
   {
+    "name": "Alabama Statewide Siren Map",
+    "mapId": "16bsIQTnNGGdF9V_PmCW1edkHOokz9A6N",
+    "url": "https://www.google.com/maps/d/viewer?mid=16bsIQTnNGGdF9V_PmCW1edkHOokz9A6N",
+    "directory": true,
+    "section": "United States"
+  },
+  {
     "name": "Colorado Statewide Siren Map",
     "mapId": "1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
     "url": "https://www.google.com/maps/d/viewer?mid=1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
@@ -166,9 +152,58 @@
     "section": "United States"
   },
   {
+    "name": "Louisiana Statewide Siren Map",
+    "mapId": "1tl_1Gq6tHBDwa_XK-wDvccXlTujj-X-7",
+    "url": "https://www.google.com/maps/d/viewer?mid=1tl_1Gq6tHBDwa_XK-wDvccXlTujj-X-7",
+    "directory": true,
+    "section": "United States"
+  },
+  {
+    "name": "Mississippi Statewide Siren Map",
+    "mapId": "1aXNw8Owxi3tnXPbZJZD7jDrBNTXUWhBv",
+    "url": "https://www.google.com/maps/d/viewer?mid=1aXNw8Owxi3tnXPbZJZD7jDrBNTXUWhBv",
+    "directory": true,
+    "section": "United States"
+  },
+  {
+    "name": "Montana Statewide Siren Map",
+    "mapId": "16PwvwMcIrLVErlRHtqEWapkr2pl2Dh9T",
+    "url": "https://www.google.com/maps/d/viewer?mid=16PwvwMcIrLVErlRHtqEWapkr2pl2Dh9T",
+    "directory": true,
+    "section": "United States"
+  },
+  {
+    "name": "New Mexico Statewide Siren Map",
+    "mapId": "1Ndah1mM7sdcc5D0zjWT8eupH_qU4i8g",
+    "url": "https://www.google.com/maps/d/viewer?mid=1Ndah1mM7sdcc5D0zjWT8eupH_qU4i8g",
+    "directory": true,
+    "section": "United States"
+  },
+  {
+    "name": "Oklahoma Statewide Siren Map",
+    "mapId": "1blVKllJ5VqBqDEgmY0Gqw3wuthLBWZUq",
+    "url": "https://www.google.com/maps/d/viewer?mid=1blVKllJ5VqBqDEgmY0Gqw3wuthLBWZUq",
+    "directory": true,
+    "section": "United States"
+  },
+  {
+    "name": "South Dakota Statewide Siren Map",
+    "mapId": "1TLP3ulH7A2NuLFAKxPOmXRAZxZDnXiqB",
+    "url": "https://www.google.com/maps/d/viewer?mid=1TLP3ulH7A2NuLFAKxPOmXRAZxZDnXiqB",
+    "directory": true,
+    "section": "United States"
+  },
+  {
     "name": "West Virginia Statewide & Western Maryland Siren Map",
     "mapId": "1QTKhyROx-t5pouvAftigo-uDGiIc0udi",
     "url": "https://www.google.com/maps/d/viewer?mid=1QTKhyROx-t5pouvAftigo-uDGiIc0udi",
+    "directory": true,
+    "section": "United States"
+  },
+  {
+    "name": "Wisconsin Statewide Siren Map",
+    "mapId": "1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
+    "url": "https://www.google.com/maps/d/viewer?mid=1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
     "directory": true,
     "section": "United States"
   },
@@ -183,6 +218,20 @@
     "name": "Greenland Siren Map",
     "mapId": "108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
     "url": "https://www.google.com/maps/d/viewer?mid=108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
+    "directory": true,
+    "section": "World"
+  },
+  {
+    "name": "Netherlands Siren Map",
+    "mapId": "171KbUT6Se0xQHsv-7ot-AB-cy6-qy4aA",
+    "url": "https://www.google.com/maps/d/viewer?mid=171KbUT6Se0xQHsv-7ot-AB-cy6-qy4aA",
+    "directory": true,
+    "section": "World"
+  },
+  {
+    "name": "United Kingdom Siren Map",
+    "mapId": "1wkcgQlymDtJ8GGuZMqG5dvA4pwwtCzhH",
+    "url": "https://www.google.com/maps/d/viewer?mid=1wkcgQlymDtJ8GGuZMqG5dvA4pwwtCzhH",
     "directory": true,
     "section": "World"
   }
