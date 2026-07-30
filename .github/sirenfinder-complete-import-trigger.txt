@@ -1,1 +1,1 @@
-Trigger the complete SirenFinder master-list discovery and import workflow.
+Trigger the focused Common Crawl SirenFinder master-list discovery and complete import.
