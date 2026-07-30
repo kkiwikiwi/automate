@@ -12,13 +12,6 @@
     "directory": true
   },
   {
-    "name": "British Columbia Siren Map",
-    "mapId": "1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
-    "url": "https://www.google.com/maps/d/viewer?mid=1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
-    "directory": true,
-    "section": "Canada"
-  },
-  {
     "name": "Chile Siren Map",
     "mapId": "14PTeSuirwNJB8Lj8Qg8_-IDQRpROqDPk",
     "url": "https://www.google.com/maps/d/viewer?mid=14PTeSuirwNJB8Lj8Qg8_-IDQRpROqDPk",
@@ -79,13 +72,6 @@
     "directory": true
   },
   {
-    "name": "Newfoundland Siren Map",
-    "mapId": "1ip51AfwylLzK-k0S73TR2Fgc7kG3YQSI",
-    "url": "https://www.google.com/maps/d/viewer?mid=1ip51AfwylLzK-k0S73TR2Fgc7kG3YQSI",
-    "directory": true,
-    "section": "Canada"
-  },
-  {
     "name": "Portugal and Spain Siren Map",
     "mapId": "1dmvw64LfzdWaVFIgHTXvV1uauNItfQE",
     "url": "https://www.google.com/maps/d/viewer?mid=1dmvw64LfzdWaVFIgHTXvV1uauNItfQE",
@@ -98,29 +84,22 @@
     "directory": true
   },
   {
-    "name": "Saskatchewan Siren Map",
-    "mapId": "12rcC1ecjBwhTqMalLJFTHfoweA3xFvoL",
-    "url": "https://www.google.com/maps/d/viewer?mid=12rcC1ecjBwhTqMalLJFTHfoweA3xFvoL",
-    "directory": true,
-    "section": "Canada"
-  },
-  {
     "name": "Turkiye Nationwide Siren Map",
     "mapId": "1IZRd2eqhAInPIOxwQtomZTwf-hBhOcY",
     "url": "https://www.google.com/maps/d/viewer?mid=1IZRd2eqhAInPIOxwQtomZTwf-hBhOcY",
     "directory": true
   },
   {
-    "name": "Great Canadian Siren Map",
-    "mapId": "1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1",
-    "url": "https://www.google.com/maps/d/viewer?mid=1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1",
+    "name": "British Columbia Siren Map",
+    "mapId": "1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
+    "url": "https://www.google.com/maps/d/viewer?mid=1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
     "directory": true,
     "section": "Canada"
   },
   {
-    "name": "Ontario Canada Siren Map",
-    "mapId": "1ZSBPpDRirYo-DvphT-d9W189VfQ",
-    "url": "https://www.google.com/maps/d/viewer?mid=1ZSBPpDRirYo-DvphT-d9W189VfQ",
+    "name": "Great Canadian Siren Map",
+    "mapId": "1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1",
+    "url": "https://www.google.com/maps/d/viewer?mid=1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1",
     "directory": true,
     "section": "Canada"
   },
@@ -132,9 +111,23 @@
     "section": "Canada"
   },
   {
-    "name": "Quebec Siren Map",
-    "mapId": "1RXAYExKtCnD8xAKY9ngGxhDg9bqF82EY",
-    "url": "https://www.google.com/maps/d/viewer?mid=1RXAYExKtCnD8xAKY9ngGxhDg9bqF82EY",
+    "name": "Newfoundland Siren Map",
+    "mapId": "1ip51AfwylLzK-k0S73TR2Fgc7kG3YQSI",
+    "url": "https://www.google.com/maps/d/viewer?mid=1ip51AfwylLzK-k0S73TR2Fgc7kG3YQSI",
+    "directory": true,
+    "section": "Canada"
+  },
+  {
+    "name": "Ontario Canada Siren Map",
+    "mapId": "1ZSBPpDRirYo-DvphT-d9W189VfQ",
+    "url": "https://www.google.com/maps/d/viewer?mid=1ZSBPpDRirYo-DvphT-d9W189VfQ",
+    "directory": true,
+    "section": "Canada"
+  },
+  {
+    "name": "Saskatchewan Siren Map",
+    "mapId": "12rcC1ecjBwhTqMalLJFTHfoweA3xFvoL",
+    "url": "https://www.google.com/maps/d/viewer?mid=12rcC1ecjBwhTqMalLJFTHfoweA3xFvoL",
     "directory": true,
     "section": "Canada"
   },
@@ -144,5 +137,19 @@
     "url": "https://www.google.com/maps/d/viewer?mid=14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
     "directory": true,
     "section": "World"
+  },
+  {
+    "name": "Quebec Siren Map",
+    "mapId": "1rFQZpUf2lTPXglGePze9WEAmn8I",
+    "url": "https://www.google.com/maps/d/viewer?mid=1rFQZpUf2lTPXglGePze9WEAmn8I",
+    "directory": true,
+    "section": "canada"
+  },
+  {
+    "name": "Greenland Siren Map",
+    "mapId": "108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
+    "url": "https://www.google.com/maps/d/viewer?mid=108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
+    "directory": true,
+    "section": "world"
   }
 ]

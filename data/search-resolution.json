@@ -1,36 +1,51 @@
 {
-  "updatedAt": "2026-07-30T01:22:25.981739+00:00",
+  "updatedAt": "2026-07-30T01:28:25.525587+00:00",
   "categories": [
     "canada",
     "regional",
     "world"
   ],
   "selectedRegionCount": 31,
-  "attemptedRegionCount": 22,
-  "resolvedRegionCount": 3,
+  "attemptedRegionCount": 20,
+  "resolvedRegionCount": 2,
   "remainingUnresolved": [
-    "Saskatchewan",
     "Alberta",
-    "Italy",
-    "Greenland",
-    "Kuwait",
+    "Saskatchewan",
     "Latvia",
     "Netherlands",
-    "Niue",
-    "Sweden",
+    "Kuwait",
+    "Italy",
     "Thailand",
     "United Kingdom",
-    "British Columbia",
+    "Sweden",
+    "Niue",
     "American Samoa",
-    "Guam & Northern Mariana Islands",
     "Puerto Rico",
+    "Guam & Northern Mariana Islands",
     "U.S. Virgin Islands & British Virgin Islands",
+    "British Columbia",
     "Europe (multiple countries)",
     "Portugal & Spain (unfinished)",
     "South America (various)"
   ],
-  "registryCount": 23,
+  "registryCount": 24,
   "results": [
+    {
+      "region": {
+        "id": "alberta",
+        "name": "Alberta",
+        "category": "canada",
+        "code": "AB",
+        "lat": 53.9333,
+        "lon": -116.5765,
+        "aliases": [
+          "Alberta (Canada)"
+        ]
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": []
+    },
     {
       "region": {
         "id": "saskatchewan",
@@ -66,6 +81,45 @@
     },
     {
       "region": {
+        "id": "greenland",
+        "name": "Greenland",
+        "category": "world",
+        "code": "GL",
+        "lat": 71.7069,
+        "lon": -42.6043,
+        "aliases": []
+      },
+      "chosen": {
+        "name": "Greenland Siren Map",
+        "mapId": "108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
+        "url": "https://www.google.com/maps/d/viewer?mid=108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
+        "directory": true,
+        "section": "world"
+      },
+      "validations": [
+        {
+          "mapId": "108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
+          "engine": "yahoo",
+          "query": "\"Greenland Siren Map\" \"google.com/maps/d\"",
+          "accepted": true,
+          "pins": 259,
+          "sampledPins": 259,
+          "medianDistanceKm": 2984.5,
+          "nearFraction": 1.0,
+          "radiusKm": 3000,
+          "source": {
+            "name": "Greenland Siren Map",
+            "mapId": "108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
+            "url": "https://www.google.com/maps/d/viewer?mid=108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
+            "directory": true,
+            "section": "world"
+          }
+        }
+      ],
+      "errors": []
+    },
+    {
+      "region": {
         "id": "quebec",
         "name": "Quebec",
         "category": "canada",
@@ -76,157 +130,32 @@
       },
       "chosen": {
         "name": "Quebec Siren Map",
-        "mapId": "1MlL9rNncoWJD2kETkwNZQZ3EgCM",
-        "url": "https://www.google.com/maps/d/viewer?mid=1MlL9rNncoWJD2kETkwNZQZ3EgCM",
+        "mapId": "1rFQZpUf2lTPXglGePze9WEAmn8I",
+        "url": "https://www.google.com/maps/d/viewer?mid=1rFQZpUf2lTPXglGePze9WEAmn8I",
         "directory": true,
         "section": "canada"
       },
       "validations": [
         {
-          "mapId": "1MlL9rNncoWJD2kETkwNZQZ3EgCM",
+          "mapId": "1rFQZpUf2lTPXglGePze9WEAmn8I",
           "engine": "yahoo",
-          "query": "\"Quebec\" siren map \"mid=\"",
+          "query": "\"Quebec Siren Map\" Canada \"google.com/maps/d\"",
           "accepted": true,
-          "pins": 99,
-          "sampledPins": 99,
-          "medianDistanceKm": 1439.3,
+          "pins": 11,
+          "sampledPins": 11,
+          "medianDistanceKm": 780.4,
           "nearFraction": 1.0,
           "radiusKm": 1900,
           "source": {
             "name": "Quebec Siren Map",
-            "mapId": "1MlL9rNncoWJD2kETkwNZQZ3EgCM",
-            "url": "https://www.google.com/maps/d/viewer?mid=1MlL9rNncoWJD2kETkwNZQZ3EgCM",
+            "mapId": "1rFQZpUf2lTPXglGePze9WEAmn8I",
+            "url": "https://www.google.com/maps/d/viewer?mid=1rFQZpUf2lTPXglGePze9WEAmn8I",
             "directory": true,
             "section": "canada"
           }
         }
       ],
       "errors": []
-    },
-    {
-      "region": {
-        "id": "alberta",
-        "name": "Alberta",
-        "category": "canada",
-        "code": "AB",
-        "lat": 53.9333,
-        "lon": -116.5765,
-        "aliases": [
-          "Alberta (Canada)"
-        ]
-      },
-      "chosen": null,
-      "validations": [
-        {
-          "mapId": "1MlL9rNncoWJD2kETkwNZQZ3EgCM",
-          "engine": "yahoo",
-          "query": "\"Alberta (Canada)\" siren map \"mid=\"",
-          "accepted": false,
-          "pins": 99,
-          "sampledPins": 99,
-          "medianDistanceKm": 3323.6,
-          "nearFraction": 0.0,
-          "radiusKm": 1400,
-          "source": {
-            "name": "Alberta Siren Map",
-            "mapId": "1MlL9rNncoWJD2kETkwNZQZ3EgCM",
-            "url": "https://www.google.com/maps/d/viewer?mid=1MlL9rNncoWJD2kETkwNZQZ3EgCM",
-            "directory": true,
-            "section": "canada"
-          }
-        }
-      ],
-      "errors": []
-    },
-    {
-      "region": {
-        "id": "manitoba",
-        "name": "Manitoba",
-        "category": "canada",
-        "code": "MB",
-        "lat": 53.7609,
-        "lon": -98.8139,
-        "aliases": []
-      },
-      "chosen": {
-        "name": "Manitoba Siren Map",
-        "mapId": "1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
-        "url": "https://www.google.com/maps/d/viewer?mid=1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
-        "directory": true,
-        "section": "canada"
-      },
-      "validations": [
-        {
-          "mapId": "1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
-          "engine": "yahoo",
-          "query": "\"Manitoba\" siren map \"mid=\"",
-          "accepted": true,
-          "pins": 2283,
-          "sampledPins": 2283,
-          "medianDistanceKm": 1317.8,
-          "nearFraction": 1.0,
-          "radiusKm": 1400,
-          "source": {
-            "name": "Manitoba Siren Map",
-            "mapId": "1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
-            "url": "https://www.google.com/maps/d/viewer?mid=1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
-            "directory": true,
-            "section": "canada"
-          }
-        }
-      ],
-      "errors": []
-    },
-    {
-      "region": {
-        "id": "italy",
-        "name": "Italy",
-        "category": "world",
-        "code": "IT",
-        "lat": 41.8719,
-        "lon": 12.5674,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "yahoo: HTTP Error 500: Internal Server Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "greenland",
-        "name": "Greenland",
-        "category": "world",
-        "code": "GL",
-        "lat": 71.7069,
-        "lon": -42.6043,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "yahoo: HTTP Error 500: Internal Server Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "kuwait",
-        "name": "Kuwait",
-        "category": "world",
-        "code": "KW",
-        "lat": 29.3117,
-        "lon": 47.4818,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "yahoo: HTTP Error 500: Internal Server Error"
-      ]
     },
     {
       "region": {
@@ -264,37 +193,89 @@
     },
     {
       "region": {
-        "id": "niue",
-        "name": "Niue",
+        "id": "kuwait",
+        "name": "Kuwait",
         "category": "world",
-        "code": "NU",
-        "lat": -19.0544,
-        "lon": -169.8672,
-        "aliases": [
-          "Country of Niue"
-        ]
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "sweden",
-        "name": "Sweden",
-        "category": "world",
-        "code": "SE",
-        "lat": 60.1282,
-        "lon": 18.6435,
+        "code": "KW",
+        "lat": 29.3117,
+        "lon": 47.4818,
         "aliases": []
       },
       "chosen": null,
       "validations": [],
       "errors": [
         "yahoo: HTTP Error 500: Internal Server Error",
+        "yahoo: HTTP Error 500: Internal Server Error"
+      ]
+    },
+    {
+      "region": {
+        "id": "italy",
+        "name": "Italy",
+        "category": "world",
+        "code": "IT",
+        "lat": 41.8719,
+        "lon": 12.5674,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [
+        {
+          "mapId": "108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
+          "engine": "yahoo",
+          "query": "\"Italy Siren Map\" \"google.com/maps/d\"",
+          "accepted": false,
+          "pins": 259,
+          "sampledPins": 259,
+          "medianDistanceKm": 1539.1,
+          "nearFraction": 0.819,
+          "radiusKm": 1400,
+          "source": {
+            "name": "Italy Siren Map",
+            "mapId": "108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
+            "url": "https://www.google.com/maps/d/viewer?mid=108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
+            "directory": true,
+            "section": "world"
+          }
+        },
+        {
+          "mapId": "1MlL9rNncoWJD2kETkwNZQZ3EgCM",
+          "engine": "yahoo",
+          "query": "\"Italy Siren Map\" \"google.com/maps/d\"",
+          "accepted": false,
+          "pins": 99,
+          "sampledPins": 99,
+          "medianDistanceKm": 7122.7,
+          "nearFraction": 0.0,
+          "radiusKm": 1400,
+          "source": {
+            "name": "Italy Siren Map",
+            "mapId": "1MlL9rNncoWJD2kETkwNZQZ3EgCM",
+            "url": "https://www.google.com/maps/d/viewer?mid=1MlL9rNncoWJD2kETkwNZQZ3EgCM",
+            "directory": true,
+            "section": "world"
+          }
+        },
+        {
+          "mapId": "1aIvC8zZPo6VvNti9HcACTR-PsGfX4FA",
+          "engine": "yahoo",
+          "query": "\"Italy Siren Map\" \"google.com/maps/d\"",
+          "accepted": false,
+          "pins": 1749,
+          "sampledPins": 1749,
+          "medianDistanceKm": 7640.5,
+          "nearFraction": 0.0,
+          "radiusKm": 1400,
+          "source": {
+            "name": "Italy Siren Map",
+            "mapId": "1aIvC8zZPo6VvNti9HcACTR-PsGfX4FA",
+            "url": "https://www.google.com/maps/d/viewer?mid=1aIvC8zZPo6VvNti9HcACTR-PsGfX4FA",
+            "directory": true,
+            "section": "world"
+          }
+        }
+      ],
+      "errors": [
         "yahoo: HTTP Error 500: Internal Server Error"
       ]
     },
@@ -334,25 +315,39 @@
     },
     {
       "region": {
-        "id": "british-columbia",
-        "name": "British Columbia",
-        "category": "canada",
-        "code": "BC",
-        "lat": 53.7267,
-        "lon": -127.6476,
+        "id": "sweden",
+        "name": "Sweden",
+        "category": "world",
+        "code": "SE",
+        "lat": 60.1282,
+        "lon": 18.6435,
         "aliases": []
       },
       "chosen": null,
-      "validations": [
-        {
-          "mapId": "950b4eec577a4dc5b298a61adab41c06",
-          "engine": "yahoo",
-          "query": "\"British Columbia\" siren map \"mid=\"",
-          "accepted": false,
-          "error": "HTTP Error 404: Not Found"
-        }
-      ],
-      "errors": []
+      "validations": [],
+      "errors": [
+        "yahoo: HTTP Error 500: Internal Server Error",
+        "yahoo: HTTP Error 500: Internal Server Error"
+      ]
+    },
+    {
+      "region": {
+        "id": "niue",
+        "name": "Niue",
+        "category": "world",
+        "code": "NU",
+        "lat": -19.0544,
+        "lon": -169.8672,
+        "aliases": [
+          "Country of Niue"
+        ]
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "yahoo: HTTP Error 500: INKApi Error",
+        "yahoo: HTTP Error 500: Internal Server Error"
+      ]
     },
     {
       "region": {
@@ -363,25 +358,6 @@
         "lat": -14.271,
         "lon": -170.1322,
         "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "yahoo: HTTP Error 500: INKApi Error",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "guam-and-northern-mariana-islands",
-        "name": "Guam & Northern Mariana Islands",
-        "category": "regional",
-        "code": "GU",
-        "lat": 15.0979,
-        "lon": 145.6739,
-        "aliases": [
-          "Guam & NMI"
-        ]
       },
       "chosen": null,
       "validations": [],
@@ -406,49 +382,27 @@
       "chosen": null,
       "validations": [],
       "errors": [
-        "yahoo: HTTP Error 500: INKApi Error",
-        "yahoo: HTTP Error 500: Internal Server Error"
+        "yahoo: HTTP Error 500: Internal Server Error",
+        "yahoo: HTTP Error 500: INKApi Error"
       ]
     },
     {
       "region": {
-        "id": "croatia",
-        "name": "Croatia",
-        "category": "world",
-        "code": "HR",
-        "lat": 45.1,
-        "lon": 15.2,
-        "aliases": []
+        "id": "guam-and-northern-mariana-islands",
+        "name": "Guam & Northern Mariana Islands",
+        "category": "regional",
+        "code": "GU",
+        "lat": 15.0979,
+        "lon": 145.6739,
+        "aliases": [
+          "Guam & NMI"
+        ]
       },
-      "chosen": {
-        "name": "Croatia Siren Map",
-        "mapId": "14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
-        "url": "https://www.google.com/maps/d/viewer?mid=14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
-        "directory": true,
-        "section": "world"
-      },
-      "validations": [
-        {
-          "mapId": "14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
-          "engine": "yahoo",
-          "query": "\"Croatia Siren Map\" \"google.com/maps/d\"",
-          "accepted": true,
-          "pins": 978,
-          "sampledPins": 978,
-          "medianDistanceKm": 375.9,
-          "nearFraction": 1.0,
-          "radiusKm": 1400,
-          "source": {
-            "name": "Croatia Siren Map",
-            "mapId": "14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
-            "url": "https://www.google.com/maps/d/viewer?mid=14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
-            "directory": true,
-            "section": "world"
-          }
-        }
-      ],
+      "chosen": null,
+      "validations": [],
       "errors": [
-        "yahoo: HTTP Error 500: Internal Server Error"
+        "yahoo: HTTP Error 500: Internal Server Error",
+        "yahoo: HTTP Error 500: INKApi Error"
       ]
     },
     {
@@ -466,9 +420,31 @@
       "chosen": null,
       "validations": [],
       "errors": [
-        "yahoo: HTTP Error 500: INKApi Error",
-        "yahoo: HTTP Error 500: INKApi Error"
+        "yahoo: HTTP Error 500: Internal Server Error",
+        "yahoo: HTTP Error 500: Internal Server Error"
       ]
+    },
+    {
+      "region": {
+        "id": "british-columbia",
+        "name": "British Columbia",
+        "category": "canada",
+        "code": "BC",
+        "lat": 53.7267,
+        "lon": -127.6476,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [
+        {
+          "mapId": "950b4eec577a4dc5b298a61adab41c06",
+          "engine": "yahoo",
+          "query": "\"British Columbia\" siren map \"mid=\"",
+          "accepted": false,
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "errors": []
     },
     {
       "region": {
@@ -483,8 +459,8 @@
       "chosen": null,
       "validations": [],
       "errors": [
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "yahoo: HTTP Error 500: Internal Server Error"
+        "yahoo: HTTP Error 500: INKApi Error",
+        "yahoo: HTTP Error 500: INKApi Error"
       ]
     },
     {
@@ -503,8 +479,8 @@
       "chosen": null,
       "validations": [],
       "errors": [
-        "yahoo: HTTP Error 500: INKApi Error",
-        "yahoo: HTTP Error 500: Internal Server Error"
+        "yahoo: HTTP Error 500: Internal Server Error",
+        "yahoo: HTTP Error 500: INKApi Error"
       ]
     },
     {
@@ -522,8 +498,8 @@
       "chosen": null,
       "validations": [],
       "errors": [
-        "yahoo: HTTP Error 500: INKApi Error",
-        "yahoo: HTTP Error 500: Internal Server Error"
+        "yahoo: HTTP Error 500: Internal Server Error",
+        "yahoo: HTTP Error 500: INKApi Error"
       ]
     }
   ]
