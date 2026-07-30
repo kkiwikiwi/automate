@@ -1,0 +1,75 @@
+name: Repair SirenFinder KML Parser
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/sirenfinder-kml-repair-trigger-*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sirenfinder-kml-repair
+  cancel-in-progress: true
+
+jobs:
+  repair-and-import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: sirenfinder
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Add malformed-XML recovery to the KML parser
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path('scripts/import_registry_maps.py')
+          text = path.read_text(encoding='utf-8')
+          marker = 'def parse_kml(data, source):\n'
+          helper = '''INVALID_XML_CONTROLS = re.compile(r"[\\x00-\\x08\\x0b\\x0c\\x0e-\\x1f]")
+          BARE_XML_AMPERSAND = re.compile(r"&(?!#\\d+;|#x[0-9a-fA-F]+;|amp;|lt;|gt;|quot;|apos;)")
+
+
+          def safe_xml_root(data):
+              try:
+                  return ET.fromstring(data)
+              except ET.ParseError as original:
+                  # Some public My Maps exports contain raw control characters or
+                  # unescaped ampersands inside descriptions. Repair only those XML-1.0
+                  # violations, preserving all valid markup and coordinates.
+                  text = data.decode("utf-8", "replace")
+                  text = INVALID_XML_CONTROLS.sub("", text)
+                  text = BARE_XML_AMPERSAND.sub("&amp;", text)
+                  try:
+                      return ET.fromstring(text.encode("utf-8"))
+                  except ET.ParseError:
+                      raise original
+
+
+          '''
+          if 'def safe_xml_root(data):' not in text:
+              text = text.replace(marker, helper + marker)
+          text = text.replace('    root = ET.fromstring(data)\n', '    root = safe_xml_root(data)\n')
+          path.write_text(text, encoding='utf-8')
+          PY
+      - name: Reimport all registered maps with recovery enabled
+        run: python scripts/import_registry_maps.py
+      - name: Rebuild fast chunks and source audit
+        run: |
+          python scripts/split_data.py
+          python scripts/build_master_coverage.py
+      - name: Commit parser repair and Oklahoma data
+        run: |
+          git config user.name "SirenFinder Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add scripts/import_registry_maps.py data/pins.geojson data/pins-world.geojson data/pins-us.geojson data/manifest.json data/status.json data/master-coverage.json
+          git commit -m "Recover malformed public KML exports and import Oklahoma [skip ci]"
+          git push origin HEAD:sirenfinder
