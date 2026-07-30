@@ -1,1 +1,1 @@
-Trigger strict direct-My-Maps resolution for unresolved Canada, country, and territory sources.
+Rerun strict direct-My-Maps resolution after fixing fallback-query recursion; validate Canada, country, and territory KML titles and geography.
