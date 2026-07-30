@@ -12,31 +12,10 @@
     "directory": true
   },
   {
-    "name": "British Columbia Siren Map",
-    "mapId": "1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
-    "url": "https://www.google.com/maps/d/viewer?mid=1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
-    "directory": true,
-    "section": "Canada"
-  },
-  {
     "name": "Chile Siren Map",
     "mapId": "14PTeSuirwNJB8Lj8Qg8_-IDQRpROqDPk",
     "url": "https://www.google.com/maps/d/viewer?mid=14PTeSuirwNJB8Lj8Qg8_-IDQRpROqDPk",
     "directory": true
-  },
-  {
-    "name": "Colorado Statewide Siren Map",
-    "mapId": "1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
-    "url": "https://www.google.com/maps/d/viewer?mid=1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
-    "directory": true,
-    "section": "United States"
-  },
-  {
-    "name": "Croatia Siren Map",
-    "mapId": "14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
-    "url": "https://www.google.com/maps/d/viewer?mid=14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
-    "directory": true,
-    "section": "World"
   },
   {
     "name": "Denmark Siren Map",
@@ -55,20 +34,6 @@
     "mapId": "1KrNR-zv4n2MMWAVlCpTqVGFwWIZbpwdb",
     "url": "https://www.google.com/maps/d/viewer?mid=1KrNR-zv4n2MMWAVlCpTqVGFwWIZbpwdb",
     "directory": true
-  },
-  {
-    "name": "Great Canadian Siren Map",
-    "mapId": "1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1",
-    "url": "https://www.google.com/maps/d/viewer?mid=1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1",
-    "directory": true,
-    "section": "Canada"
-  },
-  {
-    "name": "Greenland Siren Map",
-    "mapId": "108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
-    "url": "https://www.google.com/maps/d/viewer?mid=108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
-    "directory": true,
-    "section": "World"
   },
   {
     "name": "Hungary Siren Map",
@@ -95,13 +60,6 @@
     "directory": true
   },
   {
-    "name": "Manitoba Siren Map",
-    "mapId": "1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
-    "url": "https://www.google.com/maps/d/viewer?mid=1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
-    "directory": true,
-    "section": "Canada"
-  },
-  {
     "name": "Montenegro Siren Map",
     "mapId": "1NT9nXRpgo6FNazP0dfWb-yBMSeFvb5U",
     "url": "https://www.google.com/maps/d/viewer?mid=1NT9nXRpgo6FNazP0dfWb-yBMSeFvb5U",
@@ -112,6 +70,51 @@
     "mapId": "18UqghKoAmEvVbp8f2R2sfCztKbj6siyP",
     "url": "https://www.google.com/maps/d/viewer?mid=18UqghKoAmEvVbp8f2R2sfCztKbj6siyP",
     "directory": true
+  },
+  {
+    "name": "Official U.S.A. Siren Map",
+    "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
+    "url": "https://www.google.com/maps/d/viewer?mid=1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
+    "directory": false
+  },
+  {
+    "name": "Portugal and Spain Siren Map",
+    "mapId": "1dmvw64LfzdWaVFIgHTXvV1uauNItfQE",
+    "url": "https://www.google.com/maps/d/viewer?mid=1dmvw64LfzdWaVFIgHTXvV1uauNItfQE",
+    "directory": true
+  },
+  {
+    "name": "Russia Siren and Loudspeaker Map",
+    "mapId": "1QjostJVm3Op9VtZzlppH_FU1AFuR7CE",
+    "url": "https://www.google.com/maps/d/viewer?mid=1QjostJVm3Op9VtZzlppH_FU1AFuR7CE",
+    "directory": true
+  },
+  {
+    "name": "Turkiye Nationwide Siren Map",
+    "mapId": "1IZRd2eqhAInPIOxwQtomZTwf-hBhOcY",
+    "url": "https://www.google.com/maps/d/viewer?mid=1IZRd2eqhAInPIOxwQtomZTwf-hBhOcY",
+    "directory": true
+  },
+  {
+    "name": "British Columbia Siren Map",
+    "mapId": "1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
+    "url": "https://www.google.com/maps/d/viewer?mid=1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
+    "directory": true,
+    "section": "Canada"
+  },
+  {
+    "name": "Great Canadian Siren Map",
+    "mapId": "1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1",
+    "url": "https://www.google.com/maps/d/viewer?mid=1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1",
+    "directory": true,
+    "section": "Canada"
+  },
+  {
+    "name": "Manitoba Siren Map",
+    "mapId": "1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
+    "url": "https://www.google.com/maps/d/viewer?mid=1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
+    "directory": true,
+    "section": "Canada"
   },
   {
     "name": "Newfoundland Siren Map",
@@ -128,23 +131,11 @@
     "section": "Canada"
   },
   {
-    "name": "Portugal and Spain Siren Map",
-    "mapId": "1dmvw64LfzdWaVFIgHTXvV1uauNItfQE",
-    "url": "https://www.google.com/maps/d/viewer?mid=1dmvw64LfzdWaVFIgHTXvV1uauNItfQE",
-    "directory": true
-  },
-  {
     "name": "Quebec Siren Map",
     "mapId": "1rFQZpUf2lTPXglGePze9WEAmn8I",
     "url": "https://www.google.com/maps/d/viewer?mid=1rFQZpUf2lTPXglGePze9WEAmn8I",
     "directory": true,
     "section": "Canada"
-  },
-  {
-    "name": "Russia Siren and Loudspeaker Map",
-    "mapId": "1QjostJVm3Op9VtZzlppH_FU1AFuR7CE",
-    "url": "https://www.google.com/maps/d/viewer?mid=1QjostJVm3Op9VtZzlppH_FU1AFuR7CE",
-    "directory": true
   },
   {
     "name": "Saskatchewan Siren Map",
@@ -154,15 +145,24 @@
     "section": "Canada"
   },
   {
-    "name": "Turkiye Nationwide Siren Map",
-    "mapId": "1IZRd2eqhAInPIOxwQtomZTwf-hBhOcY",
-    "url": "https://www.google.com/maps/d/viewer?mid=1IZRd2eqhAInPIOxwQtomZTwf-hBhOcY",
-    "directory": true
+    "name": "Colorado Statewide Siren Map",
+    "mapId": "1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
+    "url": "https://www.google.com/maps/d/viewer?mid=1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
+    "directory": true,
+    "section": "United States"
   },
   {
-    "name": "Official U.S.A. Siren Map",
-    "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
-    "url": "https://www.google.com/maps/d/viewer?mid=1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
-    "directory": false
+    "name": "Croatia Siren Map",
+    "mapId": "14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
+    "url": "https://www.google.com/maps/d/viewer?mid=14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
+    "directory": true,
+    "section": "World"
+  },
+  {
+    "name": "Greenland Siren Map",
+    "mapId": "108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
+    "url": "https://www.google.com/maps/d/viewer?mid=108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
+    "directory": true,
+    "section": "World"
   }
 ]
