@@ -1,1 +1,1 @@
-Trigger the filtered-prefix Common Crawl SirenFinder master-list discovery and complete import.
+Trigger the Common Crawl Parquet URL Index SirenFinder master-list discovery and complete import.
