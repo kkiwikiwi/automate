@@ -1,171 +1,38 @@
 {
   "ok": true,
-  "updatedAt": "2026-07-30T01:43:57.956029+00:00",
-  "pinCount": 73060,
+  "updatedAt": "2026-07-30T01:48:55.916020+00:00",
+  "pinCount": 72174,
   "sourceCount": 22,
   "directorySourceCount": 21,
   "directorySourceTotal": 25,
-  "failedSourceCount": 4,
-  "videoPinCount": 4186,
-  "message": "Loaded 73,060 unique sirens from 22/26 maps; 4,186 pins include embedded-video metadata.",
-  "masterDiscovery": {},
+  "failedSourceCount": 5,
+  "message": "Loaded 72,174 unique sirens from 22 datasets (21/25 master-directory maps).",
+  "discoveryErrors": [
+    "https://www.airraidsirens.net/forums/viewtopic.php?t=27945: HTTP Error 403: Forbidden",
+    "https://r.jina.ai/https://www.airraidsirens.net/forums/viewtopic.php?t=27945: only 0 maps",
+    "https://r.jina.ai/http://www.airraidsirens.net/forums/viewtopic.php?t=27945: only 0 maps"
+  ],
   "successfulSources": [
     {
       "name": "Albania Siren Map",
       "mapId": "1YUWk6jWsqnLSCZ9vcWC8FrXf1oai7fw",
       "url": "https://www.google.com/maps/d/viewer?mid=1YUWk6jWsqnLSCZ9vcWC8FrXf1oai7fw",
       "directory": true,
-      "pins": 4,
-      "videoPins": 0
+      "pins": 4
     },
     {
       "name": "Australia Siren Map",
       "mapId": "1oVGG-aGlmAmWUtwDqUi5lZF8205YPNCA",
       "url": "https://www.google.com/maps/d/viewer?mid=1oVGG-aGlmAmWUtwDqUi5lZF8205YPNCA",
       "directory": true,
-      "pins": 463,
-      "videoPins": 8
+      "pins": 463
     },
     {
       "name": "Chile Siren Map",
       "mapId": "14PTeSuirwNJB8Lj8Qg8_-IDQRpROqDPk",
       "url": "https://www.google.com/maps/d/viewer?mid=14PTeSuirwNJB8Lj8Qg8_-IDQRpROqDPk",
       "directory": true,
-      "pins": 213,
-      "videoPins": 0
-    },
-    {
-      "name": "Finland Siren Map",
-      "mapId": "1WvvHCFJLF6F58MokxJEgJOuL8hQeGu8R",
-      "url": "https://www.google.com/maps/d/viewer?mid=1WvvHCFJLF6F58MokxJEgJOuL8hQeGu8R",
-      "directory": true,
-      "pins": 1300,
-      "videoPins": 4
-    },
-    {
-      "name": "France Siren Map",
-      "mapId": "1KrNR-zv4n2MMWAVlCpTqVGFwWIZbpwdb",
-      "url": "https://www.google.com/maps/d/viewer?mid=1KrNR-zv4n2MMWAVlCpTqVGFwWIZbpwdb",
-      "directory": true,
-      "pins": 3904,
-      "videoPins": 161
-    },
-    {
-      "name": "Hungary Siren Map",
-      "mapId": "1I77MTBcGop8IdXW0roHDkh3JFD_ncYC4",
-      "url": "https://www.google.com/maps/d/viewer?mid=1I77MTBcGop8IdXW0roHDkh3JFD_ncYC4",
-      "directory": true,
-      "pins": 12,
-      "videoPins": 0
-    },
-    {
-      "name": "Israel Siren Map",
-      "mapId": "14tiquiT5ZkhYqsEahohZMGJv4RcTHYpx",
-      "url": "https://www.google.com/maps/d/viewer?mid=14tiquiT5ZkhYqsEahohZMGJv4RcTHYpx",
-      "directory": true,
-      "pins": 347,
-      "videoPins": 1
-    },
-    {
-      "name": "Malta Siren Map",
-      "mapId": "1wliEHAjOQX9FHpitFvbPl_fGmIT5_d8",
-      "url": "https://www.google.com/maps/d/viewer?mid=1wliEHAjOQX9FHpitFvbPl_fGmIT5_d8",
-      "directory": true,
-      "pins": 10,
-      "videoPins": 2
-    },
-    {
-      "name": "Montenegro Siren Map",
-      "mapId": "1NT9nXRpgo6FNazP0dfWb-yBMSeFvb5U",
-      "url": "https://www.google.com/maps/d/viewer?mid=1NT9nXRpgo6FNazP0dfWb-yBMSeFvb5U",
-      "directory": true,
-      "pins": 29,
-      "videoPins": 0
-    },
-    {
-      "name": "New Zealand Siren Map",
-      "mapId": "18UqghKoAmEvVbp8f2R2sfCztKbj6siyP",
-      "url": "https://www.google.com/maps/d/viewer?mid=18UqghKoAmEvVbp8f2R2sfCztKbj6siyP",
-      "directory": true,
-      "pins": 57,
-      "videoPins": 0
-    },
-    {
-      "name": "Official U.S.A. Siren Map",
-      "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
-      "url": "https://www.google.com/maps/d/viewer?mid=1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
-      "directory": false,
-      "pins": 57593,
-      "videoPins": 3634
-    },
-    {
-      "name": "Portugal and Spain Siren Map",
-      "mapId": "1dmvw64LfzdWaVFIgHTXvV1uauNItfQE",
-      "url": "https://www.google.com/maps/d/viewer?mid=1dmvw64LfzdWaVFIgHTXvV1uauNItfQE",
-      "directory": true,
-      "pins": 79,
-      "videoPins": 0
-    },
-    {
-      "name": "Russia Siren and Loudspeaker Map",
-      "mapId": "1QjostJVm3Op9VtZzlppH_FU1AFuR7CE",
-      "url": "https://www.google.com/maps/d/viewer?mid=1QjostJVm3Op9VtZzlppH_FU1AFuR7CE",
-      "directory": true,
-      "pins": 255,
-      "videoPins": 1
-    },
-    {
-      "name": "Turkiye Nationwide Siren Map",
-      "mapId": "1IZRd2eqhAInPIOxwQtomZTwf-hBhOcY",
-      "url": "https://www.google.com/maps/d/viewer?mid=1IZRd2eqhAInPIOxwQtomZTwf-hBhOcY",
-      "directory": true,
-      "pins": 867,
-      "videoPins": 14
-    },
-    {
-      "name": "Great Canadian Siren Map",
-      "mapId": "1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1",
-      "url": "https://www.google.com/maps/d/viewer?mid=1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1",
-      "directory": true,
-      "section": "Canada",
-      "pins": 2263,
-      "videoPins": 59
-    },
-    {
-      "name": "Manitoba Siren Map",
-      "mapId": "1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
-      "url": "https://www.google.com/maps/d/viewer?mid=1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
-      "directory": true,
-      "section": "Canada",
-      "pins": 2283,
-      "videoPins": 0
-    },
-    {
-      "name": "Newfoundland Siren Map",
-      "mapId": "1ip51AfwylLzK-k0S73TR2Fgc7kG3YQSI",
-      "url": "https://www.google.com/maps/d/viewer?mid=1ip51AfwylLzK-k0S73TR2Fgc7kG3YQSI",
-      "directory": true,
-      "section": "Canada",
-      "pins": 34,
-      "videoPins": 0
-    },
-    {
-      "name": "Ontario Canada Siren Map",
-      "mapId": "1ZSBPpDRirYo-DvphT-d9W189VfQ",
-      "url": "https://www.google.com/maps/d/viewer?mid=1ZSBPpDRirYo-DvphT-d9W189VfQ",
-      "directory": true,
-      "section": "Canada",
-      "pins": 676,
-      "videoPins": 25
-    },
-    {
-      "name": "Quebec Siren Map",
-      "mapId": "1rFQZpUf2lTPXglGePze9WEAmn8I",
-      "url": "https://www.google.com/maps/d/viewer?mid=1rFQZpUf2lTPXglGePze9WEAmn8I",
-      "directory": true,
-      "section": "Canada",
-      "pins": 11,
-      "videoPins": 0
+      "pins": 213
     },
     {
       "name": "Colorado Statewide Siren Map",
@@ -173,8 +40,7 @@
       "url": "https://www.google.com/maps/d/viewer?mid=1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
       "directory": true,
       "section": "United States",
-      "pins": 1270,
-      "videoPins": 0
+      "pins": 1270
     },
     {
       "name": "Croatia Siren Map",
@@ -182,8 +48,29 @@
       "url": "https://www.google.com/maps/d/viewer?mid=14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
       "directory": true,
       "section": "World",
-      "pins": 978,
-      "videoPins": 253
+      "pins": 978
+    },
+    {
+      "name": "Finland Siren Map",
+      "mapId": "1WvvHCFJLF6F58MokxJEgJOuL8hQeGu8R",
+      "url": "https://www.google.com/maps/d/viewer?mid=1WvvHCFJLF6F58MokxJEgJOuL8hQeGu8R",
+      "directory": true,
+      "pins": 1300
+    },
+    {
+      "name": "France Siren Map",
+      "mapId": "1KrNR-zv4n2MMWAVlCpTqVGFwWIZbpwdb",
+      "url": "https://www.google.com/maps/d/viewer?mid=1KrNR-zv4n2MMWAVlCpTqVGFwWIZbpwdb",
+      "directory": true,
+      "pins": 3904
+    },
+    {
+      "name": "Great Canadian Siren Map",
+      "mapId": "1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1",
+      "url": "https://www.google.com/maps/d/viewer?mid=1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1",
+      "directory": true,
+      "section": "Canada",
+      "pins": 2263
     },
     {
       "name": "Greenland Siren Map",
@@ -191,11 +78,113 @@
       "url": "https://www.google.com/maps/d/viewer?mid=108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
       "directory": true,
       "section": "World",
-      "pins": 259,
-      "videoPins": 1
+      "pins": 259
+    },
+    {
+      "name": "Hungary Siren Map",
+      "mapId": "1I77MTBcGop8IdXW0roHDkh3JFD_ncYC4",
+      "url": "https://www.google.com/maps/d/viewer?mid=1I77MTBcGop8IdXW0roHDkh3JFD_ncYC4",
+      "directory": true,
+      "pins": 12
+    },
+    {
+      "name": "Israel Siren Map",
+      "mapId": "14tiquiT5ZkhYqsEahohZMGJv4RcTHYpx",
+      "url": "https://www.google.com/maps/d/viewer?mid=14tiquiT5ZkhYqsEahohZMGJv4RcTHYpx",
+      "directory": true,
+      "pins": 347
+    },
+    {
+      "name": "Malta Siren Map",
+      "mapId": "1wliEHAjOQX9FHpitFvbPl_fGmIT5_d8",
+      "url": "https://www.google.com/maps/d/viewer?mid=1wliEHAjOQX9FHpitFvbPl_fGmIT5_d8",
+      "directory": true,
+      "pins": 10
+    },
+    {
+      "name": "Manitoba Siren Map",
+      "mapId": "1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
+      "url": "https://www.google.com/maps/d/viewer?mid=1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
+      "directory": true,
+      "section": "Canada",
+      "pins": 2283
+    },
+    {
+      "name": "Montenegro Siren Map",
+      "mapId": "1NT9nXRpgo6FNazP0dfWb-yBMSeFvb5U",
+      "url": "https://www.google.com/maps/d/viewer?mid=1NT9nXRpgo6FNazP0dfWb-yBMSeFvb5U",
+      "directory": true,
+      "pins": 29
+    },
+    {
+      "name": "New Zealand Siren Map",
+      "mapId": "18UqghKoAmEvVbp8f2R2sfCztKbj6siyP",
+      "url": "https://www.google.com/maps/d/viewer?mid=18UqghKoAmEvVbp8f2R2sfCztKbj6siyP",
+      "directory": true,
+      "pins": 57
+    },
+    {
+      "name": "Newfoundland Siren Map",
+      "mapId": "1ip51AfwylLzK-k0S73TR2Fgc7kG3YQSI",
+      "url": "https://www.google.com/maps/d/viewer?mid=1ip51AfwylLzK-k0S73TR2Fgc7kG3YQSI",
+      "directory": true,
+      "section": "Canada",
+      "pins": 34
+    },
+    {
+      "name": "Ontario Canada Siren Map",
+      "mapId": "1ZSBPpDRirYo-DvphT-d9W189VfQ",
+      "url": "https://www.google.com/maps/d/viewer?mid=1ZSBPpDRirYo-DvphT-d9W189VfQ",
+      "directory": true,
+      "section": "Canada",
+      "pins": 676
+    },
+    {
+      "name": "Portugal and Spain Siren Map",
+      "mapId": "1dmvw64LfzdWaVFIgHTXvV1uauNItfQE",
+      "url": "https://www.google.com/maps/d/viewer?mid=1dmvw64LfzdWaVFIgHTXvV1uauNItfQE",
+      "directory": true,
+      "pins": 79
+    },
+    {
+      "name": "Quebec Siren Map",
+      "mapId": "1rFQZpUf2lTPXglGePze9WEAmn8I",
+      "url": "https://www.google.com/maps/d/viewer?mid=1rFQZpUf2lTPXglGePze9WEAmn8I",
+      "directory": true,
+      "section": "Canada",
+      "pins": 11
+    },
+    {
+      "name": "Russia Siren and Loudspeaker Map",
+      "mapId": "1QjostJVm3Op9VtZzlppH_FU1AFuR7CE",
+      "url": "https://www.google.com/maps/d/viewer?mid=1QjostJVm3Op9VtZzlppH_FU1AFuR7CE",
+      "directory": true,
+      "pins": 255
+    },
+    {
+      "name": "Turkiye Nationwide Siren Map",
+      "mapId": "1IZRd2eqhAInPIOxwQtomZTwf-hBhOcY",
+      "url": "https://www.google.com/maps/d/viewer?mid=1IZRd2eqhAInPIOxwQtomZTwf-hBhOcY",
+      "directory": true,
+      "pins": 867
+    },
+    {
+      "name": "Official U.S.A. Siren Map",
+      "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
+      "url": "https://www.google.com/maps/d/viewer?mid=1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
+      "directory": false,
+      "pins": 57593
     }
   ],
   "failedSources": [
+    {
+      "name": "British Columbia Siren Map",
+      "mapId": "1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
+      "url": "https://www.google.com/maps/d/viewer?mid=1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
+      "directory": true,
+      "section": "Canada",
+      "error": "HTTP Error 404: Not Found"
+    },
     {
       "name": "Denmark Siren Map",
       "mapId": "1HIboKNWC_Y5S4IY8B7dHh3r_CFNd0und",
@@ -211,20 +200,18 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
-      "name": "British Columbia Siren Map",
-      "mapId": "1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
-      "url": "https://www.google.com/maps/d/viewer?mid=1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
-      "directory": true,
-      "section": "Canada",
-      "error": "HTTP Error 404: Not Found"
-    },
-    {
       "name": "Saskatchewan Siren Map",
       "mapId": "12rcC1ecjBwhTqMalLJFTHfoweA3xFvoL",
       "url": "https://www.google.com/maps/d/viewer?mid=12rcC1ecjBwhTqMalLJFTHfoweA3xFvoL",
       "directory": true,
       "section": "Canada",
       "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "OpenStreetMap worldwide sirens",
+      "url": "https://www.openstreetmap.org",
+      "directory": false,
+      "error": "<urlopen error [Errno -2] Name or service not known>"
     }
   ]
 }
