@@ -1,19 +1,37 @@
 {
   "ok": true,
-  "updatedAt": "2026-07-29T17:18:11.340648+00:00",
-  "pinCount": 65101,
-  "sourceCount": 15,
-  "directorySourceCount": 14,
-  "directorySourceTotal": 18,
-  "failedSourceCount": 4,
-  "videoPinCount": 3825,
-  "message": "Loaded 65,101 unique sirens; 3,825 pins include embedded-video metadata.",
+  "updatedAt": "2026-07-30T01:12:14.703701+00:00",
+  "pinCount": 66622,
+  "sourceCount": 17,
+  "directorySourceCount": 16,
+  "directorySourceTotal": 21,
+  "failedSourceCount": 5,
+  "videoPinCount": 3870,
+  "message": "Loaded 66,622 unique sirens; 3,870 pins include embedded-video metadata.",
   "discoveryErrors": [
     "https://www.airraidsirens.net/forums/viewtopic.php?t=27945: HTTP Error 403: Forbidden",
     "https://r.jina.ai/https://www.airraidsirens.net/forums/viewtopic.php?t=27945: only 0 maps",
     "https://r.jina.ai/http://www.airraidsirens.net/forums/viewtopic.php?t=27945: only 0 maps"
   ],
   "successfulSources": [
+    {
+      "name": "Great Canadian Siren Map",
+      "mapId": "1Ye0Sxlrdwnyb2tom7TXz4aJiXdE7c4k",
+      "url": "https://www.google.com/maps/d/viewer?mid=1Ye0Sxlrdwnyb2tom7TXz4aJiXdE7c4k",
+      "directory": true,
+      "section": "Canada",
+      "pins": 1106,
+      "videoPins": 22
+    },
+    {
+      "name": "Ontario Canada Siren Map",
+      "mapId": "1ZSBPpDRirYo-DvphT-d9W189VfQ",
+      "url": "https://www.google.com/maps/d/viewer?mid=1ZSBPpDRirYo-DvphT-d9W189VfQ",
+      "directory": true,
+      "section": "Canada",
+      "pins": 676,
+      "videoPins": 25
+    },
     {
       "name": "Australia Siren Map",
       "mapId": "1oVGG-aGlmAmWUtwDqUi5lZF8205YPNCA",
@@ -136,6 +154,14 @@
     }
   ],
   "failedSources": [
+    {
+      "name": "Quebec Siren Map",
+      "mapId": "1RXAYExKtCnD8xAKY9ngGxhDg9bqF82EY",
+      "url": "https://www.google.com/maps/d/viewer?mid=1RXAYExKtCnD8xAKY9ngGxhDg9bqF82EY",
+      "directory": true,
+      "section": "Canada",
+      "error": "HTTP Error 404: Not Found"
+    },
     {
       "name": "British Columbia Siren Map",
       "mapId": "1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
