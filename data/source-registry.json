@@ -152,9 +152,30 @@
     "section": "United States"
   },
   {
+    "name": "Arizona Statewide Siren Map",
+    "mapId": "1COe9BYtqaweyxDnl5oFs5isgtVQ",
+    "url": "https://www.google.com/maps/d/viewer?mid=1COe9BYtqaweyxDnl5oFs5isgtVQ",
+    "directory": true,
+    "section": "United States"
+  },
+  {
     "name": "Colorado Statewide Siren Map",
     "mapId": "1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
     "url": "https://www.google.com/maps/d/viewer?mid=1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
+    "directory": true,
+    "section": "United States"
+  },
+  {
+    "name": "Idaho Statewide Siren Map",
+    "mapId": "12oy_iV7yWYTkAz0jGOAHYZ4XY07CsvqP",
+    "url": "https://www.google.com/maps/d/viewer?mid=12oy_iV7yWYTkAz0jGOAHYZ4XY07CsvqP",
+    "directory": true,
+    "section": "United States"
+  },
+  {
+    "name": "Kansas Statewide Siren Map",
+    "mapId": "1qMGEhABxDyI-J-yyZnlmixW5QeUO__1r",
+    "url": "https://www.google.com/maps/d/viewer?mid=1qMGEhABxDyI-J-yyZnlmixW5QeUO__1r",
     "directory": true,
     "section": "United States"
   },
@@ -208,9 +229,23 @@
     "section": "United States"
   },
   {
+    "name": "New York Statewide Siren Map",
+    "mapId": "1F9-fuXshpLpqMamjCJ-uUmzeBKRe13Y",
+    "url": "https://www.google.com/maps/d/viewer?mid=1F9-fuXshpLpqMamjCJ-uUmzeBKRe13Y",
+    "directory": true,
+    "section": "United States"
+  },
+  {
     "name": "Official Michigan Statewide Siren Map",
     "mapId": "1nh4ioG8w_2KivcMNHwlK7Lw4_Qs",
     "url": "https://www.google.com/maps/d/viewer?mid=1nh4ioG8w_2KivcMNHwlK7Lw4_Qs",
+    "directory": true,
+    "section": "United States"
+  },
+  {
+    "name": "Official Pennsylvania Siren Map",
+    "mapId": "1LNU3xknmIYsniA6skduNr1ABSVOqvLES",
+    "url": "https://www.google.com/maps/d/viewer?mid=1LNU3xknmIYsniA6skduNr1ABSVOqvLES",
     "directory": true,
     "section": "United States"
   },
@@ -246,6 +281,13 @@
     "name": "Wisconsin Statewide Siren Map",
     "mapId": "1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
     "url": "https://www.google.com/maps/d/viewer?mid=1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
+    "directory": true,
+    "section": "United States"
+  },
+  {
+    "name": "Wyoming Statewide Siren Map",
+    "mapId": "1P8Axtb9xjj0BzMusi7yhVhIAOcNiVdzR",
+    "url": "https://www.google.com/maps/d/viewer?mid=1P8Axtb9xjj0BzMusi7yhVhIAOcNiVdzR",
     "directory": true,
     "section": "United States"
   },

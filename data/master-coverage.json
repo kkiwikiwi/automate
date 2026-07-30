@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-30T02:36:15.388326+00:00",
+  "updatedAt": "2026-07-30T02:44:31.092533+00:00",
   "totalListedRegions": 82,
-  "imported": 34,
-  "blockedOrDeleted": 3,
-  "unresolved": 45,
-  "aggregateCoveredButSourceMissing": 36,
+  "imported": 38,
+  "blockedOrDeleted": 6,
+  "unresolved": 38,
+  "aggregateCoveredButSourceMissing": 32,
   "entries": [
     {
       "id": "alabama",
@@ -54,10 +54,27 @@
       "id": "arizona",
       "name": "Arizona",
       "category": "us",
-      "status": "unresolved",
+      "status": "blocked_or_deleted",
       "importedSources": [],
-      "failedSources": [],
-      "listedSources": [],
+      "failedSources": [
+        {
+          "name": "Arizona Statewide Siren Map",
+          "mapId": "1COe9BYtqaweyxDnl5oFs5isgtVQ",
+          "url": "https://www.google.com/maps/d/viewer?mid=1COe9BYtqaweyxDnl5oFs5isgtVQ",
+          "directory": true,
+          "section": "United States",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "listedSources": [
+        {
+          "name": "Arizona Statewide Siren Map",
+          "mapId": "1COe9BYtqaweyxDnl5oFs5isgtVQ",
+          "url": "https://www.google.com/maps/d/viewer?mid=1COe9BYtqaweyxDnl5oFs5isgtVQ",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
@@ -67,10 +84,28 @@
       "id": "arkansas",
       "name": "Arkansas",
       "category": "us",
-      "status": "unresolved",
-      "importedSources": [],
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Kansas Statewide Siren Map",
+          "mapId": "1qMGEhABxDyI-J-yyZnlmixW5QeUO__1r",
+          "url": "https://www.google.com/maps/d/viewer?mid=1qMGEhABxDyI-J-yyZnlmixW5QeUO__1r",
+          "directory": true,
+          "section": "United States",
+          "pins": 2503,
+          "videoPins": 0
+        }
+      ],
       "failedSources": [],
-      "listedSources": [],
+      "listedSources": [
+        {
+          "name": "Kansas Statewide Siren Map",
+          "mapId": "1qMGEhABxDyI-J-yyZnlmixW5QeUO__1r",
+          "url": "https://www.google.com/maps/d/viewer?mid=1qMGEhABxDyI-J-yyZnlmixW5QeUO__1r",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
@@ -189,10 +224,27 @@
       "id": "idaho",
       "name": "Idaho",
       "category": "us",
-      "status": "unresolved",
+      "status": "blocked_or_deleted",
       "importedSources": [],
-      "failedSources": [],
-      "listedSources": [],
+      "failedSources": [
+        {
+          "name": "Idaho Statewide Siren Map",
+          "mapId": "12oy_iV7yWYTkAz0jGOAHYZ4XY07CsvqP",
+          "url": "https://www.google.com/maps/d/viewer?mid=12oy_iV7yWYTkAz0jGOAHYZ4XY07CsvqP",
+          "directory": true,
+          "section": "United States",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "listedSources": [
+        {
+          "name": "Idaho Statewide Siren Map",
+          "mapId": "12oy_iV7yWYTkAz0jGOAHYZ4XY07CsvqP",
+          "url": "https://www.google.com/maps/d/viewer?mid=12oy_iV7yWYTkAz0jGOAHYZ4XY07CsvqP",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
@@ -241,10 +293,28 @@
       "id": "kansas",
       "name": "Kansas",
       "category": "us",
-      "status": "unresolved",
-      "importedSources": [],
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Kansas Statewide Siren Map",
+          "mapId": "1qMGEhABxDyI-J-yyZnlmixW5QeUO__1r",
+          "url": "https://www.google.com/maps/d/viewer?mid=1qMGEhABxDyI-J-yyZnlmixW5QeUO__1r",
+          "directory": true,
+          "section": "United States",
+          "pins": 2503,
+          "videoPins": 0
+        }
+      ],
       "failedSources": [],
-      "listedSources": [],
+      "listedSources": [
+        {
+          "name": "Kansas Statewide Siren Map",
+          "mapId": "1qMGEhABxDyI-J-yyZnlmixW5QeUO__1r",
+          "url": "https://www.google.com/maps/d/viewer?mid=1qMGEhABxDyI-J-yyZnlmixW5QeUO__1r",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
@@ -611,10 +681,28 @@
       "id": "new-york",
       "name": "New York",
       "category": "us",
-      "status": "unresolved",
-      "importedSources": [],
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "New York Statewide Siren Map",
+          "mapId": "1F9-fuXshpLpqMamjCJ-uUmzeBKRe13Y",
+          "url": "https://www.google.com/maps/d/viewer?mid=1F9-fuXshpLpqMamjCJ-uUmzeBKRe13Y",
+          "directory": true,
+          "section": "United States",
+          "pins": 2181,
+          "videoPins": 0
+        }
+      ],
       "failedSources": [],
-      "listedSources": [],
+      "listedSources": [
+        {
+          "name": "New York Statewide Siren Map",
+          "mapId": "1F9-fuXshpLpqMamjCJ-uUmzeBKRe13Y",
+          "url": "https://www.google.com/maps/d/viewer?mid=1F9-fuXshpLpqMamjCJ-uUmzeBKRe13Y",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
@@ -725,10 +813,28 @@
       "id": "pennsylvania",
       "name": "Pennsylvania",
       "category": "us",
-      "status": "unresolved",
-      "importedSources": [],
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Official Pennsylvania Siren Map",
+          "mapId": "1LNU3xknmIYsniA6skduNr1ABSVOqvLES",
+          "url": "https://www.google.com/maps/d/viewer?mid=1LNU3xknmIYsniA6skduNr1ABSVOqvLES",
+          "directory": true,
+          "section": "United States",
+          "pins": 1785,
+          "videoPins": 4
+        }
+      ],
       "failedSources": [],
-      "listedSources": [],
+      "listedSources": [
+        {
+          "name": "Official Pennsylvania Siren Map",
+          "mapId": "1LNU3xknmIYsniA6skduNr1ABSVOqvLES",
+          "url": "https://www.google.com/maps/d/viewer?mid=1LNU3xknmIYsniA6skduNr1ABSVOqvLES",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
@@ -1002,10 +1108,27 @@
       "id": "wyoming",
       "name": "Wyoming",
       "category": "us",
-      "status": "unresolved",
+      "status": "blocked_or_deleted",
       "importedSources": [],
-      "failedSources": [],
-      "listedSources": [],
+      "failedSources": [
+        {
+          "name": "Wyoming Statewide Siren Map",
+          "mapId": "1P8Axtb9xjj0BzMusi7yhVhIAOcNiVdzR",
+          "url": "https://www.google.com/maps/d/viewer?mid=1P8Axtb9xjj0BzMusi7yhVhIAOcNiVdzR",
+          "directory": true,
+          "section": "United States",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "listedSources": [
+        {
+          "name": "Wyoming Statewide Siren Map",
+          "mapId": "1P8Axtb9xjj0BzMusi7yhVhIAOcNiVdzR",
+          "url": "https://www.google.com/maps/d/viewer?mid=1P8Axtb9xjj0BzMusi7yhVhIAOcNiVdzR",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"

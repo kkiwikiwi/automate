@@ -1,13 +1,13 @@
 {
   "ok": true,
-  "updatedAt": "2026-07-30T02:36:12.039091+00:00",
-  "pinCount": 93920,
-  "sourceCount": 39,
-  "directorySourceCount": 37,
-  "directorySourceTotal": 42,
-  "failedSourceCount": 4,
-  "videoPinCount": 5256,
-  "message": "Loaded 93,920 unique sirens; 5,256 pins include embedded-video metadata.",
+  "updatedAt": "2026-07-30T02:44:27.565525+00:00",
+  "pinCount": 99903,
+  "sourceCount": 42,
+  "directorySourceCount": 40,
+  "directorySourceTotal": 48,
+  "failedSourceCount": 7,
+  "videoPinCount": 5259,
+  "message": "Loaded 99,903 unique sirens; 5,259 pins include embedded-video metadata.",
   "discoveryErrors": [],
   "successfulSources": [
     {
@@ -186,6 +186,15 @@
       "videoPins": 0
     },
     {
+      "name": "Kansas Statewide Siren Map",
+      "mapId": "1qMGEhABxDyI-J-yyZnlmixW5QeUO__1r",
+      "url": "https://www.google.com/maps/d/viewer?mid=1qMGEhABxDyI-J-yyZnlmixW5QeUO__1r",
+      "directory": true,
+      "section": "United States",
+      "pins": 2503,
+      "videoPins": 0
+    },
+    {
       "name": "Louisiana Statewide Siren Map",
       "mapId": "1tl_1Gq6tHBDwa_XK-wDvccXlTujj-X-7",
       "url": "https://www.google.com/maps/d/viewer?mid=1tl_1Gq6tHBDwa_XK-wDvccXlTujj-X-7",
@@ -249,6 +258,15 @@
       "videoPins": 1
     },
     {
+      "name": "New York Statewide Siren Map",
+      "mapId": "1F9-fuXshpLpqMamjCJ-uUmzeBKRe13Y",
+      "url": "https://www.google.com/maps/d/viewer?mid=1F9-fuXshpLpqMamjCJ-uUmzeBKRe13Y",
+      "directory": true,
+      "section": "United States",
+      "pins": 2181,
+      "videoPins": 0
+    },
+    {
       "name": "Official Michigan Statewide Siren Map",
       "mapId": "1nh4ioG8w_2KivcMNHwlK7Lw4_Qs",
       "url": "https://www.google.com/maps/d/viewer?mid=1nh4ioG8w_2KivcMNHwlK7Lw4_Qs",
@@ -256,6 +274,15 @@
       "section": "United States",
       "pins": 2883,
       "videoPins": 0
+    },
+    {
+      "name": "Official Pennsylvania Siren Map",
+      "mapId": "1LNU3xknmIYsniA6skduNr1ABSVOqvLES",
+      "url": "https://www.google.com/maps/d/viewer?mid=1LNU3xknmIYsniA6skduNr1ABSVOqvLES",
+      "directory": true,
+      "section": "United States",
+      "pins": 1785,
+      "videoPins": 4
     },
     {
       "name": "Oklahoma Statewide Siren Map",
@@ -376,6 +403,30 @@
       "url": "https://www.google.com/maps/d/viewer?mid=12rcC1ecjBwhTqMalLJFTHfoweA3xFvoL",
       "directory": true,
       "section": "Canada",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "Arizona Statewide Siren Map",
+      "mapId": "1COe9BYtqaweyxDnl5oFs5isgtVQ",
+      "url": "https://www.google.com/maps/d/viewer?mid=1COe9BYtqaweyxDnl5oFs5isgtVQ",
+      "directory": true,
+      "section": "United States",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "Idaho Statewide Siren Map",
+      "mapId": "12oy_iV7yWYTkAz0jGOAHYZ4XY07CsvqP",
+      "url": "https://www.google.com/maps/d/viewer?mid=12oy_iV7yWYTkAz0jGOAHYZ4XY07CsvqP",
+      "directory": true,
+      "section": "United States",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "Wyoming Statewide Siren Map",
+      "mapId": "1P8Axtb9xjj0BzMusi7yhVhIAOcNiVdzR",
+      "url": "https://www.google.com/maps/d/viewer?mid=1P8Axtb9xjj0BzMusi7yhVhIAOcNiVdzR",
+      "directory": true,
+      "section": "United States",
       "error": "HTTP Error 404: Not Found"
     }
   ]
