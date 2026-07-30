@@ -1,36 +1,22 @@
 {
   "ok": true,
-  "updatedAt": "2026-07-30T01:12:14.703701+00:00",
-  "pinCount": 66622,
-  "sourceCount": 17,
-  "directorySourceCount": 16,
-  "directorySourceTotal": 21,
-  "failedSourceCount": 5,
-  "videoPinCount": 3870,
-  "message": "Loaded 66,622 unique sirens; 3,870 pins include embedded-video metadata.",
-  "discoveryErrors": [
-    "https://www.airraidsirens.net/forums/viewtopic.php?t=27945: HTTP Error 403: Forbidden",
-    "https://r.jina.ai/https://www.airraidsirens.net/forums/viewtopic.php?t=27945: only 0 maps",
-    "https://r.jina.ai/http://www.airraidsirens.net/forums/viewtopic.php?t=27945: only 0 maps"
-  ],
+  "updatedAt": "2026-07-30T01:22:45.423696+00:00",
+  "pinCount": 69482,
+  "sourceCount": 20,
+  "directorySourceCount": 19,
+  "directorySourceTotal": 23,
+  "failedSourceCount": 4,
+  "videoPinCount": 4126,
+  "message": "Loaded 69,482 unique sirens from 20/24 maps; 4,126 pins include embedded-video metadata.",
+  "masterDiscovery": {},
   "successfulSources": [
     {
-      "name": "Great Canadian Siren Map",
-      "mapId": "1Ye0Sxlrdwnyb2tom7TXz4aJiXdE7c4k",
-      "url": "https://www.google.com/maps/d/viewer?mid=1Ye0Sxlrdwnyb2tom7TXz4aJiXdE7c4k",
+      "name": "Albania Siren Map",
+      "mapId": "1YUWk6jWsqnLSCZ9vcWC8FrXf1oai7fw",
+      "url": "https://www.google.com/maps/d/viewer?mid=1YUWk6jWsqnLSCZ9vcWC8FrXf1oai7fw",
       "directory": true,
-      "section": "Canada",
-      "pins": 1106,
-      "videoPins": 22
-    },
-    {
-      "name": "Ontario Canada Siren Map",
-      "mapId": "1ZSBPpDRirYo-DvphT-d9W189VfQ",
-      "url": "https://www.google.com/maps/d/viewer?mid=1ZSBPpDRirYo-DvphT-d9W189VfQ",
-      "directory": true,
-      "section": "Canada",
-      "pins": 676,
-      "videoPins": 25
+      "pins": 4,
+      "videoPins": 0
     },
     {
       "name": "Australia Siren Map",
@@ -39,6 +25,14 @@
       "directory": true,
       "pins": 463,
       "videoPins": 8
+    },
+    {
+      "name": "Chile Siren Map",
+      "mapId": "14PTeSuirwNJB8Lj8Qg8_-IDQRpROqDPk",
+      "url": "https://www.google.com/maps/d/viewer?mid=14PTeSuirwNJB8Lj8Qg8_-IDQRpROqDPk",
+      "directory": true,
+      "pins": 213,
+      "videoPins": 0
     },
     {
       "name": "Finland Siren Map",
@@ -97,6 +91,22 @@
       "videoPins": 0
     },
     {
+      "name": "Newfoundland Siren Map",
+      "mapId": "1ip51AfwylLzK-k0S73TR2Fgc7kG3YQSI",
+      "url": "https://www.google.com/maps/d/viewer?mid=1ip51AfwylLzK-k0S73TR2Fgc7kG3YQSI",
+      "directory": true,
+      "pins": 34,
+      "videoPins": 0
+    },
+    {
+      "name": "Official U.S.A. Siren Map",
+      "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
+      "url": "https://www.google.com/maps/d/viewer?mid=1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
+      "directory": false,
+      "pins": 57593,
+      "videoPins": 3634
+    },
+    {
       "name": "Portugal and Spain Siren Map",
       "mapId": "1dmvw64LfzdWaVFIgHTXvV1uauNItfQE",
       "url": "https://www.google.com/maps/d/viewer?mid=1dmvw64LfzdWaVFIgHTXvV1uauNItfQE",
@@ -121,53 +131,65 @@
       "videoPins": 14
     },
     {
-      "name": "Chile Siren Map",
-      "mapId": "14PTeSuirwNJB8Lj8Qg8_-IDQRpROqDPk",
-      "url": "https://www.google.com/maps/d/viewer?mid=14PTeSuirwNJB8Lj8Qg8_-IDQRpROqDPk",
+      "name": "Great Canadian Siren Map",
+      "mapId": "1Ye0Sxlrdwnyb2tom7TXz4aJiXdE7c4k",
+      "url": "https://www.google.com/maps/d/viewer?mid=1Ye0Sxlrdwnyb2tom7TXz4aJiXdE7c4k",
       "directory": true,
-      "pins": 213,
+      "section": "Canada",
+      "pins": 1106,
+      "videoPins": 22
+    },
+    {
+      "name": "Ontario Canada Siren Map",
+      "mapId": "1ZSBPpDRirYo-DvphT-d9W189VfQ",
+      "url": "https://www.google.com/maps/d/viewer?mid=1ZSBPpDRirYo-DvphT-d9W189VfQ",
+      "directory": true,
+      "section": "Canada",
+      "pins": 676,
+      "videoPins": 25
+    },
+    {
+      "name": "Manitoba Siren Map",
+      "mapId": "1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
+      "url": "https://www.google.com/maps/d/viewer?mid=1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
+      "directory": true,
+      "section": "canada",
+      "pins": 2283,
       "videoPins": 0
     },
     {
-      "name": "Albania Siren Map",
-      "mapId": "1YUWk6jWsqnLSCZ9vcWC8FrXf1oai7fw",
-      "url": "https://www.google.com/maps/d/viewer?mid=1YUWk6jWsqnLSCZ9vcWC8FrXf1oai7fw",
+      "name": "Quebec Siren Map",
+      "mapId": "1MlL9rNncoWJD2kETkwNZQZ3EgCM",
+      "url": "https://www.google.com/maps/d/viewer?mid=1MlL9rNncoWJD2kETkwNZQZ3EgCM",
       "directory": true,
-      "pins": 4,
-      "videoPins": 0
+      "section": "canada",
+      "pins": 99,
+      "videoPins": 4
     },
     {
-      "name": "Newfoundland Siren Map",
-      "mapId": "1ip51AfwylLzK-k0S73TR2Fgc7kG3YQSI",
-      "url": "https://www.google.com/maps/d/viewer?mid=1ip51AfwylLzK-k0S73TR2Fgc7kG3YQSI",
+      "name": "Croatia Siren Map",
+      "mapId": "14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
+      "url": "https://www.google.com/maps/d/viewer?mid=14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
       "directory": true,
-      "pins": 34,
-      "videoPins": 0
-    },
-    {
-      "name": "Official U.S.A. Siren Map",
-      "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
-      "url": "https://www.google.com/maps/d/viewer?mid=1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
-      "directory": false,
-      "pins": 57593,
-      "videoPins": 3634
+      "section": "world",
+      "pins": 978,
+      "videoPins": 253
     }
   ],
   "failedSources": [
-    {
-      "name": "Quebec Siren Map",
-      "mapId": "1RXAYExKtCnD8xAKY9ngGxhDg9bqF82EY",
-      "url": "https://www.google.com/maps/d/viewer?mid=1RXAYExKtCnD8xAKY9ngGxhDg9bqF82EY",
-      "directory": true,
-      "section": "Canada",
-      "error": "HTTP Error 404: Not Found"
-    },
     {
       "name": "British Columbia Siren Map",
       "mapId": "1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
       "url": "https://www.google.com/maps/d/viewer?mid=1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
       "directory": true,
       "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "Denmark Siren Map",
+      "mapId": "1HIboKNWC_Y5S4IY8B7dHh3r_CFNd0und",
+      "url": "https://www.google.com/maps/d/viewer?mid=1HIboKNWC_Y5S4IY8B7dHh3r_CFNd0und",
+      "directory": true,
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "Latvia Siren Map",
@@ -182,13 +204,6 @@
       "url": "https://www.google.com/maps/d/viewer?mid=12rcC1ecjBwhTqMalLJFTHfoweA3xFvoL",
       "directory": true,
       "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "name": "Denmark Siren Map",
-      "mapId": "1HIboKNWC_Y5S4IY8B7dHh3r_CFNd0und",
-      "url": "https://www.google.com/maps/d/viewer?mid=1HIboKNWC_Y5S4IY8B7dHh3r_CFNd0und",
-      "directory": true,
-      "error": "HTTP Error 403: Forbidden"
     }
   ]
 }
