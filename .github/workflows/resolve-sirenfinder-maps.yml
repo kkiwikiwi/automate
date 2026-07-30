@@ -11,13 +11,13 @@ permissions:
   contents: write
 
 concurrency:
-  group: sirenfinder-map-resolver
-  cancel-in-progress: true
+  group: sirenfinder-data-writer
+  cancel-in-progress: false
 
 jobs:
   resolve-and-import:
     runs-on: ubuntu-latest
-    timeout-minutes: 240
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
         with:
@@ -26,19 +26,21 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Search for missing Canada and international maps
+      - name: Search direct My Maps results and validate Canada/international titles and geography
         env:
           RESOLVE_CATEGORIES: canada,world,regional
-        run: python scripts/resolve_named_maps.py
+        run: python scripts/resolve_named_maps_v2.py
       - name: Import all resolved maps concurrently
         run: python scripts/import_all_maps.py
       - name: Split regional data for fast startup
         run: python scripts/split_data.py
+      - name: Build complete 82-entry source coverage audit
+        run: python scripts/build_master_coverage.py
       - name: Commit resolver report and imported data
         run: |
           git config user.name "SirenFinder Data Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/source-registry.json data/search-resolution.json data/pins.geojson data/pins-world.geojson data/pins-us.geojson data/manifest.json data/status.json data/master-regions.json
+          git add data/source-registry.json data/search-resolution.json data/pins.geojson data/pins-world.geojson data/pins-us.geojson data/manifest.json data/status.json data/master-regions.json data/master-coverage.json
           if git diff --cached --quiet; then
             echo "No resolver changes"
           else
