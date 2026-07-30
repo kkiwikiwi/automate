@@ -66,6 +66,13 @@
     "directory": true
   },
   {
+    "name": "Netherlands Siren Map",
+    "mapId": "171KbUT6Se0xQHsv-7ot-AB-cy6-qy4aA",
+    "url": "https://www.google.com/maps/d/viewer?mid=171KbUT6Se0xQHsv-7ot-AB-cy6-qy4aA",
+    "directory": true,
+    "section": "World"
+  },
+  {
     "name": "New Zealand Siren Map",
     "mapId": "18UqghKoAmEvVbp8f2R2sfCztKbj6siyP",
     "url": "https://www.google.com/maps/d/viewer?mid=18UqghKoAmEvVbp8f2R2sfCztKbj6siyP",
@@ -94,6 +101,13 @@
     "mapId": "1IZRd2eqhAInPIOxwQtomZTwf-hBhOcY",
     "url": "https://www.google.com/maps/d/viewer?mid=1IZRd2eqhAInPIOxwQtomZTwf-hBhOcY",
     "directory": true
+  },
+  {
+    "name": "United Kingdom Siren Map",
+    "mapId": "1wkcgQlymDtJ8GGuZMqG5dvA4pwwtCzhH",
+    "url": "https://www.google.com/maps/d/viewer?mid=1wkcgQlymDtJ8GGuZMqG5dvA4pwwtCzhH",
+    "directory": true,
+    "section": "World"
   },
   {
     "name": "British Columbia Siren Map",
@@ -148,6 +162,13 @@
     "name": "Colorado Statewide Siren Map",
     "mapId": "1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
     "url": "https://www.google.com/maps/d/viewer?mid=1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
+    "directory": true,
+    "section": "United States"
+  },
+  {
+    "name": "West Virginia Statewide & Western Maryland Siren Map",
+    "mapId": "1QTKhyROx-t5pouvAftigo-uDGiIc0udi",
+    "url": "https://www.google.com/maps/d/viewer?mid=1QTKhyROx-t5pouvAftigo-uDGiIc0udi",
     "directory": true,
     "section": "United States"
   },
