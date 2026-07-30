@@ -1,1 +1,1 @@
-Trigger bounded five-second direct-My-Maps resolution for unresolved Canada, country, and territory sources.
+Rerun the bounded five-second direct-My-Maps resolver alone, after the U.S. writer completed, for every unresolved Canadian, country, and territory source.
