@@ -18,6 +18,13 @@
     "directory": true
   },
   {
+    "name": "Colorado Statewide Siren Map",
+    "mapId": "1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
+    "url": "https://www.google.com/maps/d/viewer?mid=1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
+    "directory": true,
+    "section": "United States"
+  },
+  {
     "name": "Denmark Siren Map",
     "mapId": "1HIboKNWC_Y5S4IY8B7dHh3r_CFNd0und",
     "url": "https://www.google.com/maps/d/viewer?mid=1HIboKNWC_Y5S4IY8B7dHh3r_CFNd0und",
@@ -143,13 +150,13 @@
     "mapId": "1rFQZpUf2lTPXglGePze9WEAmn8I",
     "url": "https://www.google.com/maps/d/viewer?mid=1rFQZpUf2lTPXglGePze9WEAmn8I",
     "directory": true,
-    "section": "canada"
+    "section": "Canada"
   },
   {
     "name": "Greenland Siren Map",
     "mapId": "108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
     "url": "https://www.google.com/maps/d/viewer?mid=108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
     "directory": true,
-    "section": "world"
+    "section": "World"
   }
 ]
