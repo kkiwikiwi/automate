@@ -1,13 +1,13 @@
 {
   "ok": true,
-  "updatedAt": "2026-07-30T02:18:07.690848+00:00",
-  "pinCount": 79732,
-  "sourceCount": 32,
-  "directorySourceCount": 30,
+  "updatedAt": "2026-07-30T02:22:46.361119+00:00",
+  "pinCount": 82756,
+  "sourceCount": 33,
+  "directorySourceCount": 31,
   "directorySourceTotal": 36,
-  "failedSourceCount": 5,
-  "videoPinCount": 4212,
-  "message": "Loaded 79,732 unique sirens; 4,212 pins include embedded-video metadata.",
+  "failedSourceCount": 4,
+  "videoPinCount": 4214,
+  "message": "Loaded 82,756 unique sirens; 4,214 pins include embedded-video metadata.",
   "discoveryErrors": [],
   "successfulSources": [
     {
@@ -213,6 +213,15 @@
       "videoPins": 1
     },
     {
+      "name": "Oklahoma Statewide Siren Map",
+      "mapId": "1blVKllJ5VqBqDEgmY0Gqw3wuthLBWZUq",
+      "url": "https://www.google.com/maps/d/viewer?mid=1blVKllJ5VqBqDEgmY0Gqw3wuthLBWZUq",
+      "directory": true,
+      "section": "United States",
+      "pins": 3459,
+      "videoPins": 2
+    },
+    {
       "name": "South Dakota Statewide Siren Map",
       "mapId": "1TLP3ulH7A2NuLFAKxPOmXRAZxZDnXiqB",
       "url": "https://www.google.com/maps/d/viewer?mid=1TLP3ulH7A2NuLFAKxPOmXRAZxZDnXiqB",
@@ -314,14 +323,6 @@
       "directory": true,
       "section": "Canada",
       "error": "HTTP Error 404: Not Found"
-    },
-    {
-      "name": "Oklahoma Statewide Siren Map",
-      "mapId": "1blVKllJ5VqBqDEgmY0Gqw3wuthLBWZUq",
-      "url": "https://www.google.com/maps/d/viewer?mid=1blVKllJ5VqBqDEgmY0Gqw3wuthLBWZUq",
-      "directory": true,
-      "section": "United States",
-      "error": "not well-formed (invalid token): line 33585, column 36"
     }
   ]
 }

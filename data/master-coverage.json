@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-30T02:18:10.446508+00:00",
+  "updatedAt": "2026-07-30T02:22:49.162040+00:00",
   "totalListedRegions": 82,
-  "imported": 26,
-  "blockedOrDeleted": 4,
+  "imported": 27,
+  "blockedOrDeleted": 3,
   "unresolved": 52,
-  "aggregateCoveredButSourceMissing": 44,
+  "aggregateCoveredButSourceMissing": 43,
   "entries": [
     {
       "id": "alabama",
@@ -591,18 +591,19 @@
       "id": "oklahoma",
       "name": "Oklahoma",
       "category": "us",
-      "status": "blocked_or_deleted",
-      "importedSources": [],
-      "failedSources": [
+      "status": "imported",
+      "importedSources": [
         {
           "name": "Oklahoma Statewide Siren Map",
           "mapId": "1blVKllJ5VqBqDEgmY0Gqw3wuthLBWZUq",
           "url": "https://www.google.com/maps/d/viewer?mid=1blVKllJ5VqBqDEgmY0Gqw3wuthLBWZUq",
           "directory": true,
           "section": "United States",
-          "error": "not well-formed (invalid token): line 33585, column 36"
+          "pins": 3459,
+          "videoPins": 2
         }
       ],
+      "failedSources": [],
       "listedSources": [
         {
           "name": "Oklahoma Statewide Siren Map",

@@ -61,6 +61,26 @@ def extract_youtube_ids(*values):
     return found[:4]
 
 
+INVALID_XML_CONTROLS = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]")
+BARE_XML_AMPERSAND = re.compile(r"&(?!#\d+;|#x[0-9a-fA-F]+;|amp;|lt;|gt;|quot;|apos;)")
+
+
+def safe_xml_root(data):
+    try:
+        return ET.fromstring(data)
+    except ET.ParseError as original:
+        # Some public My Maps exports contain raw control characters or
+        # unescaped ampersands inside descriptions. Repair only those XML-1.0
+        # violations, preserving all valid markup and coordinates.
+        text = data.decode("utf-8", "replace")
+        text = INVALID_XML_CONTROLS.sub("", text)
+        text = BARE_XML_AMPERSAND.sub("&amp;", text)
+        try:
+            return ET.fromstring(text.encode("utf-8"))
+        except ET.ParseError:
+            raise original
+
+
 def parse_kml(data, source):
     if data[:2] == b"PK":
         pins, links = [], []
@@ -72,7 +92,7 @@ def parse_kml(data, source):
                     links.extend(nested)
         return pins, list(dict.fromkeys(links))
 
-    root = ET.fromstring(data)
+    root = safe_xml_root(data)
     pins, links = [], []
     for element in root.iter():
         if local_name(element.tag) == "networklink":

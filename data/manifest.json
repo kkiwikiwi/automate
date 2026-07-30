@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-30T02:18:07.690848+00:00",
-  "total": 79732,
+  "updatedAt": "2026-07-30T02:22:46.361119+00:00",
+  "total": 82756,
   "international": 12735,
-  "us": 66997,
+  "us": 70021,
   "chunks": [
     {
       "id": "international",
@@ -13,7 +13,7 @@
     {
       "id": "us",
       "url": "../data/pins-us.geojson",
-      "count": 66997,
+      "count": 70021,
       "priority": 2
     }
   ]
