@@ -1,104 +1,49 @@
 {
-  "updatedAt": "2026-07-30T01:53:00.257676+00:00",
+  "updatedAt": "2026-07-30T01:56:34.089391+00:00",
   "categories": [
-    "us"
+    "canada",
+    "regional",
+    "world"
   ],
-  "selectedRegionCount": 51,
-  "attemptedRegionCount": 50,
+  "selectedRegionCount": 31,
+  "attemptedRegionCount": 18,
   "resolvedRegionCount": 0,
   "remainingUnresolved": [
-    "Arizona",
-    "Alabama",
-    "California",
-    "Delaware",
-    "Connecticut",
-    "Florida",
-    "Hawaii",
-    "Georgia",
-    "Idaho",
-    "Illinois",
-    "Indiana",
-    "Iowa",
-    "Kansas",
-    "Kentucky",
-    "Louisiana",
-    "Maine",
-    "Maryland",
-    "Arkansas",
-    "Massachusetts",
-    "Michigan",
-    "Mississippi",
-    "Minnesota",
-    "Missouri",
-    "Nebraska",
-    "Montana",
-    "Nevada",
-    "New Hampshire",
-    "New Mexico",
-    "New Jersey",
-    "New York",
-    "North Carolina",
-    "North Dakota",
-    "Oklahoma",
-    "Ohio",
-    "Oregon",
-    "Pennsylvania",
-    "Rhode Island",
-    "South Carolina",
-    "Alaska",
-    "South Dakota",
-    "Tennessee",
-    "Texas",
-    "Utah",
-    "Vermont",
-    "Virginia",
-    "Washington",
-    "Washington, D.C.",
-    "Wyoming",
-    "Wisconsin",
-    "West Virginia"
+    "British Columbia",
+    "Alberta",
+    "Saskatchewan",
+    "Kuwait",
+    "Netherlands",
+    "Niue",
+    "Sweden",
+    "Italy",
+    "Thailand",
+    "American Samoa",
+    "United Kingdom",
+    "Guam & Northern Mariana Islands",
+    "Puerto Rico",
+    "U.S. Virgin Islands & British Virgin Islands",
+    "Europe (multiple countries)",
+    "Portugal & Spain (unfinished)",
+    "South America (various)",
+    "Latvia"
   ],
   "registryCount": 26,
   "results": [
     {
       "region": {
-        "id": "arizona",
-        "name": "Arizona",
-        "category": "us",
-        "code": "AZ",
-        "lat": 33.7298,
-        "lon": -111.4312,
+        "id": "british-columbia",
+        "name": "British Columbia",
+        "category": "canada",
+        "code": "BC",
+        "lat": 53.7267,
+        "lon": -127.6476,
         "aliases": []
       },
       "chosen": null,
       "validations": [],
       "errors": [
         "brave: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "alabama",
-        "name": "Alabama",
-        "category": "us",
-        "code": "AL",
-        "lat": 32.8067,
-        "lon": -86.7911,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "brave: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "google-html: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
         "google-html: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
@@ -107,13 +52,15 @@
     },
     {
       "region": {
-        "id": "california",
-        "name": "California",
-        "category": "us",
-        "code": "CA",
-        "lat": 36.1162,
-        "lon": -119.6816,
-        "aliases": []
+        "id": "alberta",
+        "name": "Alberta",
+        "category": "canada",
+        "code": "AB",
+        "lat": 53.9333,
+        "lon": -116.5765,
+        "aliases": [
+          "Alberta (Canada)"
+        ]
       },
       "chosen": null,
       "validations": [],
@@ -121,6 +68,23 @@
         "brave: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
         "google-html: HTTP Error 429: Too Many Requests",
+        "brave: HTTP Error 429: Too Many Requests"
+      ]
+    },
+    {
+      "region": {
+        "id": "saskatchewan",
+        "name": "Saskatchewan",
+        "category": "canada",
+        "code": "SK",
+        "lat": 52.9399,
+        "lon": -106.4509,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "brave: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
         "google-html: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
@@ -129,26 +93,19 @@
     },
     {
       "region": {
-        "id": "delaware",
-        "name": "Delaware",
-        "category": "us",
-        "code": "DE",
-        "lat": 39.3185,
-        "lon": -75.5071,
+        "id": "kuwait",
+        "name": "Kuwait",
+        "category": "world",
+        "code": "KW",
+        "lat": 29.3117,
+        "lon": 47.4818,
         "aliases": []
       },
       "chosen": null,
       "validations": [],
       "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
         "google-html: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
         "yahoo: HTTP Error 500: Internal Server Error"
@@ -156,20 +113,17 @@
     },
     {
       "region": {
-        "id": "connecticut",
-        "name": "Connecticut",
-        "category": "us",
-        "code": "CT",
-        "lat": 41.5978,
-        "lon": -72.7554,
+        "id": "netherlands",
+        "name": "Netherlands",
+        "category": "world",
+        "code": "NL",
+        "lat": 52.1326,
+        "lon": 5.2913,
         "aliases": []
       },
       "chosen": null,
       "validations": [],
       "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
         "google-html: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
         "yahoo: HTTP Error 500: Internal Server Error",
@@ -183,20 +137,19 @@
     },
     {
       "region": {
-        "id": "florida",
-        "name": "Florida",
-        "category": "us",
-        "code": "FL",
-        "lat": 27.7663,
-        "lon": -81.6868,
-        "aliases": []
+        "id": "niue",
+        "name": "Niue",
+        "category": "world",
+        "code": "NU",
+        "lat": -19.0544,
+        "lon": -169.8672,
+        "aliases": [
+          "Country of Niue"
+        ]
       },
       "chosen": null,
       "validations": [],
       "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
         "google-html: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
         "yahoo: HTTP Error 500: Internal Server Error",
@@ -210,47 +163,17 @@
     },
     {
       "region": {
-        "id": "hawaii",
-        "name": "Hawaii",
-        "category": "us",
-        "code": "HI",
-        "lat": 21.0943,
-        "lon": -157.4983,
+        "id": "sweden",
+        "name": "Sweden",
+        "category": "world",
+        "code": "SE",
+        "lat": 60.1282,
+        "lon": 18.6435,
         "aliases": []
       },
       "chosen": null,
       "validations": [],
       "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "georgia",
-        "name": "Georgia",
-        "category": "us",
-        "code": "GA",
-        "lat": 33.0406,
-        "lon": -83.6431,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
         "google-html: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
         "yahoo: HTTP Error 500: Internal Server Error",
@@ -264,325 +187,32 @@
     },
     {
       "region": {
-        "id": "idaho",
-        "name": "Idaho",
-        "category": "us",
-        "code": "ID",
-        "lat": 44.2405,
-        "lon": -114.4788,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "illinois",
-        "name": "Illinois",
-        "category": "us",
-        "code": "IL",
-        "lat": 40.3495,
-        "lon": -88.9861,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "indiana",
-        "name": "Indiana",
-        "category": "us",
-        "code": "IN",
-        "lat": 39.8494,
-        "lon": -86.2583,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "iowa",
-        "name": "Iowa",
-        "category": "us",
-        "code": "IA",
-        "lat": 42.0115,
-        "lon": -93.2105,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "kansas",
-        "name": "Kansas",
-        "category": "us",
-        "code": "KS",
-        "lat": 38.5266,
-        "lon": -96.7265,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "kentucky",
-        "name": "Kentucky",
-        "category": "us",
-        "code": "KY",
-        "lat": 37.6681,
-        "lon": -84.6701,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "louisiana",
-        "name": "Louisiana",
-        "category": "us",
-        "code": "LA",
-        "lat": 31.1695,
-        "lon": -91.8678,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "maine",
-        "name": "Maine",
-        "category": "us",
-        "code": "ME",
-        "lat": 44.6939,
-        "lon": -69.3819,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "maryland",
-        "name": "Maryland",
-        "category": "us",
-        "code": "MD",
-        "lat": 39.0639,
-        "lon": -76.8021,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "arkansas",
-        "name": "Arkansas",
-        "category": "us",
-        "code": "AR",
-        "lat": 34.9697,
-        "lon": -92.3731,
+        "id": "italy",
+        "name": "Italy",
+        "category": "world",
+        "code": "IT",
+        "lat": 41.8719,
+        "lon": 12.5674,
         "aliases": []
       },
       "chosen": null,
       "validations": [
         {
-          "mapId": "1bFXLVuT2NVO8tphJ9NCPmXwYm95xxoJY",
-          "engine": "brave",
-          "query": "site:www.google.com/maps/d \"Arkansas\" \"Warning Siren Map\"",
-          "accepted": false,
-          "pins": 3480,
-          "sampledPins": 3480,
-          "medianDistanceKm": 433.3,
-          "nearFraction": 1.0,
-          "radiusKm": 750,
-          "source": {
-            "name": "Arkansas Siren Map",
-            "mapId": "1bFXLVuT2NVO8tphJ9NCPmXwYm95xxoJY",
-            "url": "https://www.google.com/maps/d/viewer?mid=1bFXLVuT2NVO8tphJ9NCPmXwYm95xxoJY",
-            "directory": true,
-            "section": "us"
-          },
-          "kmlTitles": [
-            "The Official Missouri Siren Map",
-            "Northern Missouri",
-            "Southern Missouri",
-            "St.Louis Metro",
-            "Kansas City Missouri Area",
-            "Removed/Borders (DEFAULT OFF)"
-          ],
-          "titleMatched": false
-        },
-        {
-          "mapId": "1Z39Dxz-8OMmblAg3jIoxvbSSRGo",
-          "engine": "brave",
-          "query": "site:www.google.com/maps/d \"Arkansas\" \"Warning Siren Map\"",
-          "accepted": false,
-          "pins": 597,
-          "sampledPins": 597,
-          "medianDistanceKm": 143.0,
-          "nearFraction": 1.0,
-          "radiusKm": 750,
-          "source": {
-            "name": "Arkansas Siren Map",
-            "mapId": "1Z39Dxz-8OMmblAg3jIoxvbSSRGo",
-            "url": "https://www.google.com/maps/d/viewer?mid=1Z39Dxz-8OMmblAg3jIoxvbSSRGo",
-            "directory": true,
-            "section": "us"
-          },
-          "kmlTitles": [
-            "Arkansas",
-            "Arkansas.xlsx"
-          ],
-          "titleMatched": false
-        },
-        {
           "mapId": "1eAwWWXbvC9UZRM1EBB8RQkm041c",
           "engine": "brave",
-          "query": "site:www.google.com/maps/d \"Arkansas\" \"Warning Siren Map\"",
+          "query": "site:www.google.com/maps/d \"Italy\" \"Warning Siren Map\"",
           "accepted": false,
           "pins": 20,
           "sampledPins": 20,
-          "medianDistanceKm": 410.7,
-          "nearFraction": 1.0,
-          "radiusKm": 750,
+          "medianDistanceKm": 8154.1,
+          "nearFraction": 0.0,
+          "radiusKm": 1400,
           "source": {
-            "name": "Arkansas Siren Map",
+            "name": "Italy Siren Map",
             "mapId": "1eAwWWXbvC9UZRM1EBB8RQkm041c",
             "url": "https://www.google.com/maps/d/viewer?mid=1eAwWWXbvC9UZRM1EBB8RQkm041c",
             "directory": true,
-            "section": "us"
+            "section": "world"
           },
           "kmlTitles": [
             "McCracken County, Kentucky Outdoor Warning Siren Map",
@@ -592,19 +222,86 @@
           "titleMatched": false
         },
         {
-          "mapId": "1XcrJcrGT68n_ySzIbC1_AmsoBS3aUGm5",
+          "mapId": "1aZy1sG1S3ysu9zieo8HPLBmI6PI",
           "engine": "brave",
-          "query": "site:www.google.com/maps/d \"Arkansas\" \"Warning Siren Map\"",
+          "query": "site:www.google.com/maps/d \"Italy\" \"Warning Siren Map\"",
           "accepted": false,
-          "error": "HTTP Error 404: Not Found"
+          "pins": 4377,
+          "sampledPins": 4377,
+          "medianDistanceKm": 7898.7,
+          "nearFraction": 0.023,
+          "radiusKm": 1400,
+          "source": {
+            "name": "Italy Siren Map",
+            "mapId": "1aZy1sG1S3ysu9zieo8HPLBmI6PI",
+            "url": "https://www.google.com/maps/d/viewer?mid=1aZy1sG1S3ysu9zieo8HPLBmI6PI",
+            "directory": true,
+            "section": "world"
+          },
+          "kmlTitles": [
+            "The Siren Map",
+            "Random sirens and horns",
+            "oklahoma texas kansas iowa",
+            "Ilinois ohio indiana wisconsin",
+            "Allertors",
+            "MINNESOTA",
+            "Hawaii",
+            "Sirens in Alaska and provinces",
+            "Random Sirens, Fire alarms, power plants, and Horns",
+            "Plant sirens",
+            "Netherlands/Ireland"
+          ],
+          "titleMatched": false
+        },
+        {
+          "mapId": "1-NKC3iCCvFkGICMdQ2Nt8Ly_RpE",
+          "engine": "brave",
+          "query": "site:www.google.com/maps/d \"Italy\" \"Warning Siren Map\"",
+          "accepted": false,
+          "pins": 25,
+          "sampledPins": 25,
+          "medianDistanceKm": 459.7,
+          "nearFraction": 1.0,
+          "radiusKm": 1400,
+          "source": {
+            "name": "Italy Siren Map",
+            "mapId": "1-NKC3iCCvFkGICMdQ2Nt8Ly_RpE",
+            "url": "https://www.google.com/maps/d/viewer?mid=1-NKC3iCCvFkGICMdQ2Nt8Ly_RpE",
+            "directory": true,
+            "section": "world"
+          },
+          "kmlTitles": [
+            "Italy Network",
+            "Livello senza titolo"
+          ],
+          "titleMatched": false
+        },
+        {
+          "mapId": "1l5Ewg34PulbRDjbOSXz1k-n5OJ8",
+          "engine": "brave",
+          "query": "site:www.google.com/maps/d \"Italy\" \"Warning Siren Map\"",
+          "accepted": false,
+          "pins": 5,
+          "sampledPins": 5,
+          "medianDistanceKm": 203.2,
+          "nearFraction": 1.0,
+          "radiusKm": 1400,
+          "source": {
+            "name": "Italy Siren Map",
+            "mapId": "1l5Ewg34PulbRDjbOSXz1k-n5OJ8",
+            "url": "https://www.google.com/maps/d/viewer?mid=1l5Ewg34PulbRDjbOSXz1k-n5OJ8",
+            "directory": true,
+            "section": "world"
+          },
+          "kmlTitles": [
+            "Italy",
+            "Untitled layer"
+          ],
+          "titleMatched": false
         }
       ],
       "errors": [
         "brave: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
         "google-html: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
         "yahoo: HTTP Error 500: Internal Server Error"
@@ -612,12 +309,12 @@
     },
     {
       "region": {
-        "id": "massachusetts",
-        "name": "Massachusetts",
-        "category": "us",
-        "code": "MA",
-        "lat": 42.2302,
-        "lon": -71.5301,
+        "id": "thailand",
+        "name": "Thailand",
+        "category": "world",
+        "code": "TH",
+        "lat": 15.87,
+        "lon": 100.9925,
         "aliases": []
       },
       "chosen": null,
@@ -625,10 +322,7 @@
       "errors": [
         "google-html: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
+        "yahoo: HTTP Error 500: INKApi Error",
         "google-html: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
         "yahoo: HTTP Error 500: Internal Server Error",
@@ -639,12 +333,12 @@
     },
     {
       "region": {
-        "id": "michigan",
-        "name": "Michigan",
-        "category": "us",
-        "code": "MI",
-        "lat": 43.3266,
-        "lon": -84.5361,
+        "id": "american-samoa",
+        "name": "American Samoa",
+        "category": "regional",
+        "code": "AS",
+        "lat": -14.271,
+        "lon": -170.1322,
         "aliases": []
       },
       "chosen": null,
@@ -653,63 +347,6 @@
         "google-html: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
         "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "mississippi",
-        "name": "Mississippi",
-        "category": "us",
-        "code": "MS",
-        "lat": 32.7416,
-        "lon": -89.6787,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "minnesota",
-        "name": "Minnesota",
-        "category": "us",
-        "code": "MN",
-        "lat": 45.6945,
-        "lon": -93.9002,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
         "google-html: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
         "yahoo: HTTP Error 500: INKApi Error",
@@ -720,47 +357,17 @@
     },
     {
       "region": {
-        "id": "missouri",
-        "name": "Missouri",
-        "category": "us",
-        "code": "MO",
-        "lat": 38.4561,
-        "lon": -92.2884,
+        "id": "united-kingdom",
+        "name": "United Kingdom",
+        "category": "world",
+        "code": "UK",
+        "lat": 55.3781,
+        "lon": -3.436,
         "aliases": []
       },
       "chosen": null,
       "validations": [],
       "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "nebraska",
-        "name": "Nebraska",
-        "category": "us",
-        "code": "NE",
-        "lat": 41.1254,
-        "lon": -98.2681,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
         "google-html: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
         "yahoo: HTTP Error 500: Internal Server Error",
@@ -774,810 +381,118 @@
     },
     {
       "region": {
-        "id": "montana",
-        "name": "Montana",
-        "category": "us",
-        "code": "MT",
-        "lat": 46.9219,
-        "lon": -110.4544,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "nevada",
-        "name": "Nevada",
-        "category": "us",
-        "code": "NV",
-        "lat": 38.3135,
-        "lon": -117.0554,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "new-hampshire",
-        "name": "New Hampshire",
-        "category": "us",
-        "code": "NH",
-        "lat": 43.4525,
-        "lon": -71.5639,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "new-mexico",
-        "name": "New Mexico",
-        "category": "us",
-        "code": "NM",
-        "lat": 34.8405,
-        "lon": -106.2485,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "new-jersey",
-        "name": "New Jersey",
-        "category": "us",
-        "code": "NJ",
-        "lat": 40.2989,
-        "lon": -74.521,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "new-york",
-        "name": "New York",
-        "category": "us",
-        "code": "NY",
-        "lat": 42.1657,
-        "lon": -74.9481,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "north-carolina",
-        "name": "North Carolina",
-        "category": "us",
-        "code": "NC",
-        "lat": 35.6301,
-        "lon": -79.8064,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "north-dakota",
-        "name": "North Dakota",
-        "category": "us",
-        "code": "ND",
-        "lat": 47.5289,
-        "lon": -99.784,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "oklahoma",
-        "name": "Oklahoma",
-        "category": "us",
-        "code": "OK",
-        "lat": 35.5653,
-        "lon": -96.9289,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "ohio",
-        "name": "Ohio",
-        "category": "us",
-        "code": "OH",
-        "lat": 40.3888,
-        "lon": -82.7649,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "oregon",
-        "name": "Oregon",
-        "category": "us",
-        "code": "OR",
-        "lat": 44.572,
-        "lon": -122.0709,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "pennsylvania",
-        "name": "Pennsylvania",
-        "category": "us",
-        "code": "PA",
-        "lat": 40.5908,
-        "lon": -77.2098,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "rhode-island",
-        "name": "Rhode Island",
-        "category": "us",
-        "code": "RI",
-        "lat": 41.6809,
-        "lon": -71.5118,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "south-carolina",
-        "name": "South Carolina",
-        "category": "us",
-        "code": "SC",
-        "lat": 33.8569,
-        "lon": -80.945,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "alaska",
-        "name": "Alaska",
-        "category": "us",
-        "code": "AK",
-        "lat": 61.3707,
-        "lon": -152.4044,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [
-        {
-          "mapId": "1bFXLVuT2NVO8tphJ9NCPmXwYm95xxoJY",
-          "engine": "brave",
-          "query": "site:google.com/maps/d \"Alaska Statewide Siren Map\"",
-          "accepted": false,
-          "pins": 3480,
-          "sampledPins": 3480,
-          "medianDistanceKm": 4796.9,
-          "nearFraction": 0.0,
-          "radiusKm": 2600,
-          "source": {
-            "name": "Alaska Siren Map",
-            "mapId": "1bFXLVuT2NVO8tphJ9NCPmXwYm95xxoJY",
-            "url": "https://www.google.com/maps/d/viewer?mid=1bFXLVuT2NVO8tphJ9NCPmXwYm95xxoJY",
-            "directory": true,
-            "section": "us"
-          },
-          "kmlTitles": [
-            "The Official Missouri Siren Map",
-            "Northern Missouri",
-            "Southern Missouri",
-            "St.Louis Metro",
-            "Kansas City Missouri Area",
-            "Removed/Borders (DEFAULT OFF)"
-          ],
-          "titleMatched": false
-        },
-        {
-          "mapId": "1XcrJcrGT68n_ySzIbC1_AmsoBS3aUGm5",
-          "engine": "brave",
-          "query": "site:google.com/maps/d \"Alaska Statewide Siren Map\"",
-          "accepted": false,
-          "error": "HTTP Error 404: Not Found"
-        },
-        {
-          "mapId": "1ZsTMdvNHvi4ICEJcPNruM4oOoO8",
-          "engine": "brave",
-          "query": "site:google.com/maps/d \"Alaska Statewide Siren Map\"",
-          "accepted": false,
-          "pins": 23,
-          "sampledPins": 23,
-          "medianDistanceKm": 370.4,
-          "nearFraction": 1.0,
-          "radiusKm": 2600,
-          "source": {
-            "name": "Alaska Siren Map",
-            "mapId": "1ZsTMdvNHvi4ICEJcPNruM4oOoO8",
-            "url": "https://www.google.com/maps/d/viewer?mid=1ZsTMdvNHvi4ICEJcPNruM4oOoO8",
-            "directory": true,
-            "section": "us"
-          },
-          "kmlTitles": [
-            "State of Alaska",
-            "Untitled layer"
-          ],
-          "titleMatched": false
-        },
-        {
-          "mapId": "1PIgOwU_QsXu9eBz4He7i_dVH0GmjM0DW",
-          "engine": "brave",
-          "query": "site:google.com/maps/d \"Alaska Statewide Siren Map\"",
-          "accepted": false,
-          "pins": 303,
-          "sampledPins": 303,
-          "medianDistanceKm": 5533.3,
-          "nearFraction": 0.0,
-          "radiusKm": 2600,
-          "source": {
-            "name": "Alaska Siren Map",
-            "mapId": "1PIgOwU_QsXu9eBz4He7i_dVH0GmjM0DW",
-            "url": "https://www.google.com/maps/d/viewer?mid=1PIgOwU_QsXu9eBz4He7i_dVH0GmjM0DW",
-            "directory": true,
-            "section": "us"
-          },
-          "kmlTitles": [
-            "Official Massachusetts Statewide Siren Map",
-            "Federal Signal",
-            "Fedelcode",
-            "Whelen",
-            "Sentry/Sterling",
-            "ATI",
-            "Privately Owned/Display",
-            "Mini Sirens & Horns",
-            "Other Brand/Mystery Sirens/Other",
-            "Removed Sirens"
-          ],
-          "titleMatched": false
-        },
-        {
-          "mapId": "1v7VLHli4VJDiKAIsXeSKHeSEuXg",
-          "engine": "brave",
-          "query": "site:google.com/maps/d \"Alaska Statewide Siren Map\"",
-          "accepted": false,
-          "pins": 23,
-          "sampledPins": 23,
-          "medianDistanceKm": 454.2,
-          "nearFraction": 1.0,
-          "radiusKm": 2600,
-          "source": {
-            "name": "Alaska Siren Map",
-            "mapId": "1v7VLHli4VJDiKAIsXeSKHeSEuXg",
-            "url": "https://www.google.com/maps/d/viewer?mid=1v7VLHli4VJDiKAIsXeSKHeSEuXg",
-            "directory": true,
-            "section": "us"
-          },
-          "kmlTitles": [
-            "Alaska Legislative Information Office Network",
-            "Untitled layer"
-          ],
-          "titleMatched": false
-        },
-        {
-          "mapId": "16MccDnX7quofYHt482sTWhuMSi8",
-          "engine": "brave",
-          "query": "site:google.com/maps/d \"Alaska Statewide Siren Map\"",
-          "accepted": false,
-          "pins": 1,
-          "sampledPins": 1,
-          "medianDistanceKm": 347.7,
-          "nearFraction": 1.0,
-          "radiusKm": 2600,
-          "source": {
-            "name": "Alaska Siren Map",
-            "mapId": "16MccDnX7quofYHt482sTWhuMSi8",
-            "url": "https://www.google.com/maps/d/viewer?mid=16MccDnX7quofYHt482sTWhuMSi8",
-            "directory": true,
-            "section": "us"
-          },
-          "kmlTitles": [
-            "Alaska, USA",
-            "Untitled layer"
-          ],
-          "titleMatched": false
-        },
-        {
-          "mapId": "1m7xS712hRugLijMU0jC9q5n-jCgsp1c",
-          "engine": "brave",
-          "query": "site:google.com/maps/d \"Alaska Statewide Siren Map\"",
-          "accepted": false,
-          "pins": 62,
-          "sampledPins": 62,
-          "medianDistanceKm": 324.8,
-          "nearFraction": 1.0,
-          "radiusKm": 2600,
-          "source": {
-            "name": "Alaska Siren Map",
-            "mapId": "1m7xS712hRugLijMU0jC9q5n-jCgsp1c",
-            "url": "https://www.google.com/maps/d/viewer?mid=1m7xS712hRugLijMU0jC9q5n-jCgsp1c",
-            "directory": true,
-            "section": "us"
-          },
-          "kmlTitles": [
-            "Alaska Districts & Legislative Information Office Locations",
-            "LIO Sites (Year-Round)",
-            "LIO Sites (Session-Only)",
-            "2023_Final_Proclamation_Plan"
-          ],
-          "titleMatched": false
-        },
-        {
-          "mapId": "1yDYYotEwkVMwjeyMExhLgMUamRs",
-          "engine": "brave",
-          "query": "site:google.com/maps/d \"Alaska Statewide Siren Map\"",
-          "accepted": false,
-          "pins": 118,
-          "sampledPins": 118,
-          "medianDistanceKm": 190.0,
-          "nearFraction": 1.0,
-          "radiusKm": 2600,
-          "source": {
-            "name": "Alaska Siren Map",
-            "mapId": "1yDYYotEwkVMwjeyMExhLgMUamRs",
-            "url": "https://www.google.com/maps/d/viewer?mid=1yDYYotEwkVMwjeyMExhLgMUamRs",
-            "directory": true,
-            "section": "us"
-          },
-          "kmlTitles": [
-            "Alaska",
-            "Capa sin nombre"
-          ],
-          "titleMatched": false
-        },
-        {
-          "mapId": "1eSyuuO3MtuLE0CikXtkZ9FiCm9s",
-          "engine": "brave",
-          "query": "site:google.com/maps/d \"Alaska Statewide Siren Map\"",
-          "accepted": false,
-          "pins": 60,
-          "sampledPins": 60,
-          "medianDistanceKm": 202.6,
-          "nearFraction": 1.0,
-          "radiusKm": 2600,
-          "source": {
-            "name": "Alaska Siren Map",
-            "mapId": "1eSyuuO3MtuLE0CikXtkZ9FiCm9s",
-            "url": "https://www.google.com/maps/d/viewer?mid=1eSyuuO3MtuLE0CikXtkZ9FiCm9s",
-            "directory": true,
-            "section": "us"
-          },
-          "kmlTitles": [
-            "Alaska attractions",
-            "Untitled layer"
-          ],
-          "titleMatched": false
-        },
-        {
-          "mapId": "1r5aFyQIMVbRezC6q_PTgNJ0FANScp3U",
-          "engine": "brave",
-          "query": "site:google.com/maps/d \"Alaska Statewide Siren Map\"",
-          "accepted": false,
-          "error": "HTTP Error 404: Not Found"
-        }
-      ],
-      "errors": [
-        "brave: HTTP Error 429: Too Many Requests"
-      ]
-    },
-    {
-      "region": {
-        "id": "south-dakota",
-        "name": "South Dakota",
-        "category": "us",
-        "code": "SD",
-        "lat": 44.2998,
-        "lon": -99.4388,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "tennessee",
-        "name": "Tennessee",
-        "category": "us",
-        "code": "TN",
-        "lat": 35.7478,
-        "lon": -86.6923,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "texas",
-        "name": "Texas",
-        "category": "us",
-        "code": "TX",
-        "lat": 31.0545,
-        "lon": -97.5635,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "utah",
-        "name": "Utah",
-        "category": "us",
-        "code": "UT",
-        "lat": 40.15,
-        "lon": -111.8624,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "vermont",
-        "name": "Vermont",
-        "category": "us",
-        "code": "VT",
-        "lat": 44.0459,
-        "lon": -72.7107,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "virginia",
-        "name": "Virginia",
-        "category": "us",
-        "code": "VA",
-        "lat": 37.7693,
-        "lon": -78.17,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: Internal Server Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "washington",
-        "name": "Washington",
-        "category": "us",
-        "code": "WA",
-        "lat": 47.4009,
-        "lon": -121.4905,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "washington-d-c",
-        "name": "Washington, D.C.",
-        "category": "us",
-        "code": "DC",
-        "lat": 38.9072,
-        "lon": -77.0369,
+        "id": "guam-and-northern-mariana-islands",
+        "name": "Guam & Northern Mariana Islands",
+        "category": "regional",
+        "code": "GU",
+        "lat": 15.0979,
+        "lon": 145.6739,
         "aliases": [
-          "Washington D.C."
+          "Guam & NMI"
+        ]
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "google-html: HTTP Error 429: Too Many Requests",
+        "brave: HTTP Error 429: Too Many Requests",
+        "yahoo: HTTP Error 500: Internal Server Error",
+        "google-html: HTTP Error 429: Too Many Requests",
+        "brave: HTTP Error 429: Too Many Requests",
+        "yahoo: HTTP Error 500: Internal Server Error",
+        "google-html: HTTP Error 429: Too Many Requests",
+        "brave: HTTP Error 429: Too Many Requests",
+        "yahoo: HTTP Error 500: INKApi Error"
+      ]
+    },
+    {
+      "region": {
+        "id": "puerto-rico",
+        "name": "Puerto Rico",
+        "category": "regional",
+        "code": "PR",
+        "lat": 18.2208,
+        "lon": -66.5901,
+        "aliases": [
+          "Puerto Rico (Tsunami Warning Sirens Only)",
+          "Territory of Puerto Rico (Tsunami Warning Sirens Only)"
+        ]
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "google-html: HTTP Error 429: Too Many Requests",
+        "brave: HTTP Error 429: Too Many Requests",
+        "yahoo: HTTP Error 500: Internal Server Error",
+        "google-html: HTTP Error 429: Too Many Requests",
+        "brave: HTTP Error 429: Too Many Requests",
+        "yahoo: HTTP Error 500: INKApi Error",
+        "google-html: HTTP Error 429: Too Many Requests",
+        "brave: HTTP Error 429: Too Many Requests",
+        "yahoo: HTTP Error 500: Internal Server Error"
+      ]
+    },
+    {
+      "region": {
+        "id": "u-s-virgin-islands-and-british-virgin-islands",
+        "name": "U.S. Virgin Islands & British Virgin Islands",
+        "category": "regional",
+        "code": "VI",
+        "lat": 18.3358,
+        "lon": -64.8963,
+        "aliases": [
+          "U.S. Virgin Islands & BVI"
+        ]
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "google-html: HTTP Error 429: Too Many Requests",
+        "brave: HTTP Error 429: Too Many Requests",
+        "yahoo: HTTP Error 500: Internal Server Error",
+        "google-html: HTTP Error 429: Too Many Requests",
+        "brave: HTTP Error 429: Too Many Requests",
+        "yahoo: HTTP Error 500: Internal Server Error",
+        "google-html: HTTP Error 429: Too Many Requests",
+        "brave: HTTP Error 429: Too Many Requests",
+        "yahoo: HTTP Error 500: Internal Server Error"
+      ]
+    },
+    {
+      "region": {
+        "id": "europe-multiple-countries",
+        "name": "Europe (multiple countries)",
+        "category": "regional",
+        "code": "EU",
+        "lat": 50.1109,
+        "lon": 8.6821,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "google-html: HTTP Error 429: Too Many Requests",
+        "brave: HTTP Error 429: Too Many Requests",
+        "yahoo: HTTP Error 500: Internal Server Error",
+        "google-html: HTTP Error 429: Too Many Requests",
+        "brave: HTTP Error 429: Too Many Requests",
+        "yahoo: HTTP Error 500: INKApi Error",
+        "google-html: HTTP Error 429: Too Many Requests",
+        "brave: HTTP Error 429: Too Many Requests",
+        "yahoo: HTTP Error 500: Internal Server Error"
+      ]
+    },
+    {
+      "region": {
+        "id": "portugal-and-spain-unfinished",
+        "name": "Portugal & Spain (unfinished)",
+        "category": "regional",
+        "code": "IB",
+        "lat": 40.4168,
+        "lon": -3.7038,
+        "aliases": [
+          "*UNFINISHED* Map of Portugal and Spain",
+          "Map of Portugal and Spain"
         ]
       },
       "chosen": null,
@@ -1588,64 +503,33 @@
         "yahoo: HTTP Error 500: INKApi Error",
         "google-html: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
+        "yahoo: HTTP Error 500: Internal Server Error",
         "google-html: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
+        "yahoo: HTTP Error 500: Internal Server Error"
       ]
     },
     {
       "region": {
-        "id": "wyoming",
-        "name": "Wyoming",
-        "category": "us",
-        "code": "WY",
-        "lat": 42.756,
-        "lon": -107.3025,
-        "aliases": []
+        "id": "south-america-various",
+        "name": "South America (various)",
+        "category": "regional",
+        "code": "SA",
+        "lat": -15.6,
+        "lon": -56.1,
+        "aliases": [
+          "South America (various)"
+        ]
       },
       "chosen": null,
       "validations": [],
       "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
-      ]
-    },
-    {
-      "region": {
-        "id": "wisconsin",
-        "name": "Wisconsin",
-        "category": "us",
-        "code": "WI",
-        "lat": 44.2685,
-        "lon": -89.6165,
-        "aliases": []
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
         "google-html: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
         "yahoo: HTTP Error 500: Internal Server Error",
         "google-html: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
+        "yahoo: HTTP Error 500: Internal Server Error",
         "google-html: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
         "yahoo: HTTP Error 500: INKApi Error"
@@ -1653,29 +537,34 @@
     },
     {
       "region": {
-        "id": "west-virginia",
-        "name": "West Virginia",
-        "category": "us",
-        "code": "WV",
-        "lat": 38.4912,
-        "lon": -80.9545,
+        "id": "latvia",
+        "name": "Latvia",
+        "category": "world",
+        "code": "LV",
+        "lat": 56.8796,
+        "lon": 24.6032,
         "aliases": []
       },
       "chosen": null,
-      "validations": [],
+      "validations": [
+        {
+          "mapId": "100092482416786",
+          "engine": "bing-html",
+          "query": "\"Latvia Siren Map\" \"mid=\"",
+          "accepted": false,
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
       "errors": [
         "google-html: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
+        "yahoo: HTTP Error 500: Internal Server Error",
         "google-html: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
+        "yahoo: HTTP Error 500: Internal Server Error",
         "google-html: HTTP Error 429: Too Many Requests",
         "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error",
-        "google-html: HTTP Error 429: Too Many Requests",
-        "brave: HTTP Error 429: Too Many Requests",
-        "yahoo: HTTP Error 500: INKApi Error"
+        "yahoo: HTTP Error 500: Internal Server Error"
       ]
     }
   ]
