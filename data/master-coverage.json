@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-30T02:22:49.162040+00:00",
+  "updatedAt": "2026-07-30T02:27:53.747109+00:00",
   "totalListedRegions": 82,
-  "imported": 27,
+  "imported": 29,
   "blockedOrDeleted": 3,
-  "unresolved": 52,
-  "aggregateCoveredButSourceMissing": 43,
+  "unresolved": 50,
+  "aggregateCoveredButSourceMissing": 41,
   "entries": [
     {
       "id": "alabama",
@@ -298,10 +298,28 @@
       "id": "maine",
       "name": "Maine",
       "category": "us",
-      "status": "unresolved",
-      "importedSources": [],
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Maine Statewide Siren Map",
+          "mapId": "1GNUO4uOTcN4zuTGh9EmahYl4vLwt-qQ",
+          "url": "https://www.google.com/maps/d/viewer?mid=1GNUO4uOTcN4zuTGh9EmahYl4vLwt-qQ",
+          "directory": true,
+          "section": "United States",
+          "pins": 51,
+          "videoPins": 0
+        }
+      ],
       "failedSources": [],
-      "listedSources": [],
+      "listedSources": [
+        {
+          "name": "Maine Statewide Siren Map",
+          "mapId": "1GNUO4uOTcN4zuTGh9EmahYl4vLwt-qQ",
+          "url": "https://www.google.com/maps/d/viewer?mid=1GNUO4uOTcN4zuTGh9EmahYl4vLwt-qQ",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
@@ -355,10 +373,28 @@
       "id": "michigan",
       "name": "Michigan",
       "category": "us",
-      "status": "unresolved",
-      "importedSources": [],
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Official Michigan Statewide Siren Map",
+          "mapId": "1nh4ioG8w_2KivcMNHwlK7Lw4_Qs",
+          "url": "https://www.google.com/maps/d/viewer?mid=1nh4ioG8w_2KivcMNHwlK7Lw4_Qs",
+          "directory": true,
+          "section": "United States",
+          "pins": 2883,
+          "videoPins": 0
+        }
+      ],
       "failedSources": [],
-      "listedSources": [],
+      "listedSources": [
+        {
+          "name": "Official Michigan Statewide Siren Map",
+          "mapId": "1nh4ioG8w_2KivcMNHwlK7Lw4_Qs",
+          "url": "https://www.google.com/maps/d/viewer?mid=1nh4ioG8w_2KivcMNHwlK7Lw4_Qs",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"

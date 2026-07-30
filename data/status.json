@@ -1,13 +1,13 @@
 {
   "ok": true,
-  "updatedAt": "2026-07-30T02:22:46.361119+00:00",
-  "pinCount": 82756,
-  "sourceCount": 33,
-  "directorySourceCount": 31,
-  "directorySourceTotal": 36,
+  "updatedAt": "2026-07-30T02:27:50.774880+00:00",
+  "pinCount": 85540,
+  "sourceCount": 35,
+  "directorySourceCount": 33,
+  "directorySourceTotal": 38,
   "failedSourceCount": 4,
   "videoPinCount": 4214,
-  "message": "Loaded 82,756 unique sirens; 4,214 pins include embedded-video metadata.",
+  "message": "Loaded 85,540 unique sirens; 4,214 pins include embedded-video metadata.",
   "discoveryErrors": [],
   "successfulSources": [
     {
@@ -186,6 +186,15 @@
       "videoPins": 0
     },
     {
+      "name": "Maine Statewide Siren Map",
+      "mapId": "1GNUO4uOTcN4zuTGh9EmahYl4vLwt-qQ",
+      "url": "https://www.google.com/maps/d/viewer?mid=1GNUO4uOTcN4zuTGh9EmahYl4vLwt-qQ",
+      "directory": true,
+      "section": "United States",
+      "pins": 51,
+      "videoPins": 0
+    },
+    {
       "name": "Mississippi Statewide Siren Map",
       "mapId": "1aXNw8Owxi3tnXPbZJZD7jDrBNTXUWhBv",
       "url": "https://www.google.com/maps/d/viewer?mid=1aXNw8Owxi3tnXPbZJZD7jDrBNTXUWhBv",
@@ -211,6 +220,15 @@
       "section": "United States",
       "pins": 424,
       "videoPins": 1
+    },
+    {
+      "name": "Official Michigan Statewide Siren Map",
+      "mapId": "1nh4ioG8w_2KivcMNHwlK7Lw4_Qs",
+      "url": "https://www.google.com/maps/d/viewer?mid=1nh4ioG8w_2KivcMNHwlK7Lw4_Qs",
+      "directory": true,
+      "section": "United States",
+      "pins": 2883,
+      "videoPins": 0
     },
     {
       "name": "Oklahoma Statewide Siren Map",
