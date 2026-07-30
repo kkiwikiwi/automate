@@ -1,0 +1,1 @@
+Trigger direct registry import after adding the validated Colorado source map.
