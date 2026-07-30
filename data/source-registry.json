@@ -1,5 +1,26 @@
 [
   {
+    "name": "Great Canadian Siren Map",
+    "mapId": "1Ye0Sxlrdwnyb2tom7TXz4aJiXdE7c4k",
+    "url": "https://www.google.com/maps/d/viewer?mid=1Ye0Sxlrdwnyb2tom7TXz4aJiXdE7c4k",
+    "directory": true,
+    "section": "Canada"
+  },
+  {
+    "name": "Ontario Canada Siren Map",
+    "mapId": "1ZSBPpDRirYo-DvphT-d9W189VfQ",
+    "url": "https://www.google.com/maps/d/viewer?mid=1ZSBPpDRirYo-DvphT-d9W189VfQ",
+    "directory": true,
+    "section": "Canada"
+  },
+  {
+    "name": "Quebec Siren Map",
+    "mapId": "1RXAYExKtCnD8xAKY9ngGxhDg9bqF82EY",
+    "url": "https://www.google.com/maps/d/viewer?mid=1RXAYExKtCnD8xAKY9ngGxhDg9bqF82EY",
+    "directory": true,
+    "section": "Canada"
+  },
+  {
     "name": "Australia Siren Map",
     "mapId": "1oVGG-aGlmAmWUtwDqUi5lZF8205YPNCA",
     "url": "https://www.google.com/maps/d/viewer?mid=1oVGG-aGlmAmWUtwDqUi5lZF8205YPNCA",
