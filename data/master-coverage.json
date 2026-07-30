@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-30T02:27:53.747109+00:00",
+  "updatedAt": "2026-07-30T02:36:15.388326+00:00",
   "totalListedRegions": 82,
-  "imported": 29,
+  "imported": 34,
   "blockedOrDeleted": 3,
-  "unresolved": 50,
-  "aggregateCoveredButSourceMissing": 41,
+  "unresolved": 45,
+  "aggregateCoveredButSourceMissing": 36,
   "entries": [
     {
       "id": "alabama",
@@ -448,10 +448,28 @@
       "id": "missouri",
       "name": "Missouri",
       "category": "us",
-      "status": "unresolved",
-      "importedSources": [],
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Missouri Statewide Siren Map",
+          "mapId": "1bFXLVuT2NVO8tphJ9NCPmXwYm95xxoJY",
+          "url": "https://www.google.com/maps/d/viewer?mid=1bFXLVuT2NVO8tphJ9NCPmXwYm95xxoJY",
+          "directory": true,
+          "section": "United States",
+          "pins": 3480,
+          "videoPins": 136
+        }
+      ],
       "failedSources": [],
-      "listedSources": [],
+      "listedSources": [
+        {
+          "name": "Missouri Statewide Siren Map",
+          "mapId": "1bFXLVuT2NVO8tphJ9NCPmXwYm95xxoJY",
+          "url": "https://www.google.com/maps/d/viewer?mid=1bFXLVuT2NVO8tphJ9NCPmXwYm95xxoJY",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
@@ -492,10 +510,28 @@
       "id": "nebraska",
       "name": "Nebraska",
       "category": "us",
-      "status": "unresolved",
-      "importedSources": [],
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Nebraska Statewide Siren Map",
+          "mapId": "1MNH2Yn-y_L6LTdofgbTvfvckngY",
+          "url": "https://www.google.com/maps/d/viewer?mid=1MNH2Yn-y_L6LTdofgbTvfvckngY",
+          "directory": true,
+          "section": "United States",
+          "pins": 1470,
+          "videoPins": 3
+        }
+      ],
       "failedSources": [],
-      "listedSources": [],
+      "listedSources": [
+        {
+          "name": "Nebraska Statewide Siren Map",
+          "mapId": "1MNH2Yn-y_L6LTdofgbTvfvckngY",
+          "url": "https://www.google.com/maps/d/viewer?mid=1MNH2Yn-y_L6LTdofgbTvfvckngY",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
@@ -614,10 +650,28 @@
       "id": "ohio",
       "name": "Ohio",
       "category": "us",
-      "status": "unresolved",
-      "importedSources": [],
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "2025 Ohio Statewide Siren SuperMap — Mobile Friendly",
+          "mapId": "1oDJQLyQwLJeVyoWPtZvskLX3feV71hs",
+          "url": "https://www.google.com/maps/d/viewer?mid=1oDJQLyQwLJeVyoWPtZvskLX3feV71hs",
+          "directory": true,
+          "section": "United States",
+          "pins": 4502,
+          "videoPins": 1053
+        }
+      ],
       "failedSources": [],
-      "listedSources": [],
+      "listedSources": [
+        {
+          "name": "2025 Ohio Statewide Siren SuperMap — Mobile Friendly",
+          "mapId": "1oDJQLyQwLJeVyoWPtZvskLX3feV71hs",
+          "url": "https://www.google.com/maps/d/viewer?mid=1oDJQLyQwLJeVyoWPtZvskLX3feV71hs",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
@@ -824,10 +878,28 @@
       "id": "washington",
       "name": "Washington",
       "category": "us",
-      "status": "unresolved",
-      "importedSources": [],
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Washington Statewide Siren Map",
+          "mapId": "1-lF3GgLQUURx1NKxnBhTgYDkTJdSUSvx",
+          "url": "https://www.google.com/maps/d/viewer?mid=1-lF3GgLQUURx1NKxnBhTgYDkTJdSUSvx",
+          "directory": true,
+          "section": "United States",
+          "pins": 233,
+          "videoPins": 0
+        }
+      ],
       "failedSources": [],
-      "listedSources": [],
+      "listedSources": [
+        {
+          "name": "Washington Statewide Siren Map",
+          "mapId": "1-lF3GgLQUURx1NKxnBhTgYDkTJdSUSvx",
+          "url": "https://www.google.com/maps/d/viewer?mid=1-lF3GgLQUURx1NKxnBhTgYDkTJdSUSvx",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
@@ -837,10 +909,28 @@
       "id": "washington-d-c",
       "name": "Washington, D.C.",
       "category": "us",
-      "status": "unresolved",
-      "importedSources": [],
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Washington Statewide Siren Map",
+          "mapId": "1-lF3GgLQUURx1NKxnBhTgYDkTJdSUSvx",
+          "url": "https://www.google.com/maps/d/viewer?mid=1-lF3GgLQUURx1NKxnBhTgYDkTJdSUSvx",
+          "directory": true,
+          "section": "United States",
+          "pins": 233,
+          "videoPins": 0
+        }
+      ],
       "failedSources": [],
-      "listedSources": [],
+      "listedSources": [
+        {
+          "name": "Washington Statewide Siren Map",
+          "mapId": "1-lF3GgLQUURx1NKxnBhTgYDkTJdSUSvx",
+          "url": "https://www.google.com/maps/d/viewer?mid=1-lF3GgLQUURx1NKxnBhTgYDkTJdSUSvx",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"

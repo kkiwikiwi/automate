@@ -1,13 +1,13 @@
 {
   "ok": true,
-  "updatedAt": "2026-07-30T02:27:50.774880+00:00",
-  "pinCount": 85540,
-  "sourceCount": 35,
-  "directorySourceCount": 33,
-  "directorySourceTotal": 38,
+  "updatedAt": "2026-07-30T02:36:12.039091+00:00",
+  "pinCount": 93920,
+  "sourceCount": 39,
+  "directorySourceCount": 37,
+  "directorySourceTotal": 42,
   "failedSourceCount": 4,
-  "videoPinCount": 4214,
-  "message": "Loaded 85,540 unique sirens; 4,214 pins include embedded-video metadata.",
+  "videoPinCount": 5256,
+  "message": "Loaded 93,920 unique sirens; 5,256 pins include embedded-video metadata.",
   "discoveryErrors": [],
   "successfulSources": [
     {
@@ -159,6 +159,15 @@
       "videoPins": 0
     },
     {
+      "name": "2025 Ohio Statewide Siren SuperMap — Mobile Friendly",
+      "mapId": "1oDJQLyQwLJeVyoWPtZvskLX3feV71hs",
+      "url": "https://www.google.com/maps/d/viewer?mid=1oDJQLyQwLJeVyoWPtZvskLX3feV71hs",
+      "directory": true,
+      "section": "United States",
+      "pins": 4502,
+      "videoPins": 1053
+    },
+    {
       "name": "Alabama Statewide Siren Map",
       "mapId": "16bsIQTnNGGdF9V_PmCW1edkHOokz9A6N",
       "url": "https://www.google.com/maps/d/viewer?mid=16bsIQTnNGGdF9V_PmCW1edkHOokz9A6N",
@@ -204,6 +213,15 @@
       "videoPins": 3
     },
     {
+      "name": "Missouri Statewide Siren Map",
+      "mapId": "1bFXLVuT2NVO8tphJ9NCPmXwYm95xxoJY",
+      "url": "https://www.google.com/maps/d/viewer?mid=1bFXLVuT2NVO8tphJ9NCPmXwYm95xxoJY",
+      "directory": true,
+      "section": "United States",
+      "pins": 3480,
+      "videoPins": 136
+    },
+    {
       "name": "Montana Statewide Siren Map",
       "mapId": "16PwvwMcIrLVErlRHtqEWapkr2pl2Dh9T",
       "url": "https://www.google.com/maps/d/viewer?mid=16PwvwMcIrLVErlRHtqEWapkr2pl2Dh9T",
@@ -211,6 +229,15 @@
       "section": "United States",
       "pins": 381,
       "videoPins": 16
+    },
+    {
+      "name": "Nebraska Statewide Siren Map",
+      "mapId": "1MNH2Yn-y_L6LTdofgbTvfvckngY",
+      "url": "https://www.google.com/maps/d/viewer?mid=1MNH2Yn-y_L6LTdofgbTvfvckngY",
+      "directory": true,
+      "section": "United States",
+      "pins": 1470,
+      "videoPins": 3
     },
     {
       "name": "New Mexico Statewide Siren Map",
@@ -246,6 +273,15 @@
       "directory": true,
       "section": "United States",
       "pins": 955,
+      "videoPins": 0
+    },
+    {
+      "name": "Washington Statewide Siren Map",
+      "mapId": "1-lF3GgLQUURx1NKxnBhTgYDkTJdSUSvx",
+      "url": "https://www.google.com/maps/d/viewer?mid=1-lF3GgLQUURx1NKxnBhTgYDkTJdSUSvx",
+      "directory": true,
+      "section": "United States",
+      "pins": 233,
       "videoPins": 0
     },
     {
