@@ -4,17 +4,18 @@ import html
 import io
 import json
 import re
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote, urlencode
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
 DATA.mkdir(exist_ok=True)
 MASTER_URL = "https://www.airraidsirens.net/forums/viewtopic.php?t=27945"
-USER_AGENT = "Mozilla/5.0 (compatible; SirenFinder/10.1; +https://github.com/kkiwikiwi/automate)"
+USER_AGENT = "Mozilla/5.0 (compatible; SirenFinder/10.2; +https://github.com/kkiwikiwi/automate)"
 MAP_ID = re.compile(r"(?:[?&](?:mid|id)=|/earth/d/|/d/)([A-Za-z0-9_-]{15,})", re.I)
 ANCHOR_RE = re.compile(r"<a\b[^>]*href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>", re.I | re.S)
 URL_RE = re.compile(r"https?://[^\s<>\"']+", re.I)
@@ -29,19 +30,27 @@ EXPECTED = {
 }
 
 
-def fetch_bytes(url, timeout=20, limit=12_000_000, headers=None):
+def fetch_bytes(url, timeout=30, limit=20_000_000, headers=None, tries=4):
     request_headers = {"User-Agent": USER_AGENT, "Accept": "*/*"}
     if headers:
         request_headers.update(headers)
-    with urlopen(Request(url, headers=request_headers), timeout=timeout) as response:
-        payload = response.read(limit + 1)
-    if len(payload) > limit:
-        raise RuntimeError("response too large")
-    return payload
+    last = None
+    for attempt in range(tries):
+        try:
+            with urlopen(Request(url, headers=request_headers), timeout=timeout) as response:
+                payload = response.read(limit + 1)
+            if len(payload) > limit:
+                raise RuntimeError("response too large")
+            return payload
+        except Exception as exc:
+            last = exc
+            if attempt + 1 < tries:
+                time.sleep(3 * (attempt + 1))
+    raise last
 
 
-def fetch_text(url, timeout=20, limit=12_000_000):
-    return fetch_bytes(url, timeout, limit).decode("utf-8", "replace")
+def fetch_text(url, **kwargs):
+    return fetch_bytes(url, **kwargs).decode("utf-8", "replace")
 
 
 def clean(value):
@@ -86,10 +95,8 @@ def section_for(position, chunk):
 
 def label_before(chunk, position, fallback):
     boundary = max(
-        chunk.rfind("<br", 0, position),
-        chunk.rfind("</p", 0, position),
-        chunk.rfind("\n", 0, position),
-        chunk.rfind(">", 0, position - 1),
+        chunk.rfind("<br", 0, position), chunk.rfind("</p", 0, position),
+        chunk.rfind("\n", 0, position), chunk.rfind(">", 0, position - 1),
     )
     sample = clean(chunk[max(0, boundary):position])
     lines = [line.strip(" >-*#|\t") for line in sample.splitlines() if line.strip()]
@@ -110,12 +117,9 @@ def parse_registry(document):
             if not mid or mid in seen:
                 continue
             seen.add(mid)
-            fallback = match.group(2) if regex is ANCHOR_RE else ""
             output.append({
-                "name": label_before(chunk, match.start(), fallback),
-                "mapId": mid,
-                "url": href,
-                "directory": True,
+                "name": label_before(chunk, match.start(), match.group(2) if regex is ANCHOR_RE else ""),
+                "mapId": mid, "url": href, "directory": True,
                 "section": section_for(match.start(), chunk),
             })
     return output
@@ -141,57 +145,59 @@ def decode_warc(payload):
 
 
 def latest_indexes():
-    records = json.loads(fetch_text("https://index.commoncrawl.org/collinfo.json", timeout=15, limit=2_000_000))
-    return [record["id"] for record in records[:8] if record.get("id")]
+    records = json.loads(fetch_text("https://index.commoncrawl.org/collinfo.json", timeout=20, limit=2_000_000))
+    return [record["id"] for record in records[:5] if record.get("id")]
 
 
-def query_index(index_id, target):
-    endpoint = (
-        f"https://index.commoncrawl.org/{index_id}-index?url="
-        + quote(target, safe="")
-        + "&output=json&filter=status:200&filter=mime:text/html"
-    )
-    body = fetch_text(endpoint, timeout=12, limit=4_000_000)
-    return index_id, target, [json.loads(line) for line in body.splitlines() if line.strip().startswith("{")]
+def query_index(index_id, host):
+    params = {
+        "url": f"{host}/forums/viewtopic.php",
+        "matchType": "prefix",
+        "output": "json",
+        "filter": ["status:200", "mime:text/html", "url:.*(?:t=27945|p=232754).*"],
+        "collapse": "digest",
+    }
+    # urlencode with repeated filter fields.
+    query = urlencode([
+        ("url", params["url"]), ("matchType", "prefix"), ("output", "json"),
+        ("filter", "status:200"), ("filter", "mime:text/html"),
+        ("filter", "url:.*(?:t=27945|p=232754).*"), ("collapse", "digest"),
+    ])
+    endpoint = f"https://index.commoncrawl.org/{index_id}-index?{query}"
+    body = fetch_text(endpoint, timeout=25, limit=8_000_000, tries=4)
+    records = [json.loads(line) for line in body.splitlines() if line.strip().startswith("{")]
+    return index_id, host, records
 
 
-def fetch_record(index_id, target, record):
+def fetch_record(index_id, record):
     offset, length = int(record["offset"]), int(record["length"])
     payload = fetch_bytes(
-        "https://data.commoncrawl.org/" + record["filename"],
-        timeout=35,
-        limit=length + 2048,
-        headers={"Range": f"bytes={offset}-{offset + length - 1}"},
+        "https://data.commoncrawl.org/" + record["filename"], timeout=60,
+        limit=length + 4096, headers={"Range": f"bytes={offset}-{offset + length - 1}"}, tries=3,
     )
     document = decode_warc(payload)
-    return f"commoncrawl:{index_id}:{record.get('timestamp')}:{target}", document, parse_registry(document)
+    return f"commoncrawl:{index_id}:{record.get('timestamp')}:{record.get('url')}", document, parse_registry(document)
 
 
 def discover():
-    targets = [
-        MASTER_URL,
-        "https://airraidsirens.net/forums/viewtopic.php?t=27945",
-        "https://www.airraidsirens.net/forums/viewtopic.php?p=232754",
-        "https://airraidsirens.net/forums/viewtopic.php?p=232754",
-    ]
+    hosts = ["airraidsirens.net", "www.airraidsirens.net"]
     errors, record_jobs = [], []
-    query_jobs = [(index_id, target) for index_id in latest_indexes() for target in targets]
-    with ThreadPoolExecutor(max_workers=16) as pool:
-        futures = {pool.submit(query_index, *job): job for job in query_jobs}
+    with ThreadPoolExecutor(max_workers=2) as pool:
+        futures = {pool.submit(query_index, index_id, host): (index_id, host) for index_id in latest_indexes() for host in hosts}
         for future in as_completed(futures):
             try:
-                index_id, target, records = future.result()
-                for record in records[-3:]:
+                index_id, _, records = future.result()
+                print(f"{index_id} {futures[future][1]}: {len(records)} matching archive records", flush=True)
+                for record in records[-8:]:
                     if all(record.get(key) for key in ("filename", "offset", "length")):
-                        record_jobs.append((index_id, target, record))
+                        record_jobs.append((index_id, record))
             except Exception as exc:
                 errors.append(f"query {futures[future]}: {exc}")
-    candidates = []
-    seen = set()
-    with ThreadPoolExecutor(max_workers=12) as pool:
+    candidates, seen = [], set()
+    with ThreadPoolExecutor(max_workers=6) as pool:
         futures = {}
         for job in record_jobs:
-            key = (job[2].get("filename"), job[2].get("offset"), job[2].get("length"))
+            key = (job[1].get("filename"), job[1].get("offset"), job[1].get("length"))
             if key in seen:
                 continue
             seen.add(key)
@@ -220,31 +226,23 @@ def main():
         mid = source.get("mapId")
         if not mid:
             continue
-        item = dict(source)
-        item.setdefault("directory", True)
-        item.setdefault("section", "Supplemental")
+        item = dict(source); item.setdefault("directory", True); item.setdefault("section", "Supplemental")
         item["url"] = item.get("url") or f"https://www.google.com/maps/d/viewer?mid={mid}"
         merged[mid] = item
     registry = sorted(merged.values(), key=lambda item: (item.get("section", ""), item.get("name", "").lower()))
     names = {normalized(item.get("name")) for item in registry}
     discovered_names = {normalized(item.get("name")) for item in discovered}
-    missing = sorted(name for name in EXPECTED if not has_name(name, names))
-    canada_found = has_name("Canada", discovered_names)
     report = {
-        "updatedAt": datetime.now(timezone.utc).isoformat(),
-        "masterUrl": MASTER_URL,
-        "method": method,
-        "candidateCount": len(candidates),
-        "discoveredCount": len(discovered),
-        "registryCount": len(registry),
-        "canadaFoundInDiscovery": canada_found,
-        "missingExpectedNames": missing,
+        "updatedAt": datetime.now(timezone.utc).isoformat(), "masterUrl": MASTER_URL, "method": method,
+        "candidateCount": len(candidates), "discoveredCount": len(discovered), "registryCount": len(registry),
+        "canadaFoundInDiscovery": has_name("Canada", discovered_names),
+        "missingExpectedNames": sorted(name for name in EXPECTED if not has_name(name, names)),
         "errors": errors[-50:],
     }
     registry_path.write_text(json.dumps(registry, ensure_ascii=False, indent=2), encoding="utf-8")
     (DATA / "master-discovery.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(report, indent=2), flush=True)
-    return 0 if len(discovered) >= 65 and canada_found else 2
+    return 0 if report["discoveredCount"] >= 65 and report["canadaFoundInDiscovery"] else 2
 
 
 if __name__ == "__main__":
