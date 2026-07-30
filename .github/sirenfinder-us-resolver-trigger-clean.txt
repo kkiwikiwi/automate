@@ -1,1 +1,1 @@
-Trigger strict direct-My-Maps and KML-title validation for every unresolved U.S. state and Washington, D.C. source map.
+Rerun strict direct-My-Maps and KML-title validation after fixing fallback-query recursion for every unresolved U.S. state and Washington, D.C. source map.
