@@ -1,0 +1,1304 @@
+{
+  "updatedAt": "2026-07-30T01:38:45.476595+00:00",
+  "totalListedRegions": 82,
+  "imported": 15,
+  "blockedOrDeleted": 3,
+  "unresolved": 64,
+  "aggregateCoveredButSourceMissing": 53,
+  "entries": [
+    {
+      "id": "alabama",
+      "name": "Alabama",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "alaska",
+      "name": "Alaska",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "arizona",
+      "name": "Arizona",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "arkansas",
+      "name": "Arkansas",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "california",
+      "name": "California",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "colorado",
+      "name": "Colorado",
+      "category": "us",
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Colorado Statewide Siren Map",
+          "mapId": "1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
+          "url": "https://www.google.com/maps/d/viewer?mid=1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
+          "directory": true,
+          "section": "United States",
+          "pins": 1270,
+          "videoPins": 0
+        }
+      ],
+      "failedSources": [],
+      "listedSources": [
+        {
+          "name": "Colorado Statewide Siren Map",
+          "mapId": "1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
+          "url": "https://www.google.com/maps/d/viewer?mid=1N4eLAGMTTMxpp39u447SRzM_B10ZfKPk",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "connecticut",
+      "name": "Connecticut",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "delaware",
+      "name": "Delaware",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "florida",
+      "name": "Florida",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "georgia",
+      "name": "Georgia",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "hawaii",
+      "name": "Hawaii",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "idaho",
+      "name": "Idaho",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "illinois",
+      "name": "Illinois",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "indiana",
+      "name": "Indiana",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "iowa",
+      "name": "Iowa",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "kansas",
+      "name": "Kansas",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "kentucky",
+      "name": "Kentucky",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "louisiana",
+      "name": "Louisiana",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "maine",
+      "name": "Maine",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "maryland",
+      "name": "Maryland",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "massachusetts",
+      "name": "Massachusetts",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "michigan",
+      "name": "Michigan",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "minnesota",
+      "name": "Minnesota",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "mississippi",
+      "name": "Mississippi",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "missouri",
+      "name": "Missouri",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "montana",
+      "name": "Montana",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "nebraska",
+      "name": "Nebraska",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "nevada",
+      "name": "Nevada",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "new-hampshire",
+      "name": "New Hampshire",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "new-jersey",
+      "name": "New Jersey",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "new-mexico",
+      "name": "New Mexico",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "new-york",
+      "name": "New York",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "north-carolina",
+      "name": "North Carolina",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "north-dakota",
+      "name": "North Dakota",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "ohio",
+      "name": "Ohio",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "oklahoma",
+      "name": "Oklahoma",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "oregon",
+      "name": "Oregon",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "pennsylvania",
+      "name": "Pennsylvania",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "rhode-island",
+      "name": "Rhode Island",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "south-carolina",
+      "name": "South Carolina",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "south-dakota",
+      "name": "South Dakota",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "tennessee",
+      "name": "Tennessee",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "texas",
+      "name": "Texas",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "utah",
+      "name": "Utah",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "vermont",
+      "name": "Vermont",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "virginia",
+      "name": "Virginia",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "washington",
+      "name": "Washington",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "washington-d-c",
+      "name": "Washington, D.C.",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "west-virginia",
+      "name": "West Virginia",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "wisconsin",
+      "name": "Wisconsin",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "wyoming",
+      "name": "Wyoming",
+      "category": "us",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Official U.S.A. Siren Map",
+        "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
+      }
+    },
+    {
+      "id": "canada",
+      "name": "Canada",
+      "category": "canada",
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Ontario Canada Siren Map",
+          "mapId": "1ZSBPpDRirYo-DvphT-d9W189VfQ",
+          "url": "https://www.google.com/maps/d/viewer?mid=1ZSBPpDRirYo-DvphT-d9W189VfQ",
+          "directory": true,
+          "section": "Canada",
+          "pins": 676,
+          "videoPins": 25
+        }
+      ],
+      "failedSources": [],
+      "listedSources": [
+        {
+          "name": "Ontario Canada Siren Map",
+          "mapId": "1ZSBPpDRirYo-DvphT-d9W189VfQ",
+          "url": "https://www.google.com/maps/d/viewer?mid=1ZSBPpDRirYo-DvphT-d9W189VfQ",
+          "directory": true,
+          "section": "Canada"
+        }
+      ],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "alberta",
+      "name": "Alberta",
+      "category": "canada",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": {
+        "name": "Great Canadian Siren Map",
+        "mapId": "1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1"
+      }
+    },
+    {
+      "id": "british-columbia",
+      "name": "British Columbia",
+      "category": "canada",
+      "status": "blocked_or_deleted",
+      "importedSources": [],
+      "failedSources": [
+        {
+          "name": "British Columbia Siren Map",
+          "mapId": "1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
+          "url": "https://www.google.com/maps/d/viewer?mid=1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
+          "directory": true,
+          "section": "Canada",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "listedSources": [
+        {
+          "name": "British Columbia Siren Map",
+          "mapId": "1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
+          "url": "https://www.google.com/maps/d/viewer?mid=1RB_B-k8l4QxdZEv8NXmoIDc4zKfxN3Eb",
+          "directory": true,
+          "section": "Canada"
+        }
+      ],
+      "aggregateCoverage": {
+        "name": "Great Canadian Siren Map",
+        "mapId": "1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1"
+      }
+    },
+    {
+      "id": "manitoba",
+      "name": "Manitoba",
+      "category": "canada",
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Manitoba Siren Map",
+          "mapId": "1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
+          "url": "https://www.google.com/maps/d/viewer?mid=1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
+          "directory": true,
+          "section": "Canada",
+          "pins": 2283,
+          "videoPins": 0
+        }
+      ],
+      "failedSources": [],
+      "listedSources": [
+        {
+          "name": "Manitoba Siren Map",
+          "mapId": "1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
+          "url": "https://www.google.com/maps/d/viewer?mid=1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH",
+          "directory": true,
+          "section": "Canada"
+        }
+      ],
+      "aggregateCoverage": {
+        "name": "Great Canadian Siren Map",
+        "mapId": "1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1"
+      }
+    },
+    {
+      "id": "ontario",
+      "name": "Ontario",
+      "category": "canada",
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Ontario Canada Siren Map",
+          "mapId": "1ZSBPpDRirYo-DvphT-d9W189VfQ",
+          "url": "https://www.google.com/maps/d/viewer?mid=1ZSBPpDRirYo-DvphT-d9W189VfQ",
+          "directory": true,
+          "section": "Canada",
+          "pins": 676,
+          "videoPins": 25
+        }
+      ],
+      "failedSources": [],
+      "listedSources": [
+        {
+          "name": "Ontario Canada Siren Map",
+          "mapId": "1ZSBPpDRirYo-DvphT-d9W189VfQ",
+          "url": "https://www.google.com/maps/d/viewer?mid=1ZSBPpDRirYo-DvphT-d9W189VfQ",
+          "directory": true,
+          "section": "Canada"
+        }
+      ],
+      "aggregateCoverage": {
+        "name": "Great Canadian Siren Map",
+        "mapId": "1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1"
+      }
+    },
+    {
+      "id": "quebec",
+      "name": "Quebec",
+      "category": "canada",
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Quebec Siren Map",
+          "mapId": "1rFQZpUf2lTPXglGePze9WEAmn8I",
+          "url": "https://www.google.com/maps/d/viewer?mid=1rFQZpUf2lTPXglGePze9WEAmn8I",
+          "directory": true,
+          "section": "Canada",
+          "pins": 11,
+          "videoPins": 0
+        }
+      ],
+      "failedSources": [],
+      "listedSources": [
+        {
+          "name": "Quebec Siren Map",
+          "mapId": "1rFQZpUf2lTPXglGePze9WEAmn8I",
+          "url": "https://www.google.com/maps/d/viewer?mid=1rFQZpUf2lTPXglGePze9WEAmn8I",
+          "directory": true,
+          "section": "Canada"
+        }
+      ],
+      "aggregateCoverage": {
+        "name": "Great Canadian Siren Map",
+        "mapId": "1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1"
+      }
+    },
+    {
+      "id": "saskatchewan",
+      "name": "Saskatchewan",
+      "category": "canada",
+      "status": "blocked_or_deleted",
+      "importedSources": [],
+      "failedSources": [
+        {
+          "name": "Saskatchewan Siren Map",
+          "mapId": "12rcC1ecjBwhTqMalLJFTHfoweA3xFvoL",
+          "url": "https://www.google.com/maps/d/viewer?mid=12rcC1ecjBwhTqMalLJFTHfoweA3xFvoL",
+          "directory": true,
+          "section": "Canada",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "listedSources": [
+        {
+          "name": "Saskatchewan Siren Map",
+          "mapId": "12rcC1ecjBwhTqMalLJFTHfoweA3xFvoL",
+          "url": "https://www.google.com/maps/d/viewer?mid=12rcC1ecjBwhTqMalLJFTHfoweA3xFvoL",
+          "directory": true,
+          "section": "Canada"
+        }
+      ],
+      "aggregateCoverage": {
+        "name": "Great Canadian Siren Map",
+        "mapId": "1lR7M2XEdwLABNrtHPudmt-Lk7Edl7FU1"
+      }
+    },
+    {
+      "id": "australia",
+      "name": "Australia",
+      "category": "world",
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Australia Siren Map",
+          "mapId": "1oVGG-aGlmAmWUtwDqUi5lZF8205YPNCA",
+          "url": "https://www.google.com/maps/d/viewer?mid=1oVGG-aGlmAmWUtwDqUi5lZF8205YPNCA",
+          "directory": true,
+          "pins": 463,
+          "videoPins": 8
+        }
+      ],
+      "failedSources": [],
+      "listedSources": [
+        {
+          "name": "Australia Siren Map",
+          "mapId": "1oVGG-aGlmAmWUtwDqUi5lZF8205YPNCA",
+          "url": "https://www.google.com/maps/d/viewer?mid=1oVGG-aGlmAmWUtwDqUi5lZF8205YPNCA",
+          "directory": true
+        }
+      ],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "chile",
+      "name": "Chile",
+      "category": "world",
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Chile Siren Map",
+          "mapId": "14PTeSuirwNJB8Lj8Qg8_-IDQRpROqDPk",
+          "url": "https://www.google.com/maps/d/viewer?mid=14PTeSuirwNJB8Lj8Qg8_-IDQRpROqDPk",
+          "directory": true,
+          "pins": 213,
+          "videoPins": 0
+        }
+      ],
+      "failedSources": [],
+      "listedSources": [
+        {
+          "name": "Chile Siren Map",
+          "mapId": "14PTeSuirwNJB8Lj8Qg8_-IDQRpROqDPk",
+          "url": "https://www.google.com/maps/d/viewer?mid=14PTeSuirwNJB8Lj8Qg8_-IDQRpROqDPk",
+          "directory": true
+        }
+      ],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "croatia",
+      "name": "Croatia",
+      "category": "world",
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Croatia Siren Map",
+          "mapId": "14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
+          "url": "https://www.google.com/maps/d/viewer?mid=14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
+          "directory": true,
+          "section": "World",
+          "pins": 978,
+          "videoPins": 253
+        }
+      ],
+      "failedSources": [],
+      "listedSources": [
+        {
+          "name": "Croatia Siren Map",
+          "mapId": "14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
+          "url": "https://www.google.com/maps/d/viewer?mid=14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
+          "directory": true,
+          "section": "World"
+        }
+      ],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "finland",
+      "name": "Finland",
+      "category": "world",
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Finland Siren Map",
+          "mapId": "1WvvHCFJLF6F58MokxJEgJOuL8hQeGu8R",
+          "url": "https://www.google.com/maps/d/viewer?mid=1WvvHCFJLF6F58MokxJEgJOuL8hQeGu8R",
+          "directory": true,
+          "pins": 1300,
+          "videoPins": 4
+        }
+      ],
+      "failedSources": [],
+      "listedSources": [
+        {
+          "name": "Finland Siren Map",
+          "mapId": "1WvvHCFJLF6F58MokxJEgJOuL8hQeGu8R",
+          "url": "https://www.google.com/maps/d/viewer?mid=1WvvHCFJLF6F58MokxJEgJOuL8hQeGu8R",
+          "directory": true
+        }
+      ],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "france",
+      "name": "France",
+      "category": "world",
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "France Siren Map",
+          "mapId": "1KrNR-zv4n2MMWAVlCpTqVGFwWIZbpwdb",
+          "url": "https://www.google.com/maps/d/viewer?mid=1KrNR-zv4n2MMWAVlCpTqVGFwWIZbpwdb",
+          "directory": true,
+          "pins": 3904,
+          "videoPins": 161
+        }
+      ],
+      "failedSources": [],
+      "listedSources": [
+        {
+          "name": "France Siren Map",
+          "mapId": "1KrNR-zv4n2MMWAVlCpTqVGFwWIZbpwdb",
+          "url": "https://www.google.com/maps/d/viewer?mid=1KrNR-zv4n2MMWAVlCpTqVGFwWIZbpwdb",
+          "directory": true
+        }
+      ],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "greenland",
+      "name": "Greenland",
+      "category": "world",
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Greenland Siren Map",
+          "mapId": "108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
+          "url": "https://www.google.com/maps/d/viewer?mid=108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
+          "directory": true,
+          "section": "World",
+          "pins": 259,
+          "videoPins": 1
+        }
+      ],
+      "failedSources": [],
+      "listedSources": [
+        {
+          "name": "Greenland Siren Map",
+          "mapId": "108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
+          "url": "https://www.google.com/maps/d/viewer?mid=108TMHml8yPeQMY8lOgxcU8mzAh_h1Va5",
+          "directory": true,
+          "section": "World"
+        }
+      ],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "hungary",
+      "name": "Hungary",
+      "category": "world",
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Hungary Siren Map",
+          "mapId": "1I77MTBcGop8IdXW0roHDkh3JFD_ncYC4",
+          "url": "https://www.google.com/maps/d/viewer?mid=1I77MTBcGop8IdXW0roHDkh3JFD_ncYC4",
+          "directory": true,
+          "pins": 12,
+          "videoPins": 0
+        }
+      ],
+      "failedSources": [],
+      "listedSources": [
+        {
+          "name": "Hungary Siren Map",
+          "mapId": "1I77MTBcGop8IdXW0roHDkh3JFD_ncYC4",
+          "url": "https://www.google.com/maps/d/viewer?mid=1I77MTBcGop8IdXW0roHDkh3JFD_ncYC4",
+          "directory": true
+        }
+      ],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "italy",
+      "name": "Italy",
+      "category": "world",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "kuwait",
+      "name": "Kuwait",
+      "category": "world",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "latvia",
+      "name": "Latvia",
+      "category": "world",
+      "status": "blocked_or_deleted",
+      "importedSources": [],
+      "failedSources": [
+        {
+          "name": "Latvia Siren Map",
+          "mapId": "1Ui8kAklbvbaQBFKjqpWjqBPy3Ha1dEw",
+          "url": "https://www.google.com/maps/d/viewer?mid=1Ui8kAklbvbaQBFKjqpWjqBPy3Ha1dEw",
+          "directory": true,
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "listedSources": [
+        {
+          "name": "Latvia Siren Map",
+          "mapId": "1Ui8kAklbvbaQBFKjqpWjqBPy3Ha1dEw",
+          "url": "https://www.google.com/maps/d/viewer?mid=1Ui8kAklbvbaQBFKjqpWjqBPy3Ha1dEw",
+          "directory": true
+        }
+      ],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "malta",
+      "name": "Malta",
+      "category": "world",
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Malta Siren Map",
+          "mapId": "1wliEHAjOQX9FHpitFvbPl_fGmIT5_d8",
+          "url": "https://www.google.com/maps/d/viewer?mid=1wliEHAjOQX9FHpitFvbPl_fGmIT5_d8",
+          "directory": true,
+          "pins": 10,
+          "videoPins": 2
+        }
+      ],
+      "failedSources": [],
+      "listedSources": [
+        {
+          "name": "Malta Siren Map",
+          "mapId": "1wliEHAjOQX9FHpitFvbPl_fGmIT5_d8",
+          "url": "https://www.google.com/maps/d/viewer?mid=1wliEHAjOQX9FHpitFvbPl_fGmIT5_d8",
+          "directory": true
+        }
+      ],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "netherlands",
+      "name": "Netherlands",
+      "category": "world",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "niue",
+      "name": "Niue",
+      "category": "world",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "sweden",
+      "name": "Sweden",
+      "category": "world",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "thailand",
+      "name": "Thailand",
+      "category": "world",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "t-rkiye",
+      "name": "Türkiye",
+      "category": "world",
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Turkiye Nationwide Siren Map",
+          "mapId": "1IZRd2eqhAInPIOxwQtomZTwf-hBhOcY",
+          "url": "https://www.google.com/maps/d/viewer?mid=1IZRd2eqhAInPIOxwQtomZTwf-hBhOcY",
+          "directory": true,
+          "pins": 867,
+          "videoPins": 14
+        }
+      ],
+      "failedSources": [],
+      "listedSources": [
+        {
+          "name": "Turkiye Nationwide Siren Map",
+          "mapId": "1IZRd2eqhAInPIOxwQtomZTwf-hBhOcY",
+          "url": "https://www.google.com/maps/d/viewer?mid=1IZRd2eqhAInPIOxwQtomZTwf-hBhOcY",
+          "directory": true
+        }
+      ],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "united-kingdom",
+      "name": "United Kingdom",
+      "category": "world",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "american-samoa",
+      "name": "American Samoa",
+      "category": "regional",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "guam-and-northern-mariana-islands",
+      "name": "Guam & Northern Mariana Islands",
+      "category": "regional",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "puerto-rico",
+      "name": "Puerto Rico",
+      "category": "regional",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "u-s-virgin-islands-and-british-virgin-islands",
+      "name": "U.S. Virgin Islands & British Virgin Islands",
+      "category": "regional",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "europe-multiple-countries",
+      "name": "Europe (multiple countries)",
+      "category": "regional",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "portugal-and-spain-unfinished",
+      "name": "Portugal & Spain (unfinished)",
+      "category": "regional",
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Portugal and Spain Siren Map",
+          "mapId": "1dmvw64LfzdWaVFIgHTXvV1uauNItfQE",
+          "url": "https://www.google.com/maps/d/viewer?mid=1dmvw64LfzdWaVFIgHTXvV1uauNItfQE",
+          "directory": true,
+          "pins": 79,
+          "videoPins": 0
+        }
+      ],
+      "failedSources": [],
+      "listedSources": [
+        {
+          "name": "Portugal and Spain Siren Map",
+          "mapId": "1dmvw64LfzdWaVFIgHTXvV1uauNItfQE",
+          "url": "https://www.google.com/maps/d/viewer?mid=1dmvw64LfzdWaVFIgHTXvV1uauNItfQE",
+          "directory": true
+        }
+      ],
+      "aggregateCoverage": null
+    },
+    {
+      "id": "south-america-various",
+      "name": "South America (various)",
+      "category": "regional",
+      "status": "unresolved",
+      "importedSources": [],
+      "failedSources": [],
+      "listedSources": [],
+      "aggregateCoverage": null
+    }
+  ]
+}
