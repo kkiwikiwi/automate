@@ -1,16 +1,12 @@
 #!/usr/bin/env python3
-"""Stricter SirenFinder resolver.
-
-Extends resolve_named_maps with direct Google My Maps searches and KML document-title
-validation. Geography alone is not enough: a candidate must also identify the intended
-state/country in its exported document or folder title.
-"""
+"""Bounded, title-validated SirenFinder source-map resolver."""
 
 import html
 import io
 import re
 import zipfile
 from urllib.parse import quote
+from urllib.request import Request, urlopen
 from xml.etree import ElementTree as ET
 
 import resolve_named_maps as base
@@ -18,37 +14,45 @@ from import_registry_maps import get, local_name
 
 
 BASE_VALIDATE = base.validate_candidate
-BASE_QUERIES = base.search_queries
+USER_AGENT = "Mozilla/5.0 (compatible; SirenFinder/4.0; +https://github.com/kkiwikiwi/automate)"
 
-# Search direct My Maps results before forum/discussion pages.
+# Direct map-index surfaces only. Every request is bounded to five seconds.
 base.ENGINES = [
     ("bing-rss", "https://www.bing.com/search?format=rss&count=50&q={query}"),
     ("bing-html", "https://www.bing.com/search?count=50&q={query}"),
     ("google-html", "https://www.google.com/search?num=30&filter=0&q={query}"),
     ("brave", "https://search.brave.com/search?source=web&q={query}"),
-    ("mojeek", "https://www.mojeek.com/search?q={query}"),
-    ("duckduckgo", "https://html.duckduckgo.com/html/?q={query}"),
     ("yahoo", "https://search.yahoo.com/search?n=30&p={query}"),
 ]
+
+
+def fast_get_text(url, tries=1, timeout=5):
+    request = Request(
+        url,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "text/html,application/xhtml+xml,application/rss+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+        },
+    )
+    with urlopen(request, timeout=5) as response:
+        return response.read(8_000_000).decode("utf-8", "replace")
+
+
+base.get_text = fast_get_text
 
 
 def improved_queries(region):
     name = region["name"]
     aliases = region.get("aliases") or []
-    names = [name, *aliases]
-    queries = []
-    for value in names[:2]:
-        queries.extend([
-            f'site:google.com/maps/d "{value} Siren Map"',
-            f'site:www.google.com/maps/d "{value}" "Siren Map"',
-            f'site:google.com/maps/d "{value} Warning Siren Map"',
-        ])
-        if region.get("category") == "us":
-            queries.extend([
-                f'site:google.com/maps/d "{value} Statewide Siren Map"',
-                f'site:google.com/maps/d "{value} Statewide Warning Siren Map"',
-            ])
-    queries.extend(BASE_QUERIES(region))
+    preferred = aliases[0] if aliases else name
+    queries = [
+        f'site:google.com/maps/d "{preferred} Siren Map"',
+        f'site:www.google.com/maps/d "{preferred}" "Warning Siren Map"',
+        f'"{preferred} Siren Map" "mid="',
+    ]
+    if region.get("category") == "us":
+        queries.insert(1, f'site:google.com/maps/d "{preferred} Statewide Siren Map"')
     return list(dict.fromkeys(queries))
 
 
@@ -68,8 +72,7 @@ def map_titles(map_id):
         f"https://www.google.com/maps/d/kml?mid={quote(map_id)}&forcekml=1",
     ):
         try:
-            data = get(url)
-            return titles_from_bytes(data)
+            return titles_from_bytes(get(url))
         except Exception as exc:
             last = exc
     raise RuntimeError(last or "could not read candidate KML titles")
@@ -85,8 +88,7 @@ def titles_from_bytes(data):
         return list(dict.fromkeys(documents))
     root = ET.fromstring(data)
     for element in root.iter():
-        kind = local_name(element.tag)
-        if kind not in {"document", "folder"}:
+        if local_name(element.tag) not in {"document", "folder"}:
             continue
         for child in list(element):
             if local_name(child.tag) == "name" and (child.text or "").strip():
