@@ -1,0 +1,86 @@
+name: Import Recovered Siren State Maps
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/sirenfinder-state-batch-trigger-*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sirenfinder-recovered-state-batch
+  cancel-in-progress: true
+
+jobs:
+  patch-and-import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: sirenfinder
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Correct Wisconsin attribution and add recovered state sources
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = Path('data')
+          registry_path = data / 'source-registry.json'
+          pins_path = data / 'pins.geojson'
+          status_path = data / 'status.json'
+
+          registry = json.loads(registry_path.read_text(encoding='utf-8'))
+          additions = [
+              {'name':'Alabama Statewide Siren Map','mapId':'16bsIQTnNGGdF9V_PmCW1edkHOokz9A6N','url':'https://www.google.com/maps/d/viewer?mid=16bsIQTnNGGdF9V_PmCW1edkHOokz9A6N','directory':True,'section':'United States'},
+              {'name':'Louisiana Statewide Siren Map','mapId':'1tl_1Gq6tHBDwa_XK-wDvccXlTujj-X-7','url':'https://www.google.com/maps/d/viewer?mid=1tl_1Gq6tHBDwa_XK-wDvccXlTujj-X-7','directory':True,'section':'United States'},
+              {'name':'Mississippi Statewide Siren Map','mapId':'1aXNw8Owxi3tnXPbZJZD7jDrBNTXUWhBv','url':'https://www.google.com/maps/d/viewer?mid=1aXNw8Owxi3tnXPbZJZD7jDrBNTXUWhBv','directory':True,'section':'United States'},
+              {'name':'Montana Statewide Siren Map','mapId':'16PwvwMcIrLVErlRHtqEWapkr2pl2Dh9T','url':'https://www.google.com/maps/d/viewer?mid=16PwvwMcIrLVErlRHtqEWapkr2pl2Dh9T','directory':True,'section':'United States'},
+              {'name':'New Mexico Statewide Siren Map','mapId':'1Ndah1mM7sdcc5D0zjWT8eupH_qU4i8g','url':'https://www.google.com/maps/d/viewer?mid=1Ndah1mM7sdcc5D0zjWT8eupH_qU4i8g','directory':True,'section':'United States'},
+              {'name':'Oklahoma Statewide Siren Map','mapId':'1blVKllJ5VqBqDEgmY0Gqw3wuthLBWZUq','url':'https://www.google.com/maps/d/viewer?mid=1blVKllJ5VqBqDEgmY0Gqw3wuthLBWZUq','directory':True,'section':'United States'},
+              {'name':'South Dakota Statewide Siren Map','mapId':'1TLP3ulH7A2NuLFAKxPOmXRAZxZDnXiqB','url':'https://www.google.com/maps/d/viewer?mid=1TLP3ulH7A2NuLFAKxPOmXRAZxZDnXiqB','directory':True,'section':'United States'},
+              {'name':'Wisconsin Statewide Siren Map','mapId':'1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH','url':'https://www.google.com/maps/d/viewer?mid=1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH','directory':True,'section':'United States'},
+          ]
+          # Remove the incorrect Manitoba label for the Wisconsin map and deduplicate by map ID.
+          merged = {item.get('mapId'): item for item in registry if item.get('mapId') and item.get('mapId') != '1bzPJctgvfRq-RR00sIeyg-EWtH_Y81NH'}
+          for item in additions:
+              merged[item['mapId']] = item
+          registry = sorted(merged.values(), key=lambda item: (item.get('section',''), item.get('name','').lower()))
+          registry_path.write_text(json.dumps(registry, ensure_ascii=False, indent=2), encoding='utf-8')
+
+          pins = json.loads(pins_path.read_text(encoding='utf-8'))
+          for feature in pins.get('features', []):
+              props = feature.get('properties') or {}
+              if props.get('source') == 'Manitoba Siren Map':
+                  props['source'] = 'Wisconsin Statewide Siren Map'
+              sources = props.get('sources')
+              if isinstance(sources, list):
+                  props['sources'] = ['Wisconsin Statewide Siren Map' if value == 'Manitoba Siren Map' else value for value in sources]
+          pins_path.write_text(json.dumps(pins, ensure_ascii=False, separators=(',',':')), encoding='utf-8')
+
+          status = json.loads(status_path.read_text(encoding='utf-8'))
+          status['successfulSources'] = [item for item in status.get('successfulSources', []) if item.get('name') != 'Manitoba Siren Map']
+          status['failedSources'] = [item for item in status.get('failedSources', []) if item.get('name') != 'Manitoba Siren Map']
+          status_path.write_text(json.dumps(status, ensure_ascii=False, indent=2), encoding='utf-8')
+          print(f'Registry now contains {len(registry)} source maps')
+          PY
+      - name: Import all recovered maps with video metadata
+        run: python scripts/import_registry_maps.py
+      - name: Rebuild fast regional chunks
+        run: python scripts/split_data.py
+      - name: Rebuild complete 82-entry source audit
+        run: python scripts/build_master_coverage.py
+      - name: Commit corrected and expanded database
+        run: |
+          git config user.name "SirenFinder Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/source-registry.json data/pins.geojson data/pins-world.geojson data/pins-us.geojson data/manifest.json data/status.json data/master-coverage.json
+          git commit -m "Import recovered U.S. siren maps and correct Wisconsin attribution [skip ci]"
+          git push origin HEAD:sirenfinder
