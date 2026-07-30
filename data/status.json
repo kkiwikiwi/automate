@@ -1,14 +1,14 @@
 {
   "ok": true,
-  "updatedAt": "2026-07-30T01:56:55.386286+00:00",
-  "pinCount": 72174,
-  "sourceCount": 22,
-  "directorySourceCount": 21,
-  "directorySourceTotal": 26,
+  "updatedAt": "2026-07-30T02:07:27.509965+00:00",
+  "pinCount": 73725,
+  "sourceCount": 26,
+  "directorySourceCount": 24,
+  "directorySourceTotal": 29,
   "failedSourceCount": 4,
-  "videoPinCount": 4162,
-  "message": "Loaded 72,174 unique sirens from 22/26 maps; 4,162 pins include embedded-video metadata.",
-  "masterDiscovery": {},
+  "videoPinCount": 4187,
+  "message": "Loaded 73,725 unique sirens; 4,187 pins include embedded-video metadata.",
+  "discoveryErrors": [],
   "successfulSources": [
     {
       "name": "Albania Siren Map",
@@ -83,6 +83,15 @@
       "videoPins": 0
     },
     {
+      "name": "Netherlands Siren Map",
+      "mapId": "171KbUT6Se0xQHsv-7ot-AB-cy6-qy4aA",
+      "url": "https://www.google.com/maps/d/viewer?mid=171KbUT6Se0xQHsv-7ot-AB-cy6-qy4aA",
+      "directory": true,
+      "section": "World",
+      "pins": 349,
+      "videoPins": 0
+    },
+    {
       "name": "New Zealand Siren Map",
       "mapId": "18UqghKoAmEvVbp8f2R2sfCztKbj6siyP",
       "url": "https://www.google.com/maps/d/viewer?mid=18UqghKoAmEvVbp8f2R2sfCztKbj6siyP",
@@ -121,6 +130,15 @@
       "directory": true,
       "pins": 867,
       "videoPins": 14
+    },
+    {
+      "name": "United Kingdom Siren Map",
+      "mapId": "1wkcgQlymDtJ8GGuZMqG5dvA4pwwtCzhH",
+      "url": "https://www.google.com/maps/d/viewer?mid=1wkcgQlymDtJ8GGuZMqG5dvA4pwwtCzhH",
+      "directory": true,
+      "section": "World",
+      "pins": 744,
+      "videoPins": 11
     },
     {
       "name": "Great Canadian Siren Map",
@@ -177,6 +195,15 @@
       "videoPins": 0
     },
     {
+      "name": "West Virginia Statewide & Western Maryland Siren Map",
+      "mapId": "1QTKhyROx-t5pouvAftigo-uDGiIc0udi",
+      "url": "https://www.google.com/maps/d/viewer?mid=1QTKhyROx-t5pouvAftigo-uDGiIc0udi",
+      "directory": true,
+      "section": "United States",
+      "pins": 518,
+      "videoPins": 14
+    },
+    {
       "name": "Croatia Siren Map",
       "mapId": "14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
       "url": "https://www.google.com/maps/d/viewer?mid=14Xu4TPxfX1qvSe9kFQO5C3o27Vbo6xHo",
@@ -193,6 +220,14 @@
       "section": "World",
       "pins": 259,
       "videoPins": 1
+    },
+    {
+      "name": "Official U.S.A. Siren Map",
+      "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
+      "url": "https://www.google.com/maps/d/viewer?mid=1AA5lVxum02jYm0T3jDepjuNctwVPf51j",
+      "directory": false,
+      "pins": 57593,
+      "videoPins": 3634
     }
   ],
   "failedSources": [

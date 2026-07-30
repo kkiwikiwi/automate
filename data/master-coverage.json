@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-30T01:56:58.178036+00:00",
+  "updatedAt": "2026-07-30T02:07:30.074147+00:00",
   "totalListedRegions": 82,
-  "imported": 15,
+  "imported": 20,
   "blockedOrDeleted": 3,
-  "unresolved": 64,
-  "aggregateCoveredButSourceMissing": 53,
+  "unresolved": 59,
+  "aggregateCoveredButSourceMissing": 50,
   "entries": [
     {
       "id": "alabama",
@@ -275,10 +275,28 @@
       "id": "maryland",
       "name": "Maryland",
       "category": "us",
-      "status": "unresolved",
-      "importedSources": [],
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "West Virginia Statewide & Western Maryland Siren Map",
+          "mapId": "1QTKhyROx-t5pouvAftigo-uDGiIc0udi",
+          "url": "https://www.google.com/maps/d/viewer?mid=1QTKhyROx-t5pouvAftigo-uDGiIc0udi",
+          "directory": true,
+          "section": "United States",
+          "pins": 518,
+          "videoPins": 14
+        }
+      ],
       "failedSources": [],
-      "listedSources": [],
+      "listedSources": [
+        {
+          "name": "West Virginia Statewide & Western Maryland Siren Map",
+          "mapId": "1QTKhyROx-t5pouvAftigo-uDGiIc0udi",
+          "url": "https://www.google.com/maps/d/viewer?mid=1QTKhyROx-t5pouvAftigo-uDGiIc0udi",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
@@ -613,10 +631,28 @@
       "id": "virginia",
       "name": "Virginia",
       "category": "us",
-      "status": "unresolved",
-      "importedSources": [],
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "West Virginia Statewide & Western Maryland Siren Map",
+          "mapId": "1QTKhyROx-t5pouvAftigo-uDGiIc0udi",
+          "url": "https://www.google.com/maps/d/viewer?mid=1QTKhyROx-t5pouvAftigo-uDGiIc0udi",
+          "directory": true,
+          "section": "United States",
+          "pins": 518,
+          "videoPins": 14
+        }
+      ],
       "failedSources": [],
-      "listedSources": [],
+      "listedSources": [
+        {
+          "name": "West Virginia Statewide & Western Maryland Siren Map",
+          "mapId": "1QTKhyROx-t5pouvAftigo-uDGiIc0udi",
+          "url": "https://www.google.com/maps/d/viewer?mid=1QTKhyROx-t5pouvAftigo-uDGiIc0udi",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
@@ -652,10 +688,28 @@
       "id": "west-virginia",
       "name": "West Virginia",
       "category": "us",
-      "status": "unresolved",
-      "importedSources": [],
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "West Virginia Statewide & Western Maryland Siren Map",
+          "mapId": "1QTKhyROx-t5pouvAftigo-uDGiIc0udi",
+          "url": "https://www.google.com/maps/d/viewer?mid=1QTKhyROx-t5pouvAftigo-uDGiIc0udi",
+          "directory": true,
+          "section": "United States",
+          "pins": 518,
+          "videoPins": 14
+        }
+      ],
       "failedSources": [],
-      "listedSources": [],
+      "listedSources": [
+        {
+          "name": "West Virginia Statewide & Western Maryland Siren Map",
+          "mapId": "1QTKhyROx-t5pouvAftigo-uDGiIc0udi",
+          "url": "https://www.google.com/maps/d/viewer?mid=1QTKhyROx-t5pouvAftigo-uDGiIc0udi",
+          "directory": true,
+          "section": "United States"
+        }
+      ],
       "aggregateCoverage": {
         "name": "Official U.S.A. Siren Map",
         "mapId": "1AA5lVxum02jYm0T3jDepjuNctwVPf51j"
@@ -1142,10 +1196,28 @@
       "id": "netherlands",
       "name": "Netherlands",
       "category": "world",
-      "status": "unresolved",
-      "importedSources": [],
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "Netherlands Siren Map",
+          "mapId": "171KbUT6Se0xQHsv-7ot-AB-cy6-qy4aA",
+          "url": "https://www.google.com/maps/d/viewer?mid=171KbUT6Se0xQHsv-7ot-AB-cy6-qy4aA",
+          "directory": true,
+          "section": "World",
+          "pins": 349,
+          "videoPins": 0
+        }
+      ],
       "failedSources": [],
-      "listedSources": [],
+      "listedSources": [
+        {
+          "name": "Netherlands Siren Map",
+          "mapId": "171KbUT6Se0xQHsv-7ot-AB-cy6-qy4aA",
+          "url": "https://www.google.com/maps/d/viewer?mid=171KbUT6Se0xQHsv-7ot-AB-cy6-qy4aA",
+          "directory": true,
+          "section": "World"
+        }
+      ],
       "aggregateCoverage": null
     },
     {
@@ -1208,10 +1280,28 @@
       "id": "united-kingdom",
       "name": "United Kingdom",
       "category": "world",
-      "status": "unresolved",
-      "importedSources": [],
+      "status": "imported",
+      "importedSources": [
+        {
+          "name": "United Kingdom Siren Map",
+          "mapId": "1wkcgQlymDtJ8GGuZMqG5dvA4pwwtCzhH",
+          "url": "https://www.google.com/maps/d/viewer?mid=1wkcgQlymDtJ8GGuZMqG5dvA4pwwtCzhH",
+          "directory": true,
+          "section": "World",
+          "pins": 744,
+          "videoPins": 11
+        }
+      ],
       "failedSources": [],
-      "listedSources": [],
+      "listedSources": [
+        {
+          "name": "United Kingdom Siren Map",
+          "mapId": "1wkcgQlymDtJ8GGuZMqG5dvA4pwwtCzhH",
+          "url": "https://www.google.com/maps/d/viewer?mid=1wkcgQlymDtJ8GGuZMqG5dvA4pwwtCzhH",
+          "directory": true,
+          "section": "World"
+        }
+      ],
       "aggregateCoverage": null
     },
     {
