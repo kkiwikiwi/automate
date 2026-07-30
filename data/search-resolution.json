@@ -1,43 +1,73 @@
 {
-  "updatedAt": "2026-07-30T01:42:49.937831+00:00",
+  "updatedAt": "2026-07-30T01:43:37.205505+00:00",
   "categories": [
-    "canada",
-    "regional",
-    "world"
+    "us"
   ],
-  "selectedRegionCount": 31,
-  "attemptedRegionCount": 18,
+  "selectedRegionCount": 51,
+  "attemptedRegionCount": 50,
   "resolvedRegionCount": 0,
   "remainingUnresolved": [
-    "Latvia",
-    "Italy",
-    "Kuwait",
-    "United Kingdom",
-    "American Samoa",
-    "British Columbia",
-    "Thailand",
-    "Alberta",
-    "Saskatchewan",
-    "Niue",
-    "Sweden",
-    "Netherlands",
-    "Guam & Northern Mariana Islands",
-    "Puerto Rico",
-    "Europe (multiple countries)",
-    "Portugal & Spain (unfinished)",
-    "U.S. Virgin Islands & British Virgin Islands",
-    "South America (various)"
+    "Georgia",
+    "Arizona",
+    "Arkansas",
+    "Florida",
+    "Connecticut",
+    "Delaware",
+    "Hawaii",
+    "Alaska",
+    "California",
+    "Alabama",
+    "Illinois",
+    "Indiana",
+    "Kansas",
+    "Kentucky",
+    "Idaho",
+    "Maine",
+    "Maryland",
+    "Michigan",
+    "Iowa",
+    "Mississippi",
+    "Missouri",
+    "Montana",
+    "Nebraska",
+    "Minnesota",
+    "New Hampshire",
+    "New Jersey",
+    "New York",
+    "North Carolina",
+    "New Mexico",
+    "Ohio",
+    "Oklahoma",
+    "Louisiana",
+    "Pennsylvania",
+    "Rhode Island",
+    "Massachusetts",
+    "South Dakota",
+    "North Dakota",
+    "Texas",
+    "Utah",
+    "Oregon",
+    "Virginia",
+    "Nevada",
+    "Washington, D.C.",
+    "West Virginia",
+    "Washington",
+    "Wisconsin",
+    "Tennessee",
+    "Vermont",
+    "Wyoming",
+    "South Carolina"
   ],
   "registryCount": 25,
   "results": [
     {
       "region": {
-        "id": "latvia",
-        "name": "Latvia",
-        "category": "world",
-        "code": "LV",
-        "lat": 56.8796,
-        "lon": 24.6032,
+        "id": "georgia",
+        "name": "Georgia",
+        "category": "us",
+        "code": "GA",
+        "lat": 33.0406,
+        "lon": -83.6431,
         "aliases": []
       },
       "chosen": null,
@@ -48,12 +78,12 @@
     },
     {
       "region": {
-        "id": "italy",
-        "name": "Italy",
-        "category": "world",
-        "code": "IT",
-        "lat": 41.8719,
-        "lon": 12.5674,
+        "id": "arizona",
+        "name": "Arizona",
+        "category": "us",
+        "code": "AZ",
+        "lat": 33.7298,
+        "lon": -111.4312,
         "aliases": []
       },
       "chosen": null,
@@ -64,12 +94,12 @@
     },
     {
       "region": {
-        "id": "kuwait",
-        "name": "Kuwait",
-        "category": "world",
-        "code": "KW",
-        "lat": 29.3117,
-        "lon": 47.4818,
+        "id": "arkansas",
+        "name": "Arkansas",
+        "category": "us",
+        "code": "AR",
+        "lat": 34.9697,
+        "lon": -92.3731,
         "aliases": []
       },
       "chosen": null,
@@ -80,12 +110,12 @@
     },
     {
       "region": {
-        "id": "united-kingdom",
-        "name": "United Kingdom",
-        "category": "world",
-        "code": "UK",
-        "lat": 55.3781,
-        "lon": -3.436,
+        "id": "florida",
+        "name": "Florida",
+        "category": "us",
+        "code": "FL",
+        "lat": 27.7663,
+        "lon": -81.6868,
         "aliases": []
       },
       "chosen": null,
@@ -96,12 +126,12 @@
     },
     {
       "region": {
-        "id": "american-samoa",
-        "name": "American Samoa",
-        "category": "regional",
-        "code": "AS",
-        "lat": -14.271,
-        "lon": -170.1322,
+        "id": "connecticut",
+        "name": "Connecticut",
+        "category": "us",
+        "code": "CT",
+        "lat": 41.5978,
+        "lon": -72.7554,
         "aliases": []
       },
       "chosen": null,
@@ -112,12 +142,12 @@
     },
     {
       "region": {
-        "id": "british-columbia",
-        "name": "British Columbia",
-        "category": "canada",
-        "code": "BC",
-        "lat": 53.7267,
-        "lon": -127.6476,
+        "id": "delaware",
+        "name": "Delaware",
+        "category": "us",
+        "code": "DE",
+        "lat": 39.3185,
+        "lon": -75.5071,
         "aliases": []
       },
       "chosen": null,
@@ -128,12 +158,12 @@
     },
     {
       "region": {
-        "id": "thailand",
-        "name": "Thailand",
-        "category": "world",
-        "code": "TH",
-        "lat": 15.87,
-        "lon": 100.9925,
+        "id": "hawaii",
+        "name": "Hawaii",
+        "category": "us",
+        "code": "HI",
+        "lat": 21.0943,
+        "lon": -157.4983,
         "aliases": []
       },
       "chosen": null,
@@ -144,14 +174,574 @@
     },
     {
       "region": {
-        "id": "alberta",
-        "name": "Alberta",
-        "category": "canada",
-        "code": "AB",
-        "lat": 53.9333,
-        "lon": -116.5765,
+        "id": "alaska",
+        "name": "Alaska",
+        "category": "us",
+        "code": "AK",
+        "lat": 61.3707,
+        "lon": -152.4044,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "california",
+        "name": "California",
+        "category": "us",
+        "code": "CA",
+        "lat": 36.1162,
+        "lon": -119.6816,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "alabama",
+        "name": "Alabama",
+        "category": "us",
+        "code": "AL",
+        "lat": 32.8067,
+        "lon": -86.7911,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "illinois",
+        "name": "Illinois",
+        "category": "us",
+        "code": "IL",
+        "lat": 40.3495,
+        "lon": -88.9861,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "indiana",
+        "name": "Indiana",
+        "category": "us",
+        "code": "IN",
+        "lat": 39.8494,
+        "lon": -86.2583,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "kansas",
+        "name": "Kansas",
+        "category": "us",
+        "code": "KS",
+        "lat": 38.5266,
+        "lon": -96.7265,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "kentucky",
+        "name": "Kentucky",
+        "category": "us",
+        "code": "KY",
+        "lat": 37.6681,
+        "lon": -84.6701,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "idaho",
+        "name": "Idaho",
+        "category": "us",
+        "code": "ID",
+        "lat": 44.2405,
+        "lon": -114.4788,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "maine",
+        "name": "Maine",
+        "category": "us",
+        "code": "ME",
+        "lat": 44.6939,
+        "lon": -69.3819,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "maryland",
+        "name": "Maryland",
+        "category": "us",
+        "code": "MD",
+        "lat": 39.0639,
+        "lon": -76.8021,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "michigan",
+        "name": "Michigan",
+        "category": "us",
+        "code": "MI",
+        "lat": 43.3266,
+        "lon": -84.5361,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "iowa",
+        "name": "Iowa",
+        "category": "us",
+        "code": "IA",
+        "lat": 42.0115,
+        "lon": -93.2105,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "mississippi",
+        "name": "Mississippi",
+        "category": "us",
+        "code": "MS",
+        "lat": 32.7416,
+        "lon": -89.6787,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "missouri",
+        "name": "Missouri",
+        "category": "us",
+        "code": "MO",
+        "lat": 38.4561,
+        "lon": -92.2884,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "montana",
+        "name": "Montana",
+        "category": "us",
+        "code": "MT",
+        "lat": 46.9219,
+        "lon": -110.4544,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "nebraska",
+        "name": "Nebraska",
+        "category": "us",
+        "code": "NE",
+        "lat": 41.1254,
+        "lon": -98.2681,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "minnesota",
+        "name": "Minnesota",
+        "category": "us",
+        "code": "MN",
+        "lat": 45.6945,
+        "lon": -93.9002,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "new-hampshire",
+        "name": "New Hampshire",
+        "category": "us",
+        "code": "NH",
+        "lat": 43.4525,
+        "lon": -71.5639,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "new-jersey",
+        "name": "New Jersey",
+        "category": "us",
+        "code": "NJ",
+        "lat": 40.2989,
+        "lon": -74.521,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "new-york",
+        "name": "New York",
+        "category": "us",
+        "code": "NY",
+        "lat": 42.1657,
+        "lon": -74.9481,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "north-carolina",
+        "name": "North Carolina",
+        "category": "us",
+        "code": "NC",
+        "lat": 35.6301,
+        "lon": -79.8064,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "new-mexico",
+        "name": "New Mexico",
+        "category": "us",
+        "code": "NM",
+        "lat": 34.8405,
+        "lon": -106.2485,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "ohio",
+        "name": "Ohio",
+        "category": "us",
+        "code": "OH",
+        "lat": 40.3888,
+        "lon": -82.7649,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "oklahoma",
+        "name": "Oklahoma",
+        "category": "us",
+        "code": "OK",
+        "lat": 35.5653,
+        "lon": -96.9289,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "louisiana",
+        "name": "Louisiana",
+        "category": "us",
+        "code": "LA",
+        "lat": 31.1695,
+        "lon": -91.8678,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "pennsylvania",
+        "name": "Pennsylvania",
+        "category": "us",
+        "code": "PA",
+        "lat": 40.5908,
+        "lon": -77.2098,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "rhode-island",
+        "name": "Rhode Island",
+        "category": "us",
+        "code": "RI",
+        "lat": 41.6809,
+        "lon": -71.5118,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "massachusetts",
+        "name": "Massachusetts",
+        "category": "us",
+        "code": "MA",
+        "lat": 42.2302,
+        "lon": -71.5301,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "south-dakota",
+        "name": "South Dakota",
+        "category": "us",
+        "code": "SD",
+        "lat": 44.2998,
+        "lon": -99.4388,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "north-dakota",
+        "name": "North Dakota",
+        "category": "us",
+        "code": "ND",
+        "lat": 47.5289,
+        "lon": -99.784,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "texas",
+        "name": "Texas",
+        "category": "us",
+        "code": "TX",
+        "lat": 31.0545,
+        "lon": -97.5635,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "utah",
+        "name": "Utah",
+        "category": "us",
+        "code": "UT",
+        "lat": 40.15,
+        "lon": -111.8624,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "oregon",
+        "name": "Oregon",
+        "category": "us",
+        "code": "OR",
+        "lat": 44.572,
+        "lon": -122.0709,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "virginia",
+        "name": "Virginia",
+        "category": "us",
+        "code": "VA",
+        "lat": 37.7693,
+        "lon": -78.17,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "nevada",
+        "name": "Nevada",
+        "category": "us",
+        "code": "NV",
+        "lat": 38.3135,
+        "lon": -117.0554,
+        "aliases": []
+      },
+      "chosen": null,
+      "validations": [],
+      "errors": [
+        "maximum recursion depth exceeded"
+      ]
+    },
+    {
+      "region": {
+        "id": "washington-d-c",
+        "name": "Washington, D.C.",
+        "category": "us",
+        "code": "DC",
+        "lat": 38.9072,
+        "lon": -77.0369,
         "aliases": [
-          "Alberta (Canada)"
+          "Washington D.C."
         ]
       },
       "chosen": null,
@@ -162,12 +752,12 @@
     },
     {
       "region": {
-        "id": "saskatchewan",
-        "name": "Saskatchewan",
-        "category": "canada",
-        "code": "SK",
-        "lat": 52.9399,
-        "lon": -106.4509,
+        "id": "west-virginia",
+        "name": "West Virginia",
+        "category": "us",
+        "code": "WV",
+        "lat": 38.4912,
+        "lon": -80.9545,
         "aliases": []
       },
       "chosen": null,
@@ -178,30 +768,12 @@
     },
     {
       "region": {
-        "id": "niue",
-        "name": "Niue",
-        "category": "world",
-        "code": "NU",
-        "lat": -19.0544,
-        "lon": -169.8672,
-        "aliases": [
-          "Country of Niue"
-        ]
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "maximum recursion depth exceeded"
-      ]
-    },
-    {
-      "region": {
-        "id": "sweden",
-        "name": "Sweden",
-        "category": "world",
-        "code": "SE",
-        "lat": 60.1282,
-        "lon": 18.6435,
+        "id": "washington",
+        "name": "Washington",
+        "category": "us",
+        "code": "WA",
+        "lat": 47.4009,
+        "lon": -121.4905,
         "aliases": []
       },
       "chosen": null,
@@ -212,12 +784,12 @@
     },
     {
       "region": {
-        "id": "netherlands",
-        "name": "Netherlands",
-        "category": "world",
-        "code": "NL",
-        "lat": 52.1326,
-        "lon": 5.2913,
+        "id": "wisconsin",
+        "name": "Wisconsin",
+        "category": "us",
+        "code": "WI",
+        "lat": 44.2685,
+        "lon": -89.6165,
         "aliases": []
       },
       "chosen": null,
@@ -228,49 +800,12 @@
     },
     {
       "region": {
-        "id": "guam-and-northern-mariana-islands",
-        "name": "Guam & Northern Mariana Islands",
-        "category": "regional",
-        "code": "GU",
-        "lat": 15.0979,
-        "lon": 145.6739,
-        "aliases": [
-          "Guam & NMI"
-        ]
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "maximum recursion depth exceeded"
-      ]
-    },
-    {
-      "region": {
-        "id": "puerto-rico",
-        "name": "Puerto Rico",
-        "category": "regional",
-        "code": "PR",
-        "lat": 18.2208,
-        "lon": -66.5901,
-        "aliases": [
-          "Puerto Rico (Tsunami Warning Sirens Only)",
-          "Territory of Puerto Rico (Tsunami Warning Sirens Only)"
-        ]
-      },
-      "chosen": null,
-      "validations": [],
-      "errors": [
-        "maximum recursion depth exceeded"
-      ]
-    },
-    {
-      "region": {
-        "id": "europe-multiple-countries",
-        "name": "Europe (multiple countries)",
-        "category": "regional",
-        "code": "EU",
-        "lat": 50.1109,
-        "lon": 8.6821,
+        "id": "tennessee",
+        "name": "Tennessee",
+        "category": "us",
+        "code": "TN",
+        "lat": 35.7478,
+        "lon": -86.6923,
         "aliases": []
       },
       "chosen": null,
@@ -281,16 +816,13 @@
     },
     {
       "region": {
-        "id": "portugal-and-spain-unfinished",
-        "name": "Portugal & Spain (unfinished)",
-        "category": "regional",
-        "code": "IB",
-        "lat": 40.4168,
-        "lon": -3.7038,
-        "aliases": [
-          "*UNFINISHED* Map of Portugal and Spain",
-          "Map of Portugal and Spain"
-        ]
+        "id": "vermont",
+        "name": "Vermont",
+        "category": "us",
+        "code": "VT",
+        "lat": 44.0459,
+        "lon": -72.7107,
+        "aliases": []
       },
       "chosen": null,
       "validations": [],
@@ -300,15 +832,13 @@
     },
     {
       "region": {
-        "id": "u-s-virgin-islands-and-british-virgin-islands",
-        "name": "U.S. Virgin Islands & British Virgin Islands",
-        "category": "regional",
-        "code": "VI",
-        "lat": 18.3358,
-        "lon": -64.8963,
-        "aliases": [
-          "U.S. Virgin Islands & BVI"
-        ]
+        "id": "wyoming",
+        "name": "Wyoming",
+        "category": "us",
+        "code": "WY",
+        "lat": 42.756,
+        "lon": -107.3025,
+        "aliases": []
       },
       "chosen": null,
       "validations": [],
@@ -318,15 +848,13 @@
     },
     {
       "region": {
-        "id": "south-america-various",
-        "name": "South America (various)",
-        "category": "regional",
-        "code": "SA",
-        "lat": -15.6,
-        "lon": -56.1,
-        "aliases": [
-          "South America (various)"
-        ]
+        "id": "south-carolina",
+        "name": "South Carolina",
+        "category": "us",
+        "code": "SC",
+        "lat": 33.8569,
+        "lon": -80.945,
+        "aliases": []
       },
       "chosen": null,
       "validations": [],
