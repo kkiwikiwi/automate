@@ -1,1 +1,1 @@
-Trigger direct registry import after adding the validated Colorado source map.
+Trigger serialized direct registry import after adding the validated Colorado source map and 82-entry coverage audit.
