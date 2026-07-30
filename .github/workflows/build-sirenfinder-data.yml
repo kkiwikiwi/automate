@@ -30,10 +30,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Install archive-query dependencies
+        run: pip install --disable-pip-version-check duckdb warcio
       - name: Discover every map in the master list
-        run: |
-          google-chrome --version || chromium --version || true
-          python scripts/discover_master_maps.py
+        run: python scripts/discover_master_maps.py
       - name: Import complete master list concurrently
         run: python scripts/import_all_maps.py
       - name: Split international and U.S. data for fast startup
